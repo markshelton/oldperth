@@ -1,0 +1,121 @@
+Required Assets
+
+========================================
+by-location
+TO: js/photo-info.js
+FROM generate_static_site.py
+PROXY: data.json
+----------------------------------------
+40.500425-74.236496.json -->
+{
+  "729683f-a": {
+    "width": 600, 
+    "thumb_url": "http://oldnyc-assets.nypl.org/thumb/729683f-a.jpg", 
+    "image_url": "http://oldnyc-assets.nypl.org/600px/729683f-a.jpg", 
+    "title": "", 
+    "date": "1936", 
+    "text": "Sprague Avenue, east side, between Surf Avenue and Clermont Avenue. This house was owned by Captain Martin in 1874; by James Steel in 1898; by Catherine McDonald in 1907, and by the Rully Realty Co. in 1917.\nAugust 8, 1936\nP. L. Sperr\n", 
+    "folder": "Sprague Avenue & Surf Avenue, Staten Island, NY", 
+    "height": 400, 
+    "original_title": "Richmond: Sprague Avenue - Surf Avenue", 
+    "years": [
+      "1936"
+    ]
+  }
+}
+========================================
+id4-to-location
+TO: js/url-state.js
+FROM: generate_static_site.py
+PROXY: data.json
+----------------------------------------
+1507.json -->
+{
+    "1507911-a": "40.752416,-73.978370", 
+    "1507528-a": "40.805904,-73.955828", 
+    "1507689-a": "40.811530,-73.950271", 
+    "1507945-a": "40.757610,-73.980234", 
+    ...
+}
+========================================
+data.json
+TO: generate_rotated_images.py --> rotated-assets
+FROM: generate_static_site.py
+PROXY: data.json
+----------------------------------------
+{
+  "photos": [
+    {
+      "text": null, 
+      "height": 450, 
+      "date": "n.d", 
+      "thumb_url": "http://oldnyc-assets.nypl.org/thumb/1152566.jpg", 
+      "photo_id": "1152566", 
+      "title": "Manhattan: Central Park - Skating in Central Park. (copy print)", 
+      "width": 600, 
+      "image_url": "http://oldnyc-assets.nypl.org/600px/1152566.jpg", 
+      "location": {
+        "lat": 40.782865, 
+        "lon": -73.965355
+      }, 
+      "folder": "Central Park & Skating in Central Park. (copy print), Manhattan, NY", 
+      "rotation": 90,
+      "years": [
+        ""
+      ]
+    }, ...
+  ], 
+  "rotation_time": "2017-06-04T15:39:29", 
+  "ocr_time": "2017-06-04T15:09:35", 
+  "ocr_ms": 1496603375454, 
+  "timestamp": "2017-06-04T22:21:25Z"
+}
+========================================
+popular.json
+TO: js/photo-info.js
+FROM: generate_static_site.py
+PROXY: data.json
+----------------------------------------
+{
+    "718385f-a": {
+        "width": 600, 
+        "thumb_url": "http://oldnyc-assets.nypl.org/thumb/718385f-a.jpg", 
+        "image_url": "http://oldnyc-assets.nypl.org/600px/718385f-a.jpg", 
+        "title": "Manhattan: Central Park - Rustic Arbor.", 
+        "date": "1864", 
+        "text": "Central Park: Rustic arbor on the heights in the southeasterly quarter; same being near the Sixth Avenue - 59th Street entrance.\n1864\nGift of George T. Bagoe\nNeg # 4195", 
+        "folder": "Central Park & Rustic Arbor., Manhattan, NY", 
+        "height": 504, 
+        "years": [
+        "1864"
+        ]
+    }, ...
+}
+========================================
+js/popular-photos.js
+TO: js/viewer.js
+FROM: generate_popular.py
+PROXY: data.json
+----------------------------------------
+export var popular photos = [
+        {
+            "date": "1910",
+            "loc": "42nd & 5th ave",
+            "height": 249,
+            "id": "708760f-a",
+            "desc": "Street scene"
+        }, ...
+    ]
+========================================
+lat-lon-counts.js 
+TO: index.html
+FROM: generate_static_site.py
+PROXY: data.json
+----------------------------------------
+var lat_lons = {
+    "40.785840,-73.846623": {
+        "": 1,
+        "1932": 4
+    }, ...
+}
+========================================
