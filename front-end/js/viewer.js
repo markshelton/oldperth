@@ -19,11 +19,13 @@ export var mapPromise = $.Deferred();
 
 // TODO: inline image source into popular-photos.js and get rid of this.
 function expandedImageUrl(photo_id) {
+  //FIXME:
   return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';
 }
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon) {
+  //FIXME:
   return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
@@ -118,7 +120,7 @@ function handleClick(e) {
 }
 
 export function initialize_map() {
-  var latlng = new google.maps.LatLng(40.74421, -73.97370);
+  var latlng = new google.maps.LatLng(40.74421, -73.97370); //FIXME:
   var opts = {
     zoom: 15,
     maxZoom: 18,
@@ -332,7 +334,7 @@ function fillPhotoPane(photo_id, $pane) {
         $pane.find('.tweet').get(0), {
           count: 'none',
           text: (info.original_title || info.title) + ' - ' + info.date,
-          via: 'Old_NYC @NYPL'
+          via: 'Old_NYC @NYPL' //FIXME:
         });
   }
 
@@ -372,7 +374,7 @@ export function getPopularPhotoIds() {
 
 // User selected a photo in the "popular" grid. Update the static map.
 function updateStaticMapsUrl(photo_id) {
-  var key = 'New York City';
+  var key = 'New York City'; //FIXME:
   var lat_lon = findLatLonForPhoto(photo_id);
   if (lat_lon) key = lat_lon;
   $('#preview-map').attr('src', makeStaticMapsUrl(key));
