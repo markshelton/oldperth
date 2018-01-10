@@ -35,14 +35,13 @@ $(function() {
   };
 
   var title = function(state) {
-    var old_nyc = 'Old NYC';
+    const main_title = process.env.SITE_TITLE || "Historical Photos"
     if ('photo_id' in state) {
-      return old_nyc + ' - Photo ' + state.photo_id;
+      return `${main_title} - Photo ${state.photo_id}`;
     } else if ('g' in state) {
-      // TODO: include cross-streets in the title
-      return old_nyc + ' - Grid';
+      return `${main_title} - Grid`;
     } else {
-      return old_nyc;
+      return main_title;
     }
   };
 

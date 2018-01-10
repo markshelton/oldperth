@@ -1,27 +1,26 @@
 /*eslint-env node */
 module.exports = {
   entry: {
-    main: './js/entry.js',
-    ocr: './js/ocr-tool.js'
+    main: "./js/entry.js"
   },
   // devtool: '#cheap-module-source-map',
   output: {
-    path: __dirname + '/js/bundle',
-    filename: '[name].js'
+    path: __dirname + "/js/bundle",
+    filename: "[name].js"
   },
   externals: {
     // require("jquery") is external and available
     //  on the global var jQuery
-    "jquery": "jQuery"
+    jquery: "jQuery"
   },
   module: {
     loaders: [
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel',
+        loader: "babel",
         query: {
-          presets: ['es2015']
+          presets: ["es2015"]
         }
       }
     ]

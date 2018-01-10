@@ -4,7 +4,11 @@
 // /#g:lat,lon
 // /#photo_id,g:lat,lon
 
-import {countPhotos, getPopularPhotoIds, hideAbout, lat_lon_to_marker, parseLatLon, createMarker, selectMarker, map, hideExpanded, showExpanded} from './viewer';
+import {
+  countPhotos, getPopularPhotoIds, hideAbout,
+  lat_lon_to_marker, parseLatLon, createMarker,
+  selectMarker, map, hideExpanded, showExpanded,
+} from './viewer';
 import {loadInfoForLatLon} from './photo-info';
 
 // Returns {photo_id:string, g:string}

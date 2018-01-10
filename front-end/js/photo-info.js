@@ -53,15 +53,7 @@ export function descriptionForPhotoId(photo_id) {
 }
 
 export function libraryUrlForPhotoId(photo_id) {
-  return 'http://digitalcollections.nypl.org/items/image_id/' + photo_id.replace(/-[a-z]$/, '');
-}
-
-export function backId(photo_id) {
-  return photo_id.replace('f', 'b').replace(/-[a-z]$/, '');
-}
-
-export function backOfCardUrlForPhotoId(photo_id) {
-  return 'http://images.nypl.org/?id=' + backId(photo_id) + '&t=w';
+  return `${process.env.BASE_SOURCE_URL}/${photo_id}`;
 }
 
 

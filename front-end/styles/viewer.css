@@ -169,7 +169,7 @@ h2 a {
   margin-top: 5px;
 }
 
-.nypl-logo {
+.library-logo {
   position: fixed;
   bottom: 10px;
   left: 10px;
@@ -387,12 +387,12 @@ a#slideshow-all, a#slideshow-all:visited {
   font-size: 14px;
 }
 
-.nypl-link {
+.library-link {
   font-style: italic;
   font-size: 14px;
   margin-top: 10px;
 }
-.nypl-link a {
+.library-link a {
   color: rgb(87, 54, 25);
 }
 

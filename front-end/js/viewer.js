@@ -19,13 +19,11 @@ export var mapPromise = $.Deferred();
 
 // TODO: inline image source into popular-photos.js and get rid of this.
 function expandedImageUrl(photo_id) {
-  //FIXME:
-  return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';
+  return `${process.env.BASE_SOURCE_URL}/${photo_id}.jpg`;
 }
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon) {
-  //FIXME:
   return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
@@ -120,7 +118,10 @@ function handleClick(e) {
 }
 
 export function initialize_map() {
-  var latlng = new google.maps.LatLng(40.74421, -73.97370); //FIXME:
+  var latlng = new google.maps.LatLng(
+    process.env.GOOGLE_MAPS_INITIAL_LATITUDE, 
+    process.env.GOOGLE_MAPS_INITIAL_LONGITUDE
+  );
   var opts = {
     zoom: 15,
     maxZoom: 18,
@@ -278,29 +279,10 @@ function fillPhotoPane(photo_id, $pane) {
   var library_url = libraryUrlForPhotoId(photo_id);
 
   // this one is actually on the left panel, not $pane.
-  $pane.parent().find('.nypl-link a').attr('href', library_url);
-  $('.nypl-logo a').attr('href', library_url);
+  $pane.parent().find('.library-link a').attr('href', library_url);
+  $('.library-logo a').attr('href', library_url);
 
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
-
-  // OCR'd text
-  getFeedbackText(backId(photo_id)).done(function(ocr) {
-    var text = ocr ? ocr.text : info.text;
-    var ocr_url = '/ocr.html#' + photo_id,
-        hasBack = photo_id.match('[0-9]f');
-
-    if (text) {
-      var $text = $pane.find('.text');
-      $text.text(text.replace(/\n*$/, ''));
-      $text.append($('<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>'));
-      $text.find('a').attr('href', ocr_url);
-    } else if (hasBack) {
-      var $more = $pane.find('.more-on-back');
-      $more.find('a.ocr-tool').attr('href', ocr_url);
-      $more.find('a.nypl').attr('href', library_url);
-      $more.show();
-    }
-  });
 
   if (typeof(FB) != 'undefined') {
     var $comments = $pane.find('.comments');
@@ -334,7 +316,7 @@ function fillPhotoPane(photo_id, $pane) {
         $pane.find('.tweet').get(0), {
           count: 'none',
           text: (info.original_title || info.title) + ' - ' + info.date,
-          via: 'Old_NYC @NYPL' //FIXME:
+          via: 'Old_Perth @statelibrarywa' //FIXME:
         });
   }
 
@@ -374,9 +356,8 @@ export function getPopularPhotoIds() {
 
 // User selected a photo in the "popular" grid. Update the static map.
 function updateStaticMapsUrl(photo_id) {
-  var key = 'New York City'; //FIXME:
   var lat_lon = findLatLonForPhoto(photo_id);
-  if (lat_lon) key = lat_lon;
+  var key = lat_lon || process.env.GOOGLE_MAPS_FALLBACK_LOCATION
   $('#preview-map').attr('src', makeStaticMapsUrl(key));
 }
 

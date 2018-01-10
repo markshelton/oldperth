@@ -1,5 +1,5 @@
 export function getCanonicalUrlForPhoto(photo_id) {
-  return 'http://www.oldnyc.org/#' + photo_id;
+  return `${process.env.BASE_SITE_URL}/#${photo_id}`;
 }
 
 export function getCommentCount(photo_ids) {

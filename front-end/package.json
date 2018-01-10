@@ -27,6 +27,7 @@
     "webpack": "^1.13.1"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "underscore": "^1.8.3"
   }
 }
