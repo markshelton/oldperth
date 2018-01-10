@@ -1,28 +1,31 @@
-/*eslint-env node */
+const Dotenv = require("dotenv-webpack");
+
 module.exports = {
-  entry: {
-    main: "./js/entry.js"
+  entry: ["./js/entry.js"],
+  node: {
+    fs: "empty"
   },
-  // devtool: '#cheap-module-source-map',
   output: {
-    path: __dirname + "/js/bundle",
-    filename: "[name].js"
-  },
-  externals: {
-    // require("jquery") is external and available
-    //  on the global var jQuery
-    jquery: "jQuery"
+    path: __dirname + "/build/",
+    publicPath: "/build/",
+    filename: "bundle.js"
   },
   module: {
     loaders: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         exclude: /node_modules/,
-        loader: "babel",
+        loader: "babel-loader",
         query: {
-          presets: ["es2015"]
+          presets: ["env"]
         }
       }
     ]
-  }
+  },
+  devtool: "inline-source-map",
+  plugins: [
+    new Dotenv({
+      path: "./config/.env"
+    })
+  ]
 };

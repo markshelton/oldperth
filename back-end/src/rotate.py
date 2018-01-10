@@ -14,6 +14,7 @@ import json
 import os
 import sys
 import time
+from io import BytesIO
 
 import requests
 import shutil
@@ -22,9 +23,10 @@ from thickshake.utils import open_file
 
 def download(url, destination_path):
     response = requests.get(url, stream=True)
+    im = Image.open(BytesIO(response.content))
     with open_file(destination_path, 'wb') as out_file:
         shutil.copyfileobj(response.raw, out_file)
-
+    return im
 
 def image_path(output_dir, photo_id, degrees, is_thumb):
     folder = 'thumb' if is_thumb else '600px'
@@ -56,8 +58,8 @@ def generate_rotated_images(input_file, output_dir, base_url) -> None:
             final_dest = image_path(output_dir, photo_id, degrees, is_thumb)
             url = image_url(base_url, photo_id, is_thumb)
             sys.stderr.write('Fetching %s --> %s\n' % (url, final_dest))
-            download(url, temp_dest)
-            im = Image.open(open_file(temp_dest))
+            im = download(url, temp_dest)
+            #im = Image.open(open_file(temp_dest))
             if degrees == 0:
                 return None
             elif degrees == 90: 

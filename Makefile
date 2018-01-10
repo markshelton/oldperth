@@ -7,7 +7,7 @@ SHELL := bash
 
 PROJECT_DIR = $(shell echo $(CURDIR) | sed 's|^/[^/]*||')
 
-CONFIG ?= ./src/config/config.env
+CONFIG ?= ./back-end/src/config/config.env
 include $(CONFIG)
 export $(shell sed 's/=.*//' $(CONFIG))
 
@@ -43,7 +43,7 @@ shell:
 	docker exec -it $(PROJECT_NAME) /bin/bash
 
 .PHONY: start
-start: build run jupyter shell
+start: build run shell
 
 .PHONY: stop
 stop:

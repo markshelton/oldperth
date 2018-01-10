@@ -1,0 +1,358 @@
+{
+  "photos": [
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4636565_1.png",
+      "date": "1978-01-01",
+      "title":
+        "328686PD: Western Australian Museum, Roe Street, Perth under construction, 30 October 1978",
+      "years": ["1978"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b4636565_1",
+      "location": {
+        "address":
+          "Roe Street, West Perth, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9450424",
+        "lon": "115.8468111"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b4636565_1.jpg",
+      "text": null,
+      "width": 758
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2131198_1.png",
+      "date": "1936-01-01",
+      "title":
+        "BA533/57: Apartment house at 168 St Georges Terrace, Perth for sale, 1936",
+      "years": ["1936"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b2131198_1",
+      "location": {
+        "address":
+          "Mounts Bay Waters Apartment, Mounts Bay Road, West Perth, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9549268",
+        "lon": "115.8483025"
+      },
+      "height": 577,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b2131198_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3116775_1.png",
+      "date": "1975-01-01",
+      "title": "327732PD: Archers, Perth, 14 July 1975",
+      "years": ["1975"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3116775_1",
+      "location": {
+        "address":
+          "Kalamunda Governor Stirling Archers, Casaurina Road, Maida Vale, Perth, Western Australia, 6057, Australia",
+        "lat": "-31.9472436",
+        "lon": "116.028684607716"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3116775_1.jpg",
+      "text": null,
+      "width": 758
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2103336_2.png",
+      "date": "1925-01-01",
+      "title":
+        "BA1271/231: Robes Gallery of the Perth City Council with the Council Chamber at the end, 203-207 Murray Street, Perth, 1925",
+      "years": ["1925"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b2103336_2",
+      "location": {
+        "address":
+          "Murray Street, Northbridge, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9509893",
+        "lon": "115.8529983"
+      },
+      "height": 592,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b2103336_2.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": true,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2071967_1.png",
+      "date": "2000-01-01",
+      "title":
+        "370148PD: Pedestrian walkway and Railway Station, Wellington Street, Perth, January 2000",
+      "years": ["2000"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b2071967_1",
+      "location": {
+        "address":
+          "Wellington Street, East Perth, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9562618",
+        "lon": "115.8733758"
+      },
+      "height": 507,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b2071967_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165545_1.png",
+      "date": "1984-01-01",
+      "title":
+        "323247PD: Genvest Financial Services, 249 Adelaide Terrace, Perth, 14 August 1984",
+      "years": ["1984"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3165545_1",
+      "location": {
+        "address":
+          "Adelaide Terrace, East Perth, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9596767",
+        "lon": "115.8713119"
+      },
+      "height": 626,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165545_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": true,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3979477_1.png",
+      "date": "1981-01-01",
+      "title":
+        "BA1530/6176: Houses (former) at 257-259 Adelaide Terrace, Perth, September 1981.",
+      "years": ["1981"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3979477_1",
+      "location": {
+        "address":
+          "Adelaide Terrace, East Perth, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9596767",
+        "lon": "115.8713119"
+      },
+      "height": 506,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3979477_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348240_1.png",
+      "date": "1947-01-01",
+      "title": "128493PD: Honour Avenue, Kings Park, Perth, 1947",
+      "years": ["1947"],
+      "folder": null,
+      "rotation": 90,
+      "photo_id": "slwa_b3348240_1",
+      "location": {
+        "address":
+          "Honour Avenue, Attadale, Perth, Western Australia, WA 6157, Australia",
+        "lat": "-32.019526",
+        "lon": "115.7857606"
+      },
+      "height": 504,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348240_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": true,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3978538_1.png",
+      "date": "1868-01-01",
+      "title":
+        "6909B/6: South over the Courthouse, police lock-up and the Pier Street and Barrack Street jetties, Perth, 1864-October 1868",
+      "years": ["1868"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3978538_1",
+      "location": {
+        "address":
+          "Barrack Street, Northbridge, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9518374",
+        "lon": "115.8616117"
+      },
+      "height": 419,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3978538_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939259_1.png",
+      "date": "1993-01-01",
+      "title":
+        "316230PD: No.3 Ferry Terminal under construction, Barrack Street, Perth, August 1993",
+      "years": ["1993"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3939259_1",
+      "location": {
+        "address":
+          "Barrack Street, Northbridge, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9563823",
+        "lon": "115.8594128"
+      },
+      "height": 506,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939259_1.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3511664_3.png",
+      "date": "2012-01-01",
+      "title":
+        "BA2466/MG1084: A girl checks her mobile phone at Deville's Pad, Perth rockabilly music venue, Unit 1/3 Aberdeen Street, Perth, 17 March 2012",
+      "years": ["2012"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3511664_3",
+      "location": {
+        "address":
+          "Unit 3, 42, Marquis Street, Waterford, Perth, Western Australia, 6102, Australia",
+        "lat": "-32.0107435",
+        "lon": "115.8979174"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3511664_3.jpg",
+      "text": null,
+      "width": 507
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101711_4.png",
+      "date": "1930-01-01",
+      "title":
+        "BA1271/206: Massey-Harris building, 360 Murray Street, Perth, ca.1930",
+      "years": ["1930"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b2101711_4",
+      "location": {
+        "address":
+          "Murray Street, Northbridge, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9509893",
+        "lon": "115.8529983"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101711_4.jpg",
+      "text": null,
+      "width": 603
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2231897_1.png",
+      "date": "1917-01-01",
+      "title":
+        "025820PD: Queen's Hall, William Street Perth, home of Vic's Continuous Pictures and the Royal Agricultural Society, 1917",
+      "years": ["1917"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b2231897_1",
+      "location": {
+        "address":
+          "William Street, Northbridge, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9444514",
+        "lon": "115.8622296"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b2231897_1.jpg",
+      "text": null,
+      "width": 570
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165669_2.png",
+      "date": "1985-01-01",
+      "title":
+        "343274PD: Undercroft of the almost completed State Library of Western Australia building, Perth Cultural Centre, 1 February 1985",
+      "years": ["1985"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3165669_2",
+      "location": {
+        "address":
+          "Perth Institute of Contemporary Arts, Cultural Centre, Northbridge, Perth, Western Australia, 6000, Australia",
+        "lat": "-31.9498594",
+        "lon": "115.860252123969"
+      },
+      "height": 604,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165669_2.jpg",
+      "text": null,
+      "width": 760
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135392_1.png",
+      "date": "1978-01-01",
+      "title":
+        "362804PD: Board members of the Metropolitan Water Supply, Sewerage and Drainage Board, Perth, Western Australia, 5 May 1978",
+      "years": ["1978"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3135392_1",
+      "location": {
+        "address":
+          "Board Avenue, Redcliffe, City of Belmont, Western Australia, 6104, Australia",
+        "lat": "-31.9471564",
+        "lon": "115.9468518"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135392_1.jpg",
+      "text": null,
+      "width": 713
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_3.png",
+      "date": "1978-01-01",
+      "title":
+        "328690PD: The Telecom Building, Wellington Street, Perth, 30 October 1978",
+      "years": ["1978"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b3135456_3",
+      "location": {
+        "address":
+          "Wellington Street, East Perth, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9562618",
+        "lon": "115.8733758"
+      },
+      "height": 760,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_3.jpg",
+      "text": null,
+      "width": 758
+    },
+    {
+      "popular": false,
+      "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2131212_2.png",
+      "date": "1925-01-01",
+      "title": "BA533/150: Restormel, 71 Mount Street, Perth, ca.1925",
+      "years": ["1925"],
+      "folder": null,
+      "rotation": 0,
+      "photo_id": "slwa_b2131212_2",
+      "location": {
+        "address":
+          "Mount Street, Northbridge, Perth, Western Australia, 6005, Australia",
+        "lat": "-31.9531761",
+        "lon": "115.8504959"
+      },
+      "height": 582,
+      "image_url": "http://purl.slwa.wa.gov.au/slwa_b2131212_2.jpg",
+      "text": null,
+      "width": 760
+    }
+  ]
+}
