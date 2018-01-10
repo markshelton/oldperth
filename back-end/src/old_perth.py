@@ -1,48 +1,72 @@
 ##########################################################
 # Standard Library Imports
 
+import json
+import os
+import shutil
+from collections import defaultdict
+
 ##########################################################
 # Third Party Imports
 
-##########################################################
-# Local Imports
-
-import sys; sys.path.append("/home/app/src/lib/")
-
-from parse import (
+from thickshake.parse import (
     parse_images, parse_collection,
-    parse_records, parse_record_section,
-    parse_marcxml, deep_get, logged,
+    parse_records, parse_record_section, parse_marcxml,
 )
-from database import (
+from thickshake.database import (
     initialise_db, manage_db_session, export_records_to_json,
 )
-from schema import Image
-from _types import (
+from thickshake.schema import Image
+from thickshake._types import (
     Any, List, Dict, Optional,
     ParsedRecord, DBConfig, FilePath, DirPath, JSONType,
     Record, Engine,
 )
+from thickshake.utils import (
+    check_and_make_directory, open_file,
+    logged, deep_get, consolidate_list,
+)
+
+##########################################################
+# Local Imports
+
+from rotate import generate_rotated_images
 
 ##########################################################
 # Environmental Variables
 
-PROJECT_DIRECTORY = "/home/app/src/scripts/old_perth" # type: DirPath
-OUTPUT_DIRECTORY = "/home/app/data/output/old_perth" # type: DirPath
-INPUT_MARCXML_FILE = "/home/app/data/input/metadata/marc21.xml" # type: FilePath
-INPUT_SAMPLE_SIZE = 10 # type: Optional[int]
-
+## Flags
 FLAG_GEOCODING = True # type: bool
 FLAG_DIMENSIONS = True # type: bool
+FLAG_SAMPLE_SIZE = 10 # type: Optional[int]
+FLAG_REGENERATE_DATA_FILE = True # type: bool
+FLAG_OVERWRITE_BACK = True # type: bool
+FLAG_OVERWRITE_FRONT = True # type: bool
 
-OUTPUT_FILE = "%s/old_perth.json" % (OUTPUT_DIRECTORY) # type: FilePath
+## Input
+INPUT_MARCXML_FILE = "/home/app/back-end/data/input/marc21.xml" # type: FilePath
 
+## Output
+OUTPUT_BACK_PARENT_DIR =  "/home/app/back-end/data/output/" # type: DirPath
+OUTPUT_FRONT_PARENT_DIR = "/home/app/front-end/" # type: DirPath
+OUTPUT_PATHS = {}
+OUTPUT_PATHS["data_json_file"] = "%s/data.json" % (OUTPUT_BACK_PARENT_DIR) # type: Optional[FilePath]
+OUTPUT_PATHS["popular_json_file"] = "%s/popular.json" % (OUTPUT_BACK_PARENT_DIR) # type: Optional[FilePath]
+OUTPUT_PATHS["popular_photos_js_file"] = "%s/js/popular-photos.js" % (OUTPUT_BACK_PARENT_DIR) # type: Optional[FilePath]
+OUTPUT_PATHS["by_location_dir"] = "%s/by-location/" % (OUTPUT_BACK_PARENT_DIR) # type: Optional[DirPath]
+OUTPUT_PATHS["id4_to_location_dir"] = "%s/id4-to-location/" % (OUTPUT_BACK_PARENT_DIR) # type: Optional[DirPath]
+OUTPUT_PATHS["rotated_assets_dir"] = "%s/rotated-assets/" % (OUTPUT_BACK_PARENT_DIR) # type: Optional[DirPath]
+
+## Database
 DB_CONFIG = {} # type: DBConfig
 DB_CONFIG["database"] = "%s/old_perth.sqlite3" % (OUTPUT_DIRECTORY)
 DB_CONFIG["drivername"] = "sqlite"
 DB_CONFIG["host"] = None
 DB_CONFIG["username"] = None
 DB_CONFIG["password"] = None
+
+## External
+EXTERNAL_BASE_URL = "http://purl.slwa.wa.gov.au/" # type: Url
 
 ##########################################################
 
@@ -60,7 +84,8 @@ def reformat_for_old_perth(records: List[ParsedRecord]) -> JSONType:
             "image_url": record["image_url_raw"],
             "location": {
                 "lat": record["image_latitude"],
-                "lon": record["image_longitude"]
+                "lon": record["image_longitude"],
+                "address": record["image_address"],
             },
             "folder": None,
             "years": [""],
@@ -103,8 +128,9 @@ def collect_images(record: Record, **kwargs: Any) -> List[ParsedRecord]:
             "image_note": image_raw["image_note"],
             "image_width": deep_get(image_raw, "image_dimensions", "width"),
             "image_height": deep_get(image_raw, "image_dimensions", "height"),
-            "image_longitude": deep_get(image_raw, "image_coordinates", "longitude"),
-            "image_latitude": deep_get(image_raw, "image_coordinates", "latitude"),
+            "image_longitude": deep_get(image_raw, "image_location", "longitude"),
+            "image_latitude": deep_get(image_raw, "image_location", "latitude"),
+            "image_address": deep_get(image_raw, "image_location", "address"),
             "image_date_created": image_raw["image_date_created"],
             "collection_id": collection_raw["collection_id"],
         }
@@ -122,12 +148,128 @@ def parse_record(record: Record, **kwargs: Any) -> None:
 ##########################################################
 
 @logged
+def prepare_data(input_file: FilePath, db_engine: Engine, **kwargs: Any) -> None:
+    records_sample = parse_marcxml(input_file, **kwargs)
+    parse_records(records_sample, parse_record, engine=db_engine, **kwargs)
+
+
+@logged
+def create_data_file(db_engine: Engine, output_file: FilePath, regenerate_flag: bool) -> None:
+    if not regenerate_flag: return None
+    records = prepare_records_for_export(db_engine)
+    export_records_to_json(records, output_file)
+
+
+@logged
+def create_popular_json_file(
+        input_file: FilePath,
+        output_file: Optional[FilePath],
+        overwrite_back_flag: bool,
+        **kwargs: Any
+    ) -> None:
+    if output_file is None: return None
+    if not overwrite_back_flag and os.path.exists(output_file): return None
+    photos = json.load(open(input_file))['photos']
+    popular_photos = {photo["photo_id"]:photo for photo in photos if photo["popular"] == True}
+    json.dump(popular_photos, output_file)
+
+
+@logged
+def create_popular_photos_js_file(
+        input_file: FilePath,
+        output_file: Optional[FilePath]
+    ) -> None:
+    if output_file is None: return None
+    if not overwrite_back_flag and os.path.exists(output_file): return None
+    photos = json.load(open(input_file))['photos']
+    popular_photos_raw = {photo for photo in photos if photo["popular"] == True}
+    popular_photos = [{
+        "date": photo["date"],
+        "loc": deep_get(photo, "location", "address"),
+        "height": photo["height"],
+        "desc": photo["title"]
+    } for photo in popular_photos_raw]
+    with open(output_file, "wb") as outfile:
+        outfile.write("export var popular photos = {};".format(json.dumps(popular_photos)))
+
+
+@logged
+def create_by_location_dir(input_file: FilePath, output_dir: Optional[DirPath]) -> None:
+    if output_dir is None: return None
+    if not overwrite_back_flag and os.path.exists(output_dir): return None
+    #TODO:
+    return None
+
+
+@logged
+def create_id4_to_location_dir(input_file: FilePath, output_dir: Optional[DirPath]) -> None:
+    if output_dir is None: return None
+    if not overwrite_back_flag and os.path.exists(output_dir): return None
+    #TODO:
+    return None
+
+
+@logged
+def create_rotated_assets_dir(input_file: FilePath, output_dir: Optional[DirPath]) -> None:
+    if output_dir is None: return None
+    if not overwrite_back_flag and os.path.exists(output_dir): return None
+    generate_rotated_images(input_file, output_dir, EXTERNAL_BASE_URL)
+
+
+@logged
+def export_data(
+        db_engine: Engine,
+        input_file: FilePath,
+        output_paths: Any,
+        **kwargs: Any
+    ) -> None:
+    create_popular_json_file(input_file, output_paths["popular_json_file"], **kwargs) #TEST
+    create_popular_photos_js_file(input_file, output_paths["popular_photos_js_file"], **kwargs) #TEST
+    create_by_location_dir(input_file, output_paths["by_location_dir"], **kwargs) #TODO
+    create_id4_to_location_dir(input_file, output_paths["id4_to_location_dir"], **kwargs) #TODO
+    create_rotated_assets_dir(input_file, output_paths["rotated_assets"], **kwargs) #TEST
+
+@logged
+def move_files_to_front_end(
+        output_paths: Dict[str, Union[FilePath, DirPath]],
+        back_parent_dir: DirPath,
+        front_parent_dir: DirPath,
+        overwrite_front_flag: bool = False 
+    ) -> None:
+    for back_path in output_paths.values():
+        front_path = back_path.replace(back_parent_dir, front_parent_dir)
+        if overwrite_front_flag:
+            shutil.rmtree(front_path, ignore_errors=False)
+        shutil.copytree(back_path, front_path)
+
+@logged
 def main() -> None:
-    #records_sample = parse_marcxml(INPUT_MARCXML_FILE, INPUT_SAMPLE_SIZE)
     db_engine = initialise_db(DB_CONFIG)
-    #parse_records(records_sample, parse_record, engine=db_engine, geocoding_flag=FLAG_GEOCODING, dimensions_flag=FLAG_DIMENSIONS)
-    records_out = prepare_records_for_export(db_engine)
-    export_records_to_json(records_out, OUTPUT_FILE)
+    prepare_data(
+        INPUT_MARCXML_FILE,
+        db_engine, 
+        sample_size=FLAG_SAMPLE_SIZE,
+        geocoding_flag=FLAG_GEOCODING,
+        dimensions_flag=FLAG_DIMENSIONS
+    )
+    create_data_file(
+        db_engine,
+        OUTPUT_PATHS["data_json_file"],
+        regenerate_flag=FLAG_REGENERATE_DATA_FILE
+    )
+    export_data(
+        db_engine,
+        OUTPUT_PATHS["data_json_file"]
+        OUTPUT_PATHS,
+        overwrite_back_flag=FLAG_OVERWRITE_BACK,
+    )
+    move_files_to_front_end(
+        OUTPUT_PATHS,
+        back_parent_dir=OUTPUT_BACK_PARENT_DIR,
+        front_parent_dir=OUTPUT_FRONT_PARENT_DIR,
+        overwrite_front_flag=FLAG_OVERWRITE_FRONT
+    )
+
 
 
 def setup_logging() -> None:
