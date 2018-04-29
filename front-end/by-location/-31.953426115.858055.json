@@ -1,0 +1,30 @@
+{
+  "100473PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473391_2.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473391_2.jpg",
+    "date": "1929-01-01",
+    "height": 578.0,
+    "text": null,
+    "years": [
+      1929.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Brennans Ltd, 706-710 Hay Street, Perth, 1929"
+  },
+  "100472PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473391_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473391_1.jpg",
+    "date": "1929-01-01",
+    "height": 581.0,
+    "text": null,
+    "years": [
+      1929.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Brennans Ltd, 706-710 Hay Street, Perth, 1929"
+  }
+}

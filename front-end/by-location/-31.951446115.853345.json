@@ -1,0 +1,30 @@
+{
+  "312627PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_27.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_27.jpg",
+    "date": "1984-03-26",
+    "height": 503.0,
+    "text": null,
+    "years": [
+      1984.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Toto's Pizza Parlour & Restaurant, 413 Murray Street, Perth, March 1984"
+  },
+  "311888PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_13.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_13.jpg",
+    "date": "1982-03-26",
+    "height": 508.0,
+    "text": null,
+    "years": [
+      1982.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Tot's Pizza Parlour & Restaurant, 413 Murray Street, Perth, March 1982"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "231259PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3031017_10.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3031017_10.jpg",
+    "date": null,
+    "height": 536.0,
+    "text": null,
+    "years": [
+      null
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Princess Margaret Hospital, Royal Perth Hospital, unknown, St John of God Hospital Subiaco, W.A. Mental Health Services School of Nursing, Sir Charles Gairdner Hospital"
+  },
+  "217663PD": {
+    "width": 558.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416416_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416416_1.jpg",
+    "date": "1945-01-01",
+    "height": 760.0,
+    "text": null,
+    "years": [
+      1945.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Mobile x-ray, Royal Perth Hospital, ca. 1945"
+  },
+  "072488PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4615659_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4615659_1.jpg",
+    "date": "1925-01-01",
+    "height": 517.0,
+    "text": null,
+    "years": [
+      1925.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Nurses, Royal Perth Hospital, ca.1925"
+  }
+}

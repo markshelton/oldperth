@@ -1,0 +1,44 @@
+{
+  "312451PD": {
+    "width": 505.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799990_31.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799990_31.jpg",
+    "date": "1983-01-26",
+    "height": 760.0,
+    "text": null,
+    "years": [
+      1983.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Department of Aviation Regional Training School, 383 Hay Street, Perth, January 1983"
+  },
+  "311779PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_12.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_12.jpg",
+    "date": "1982-06-26",
+    "height": 507.0,
+    "text": null,
+    "years": [
+      1982.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Dept of Transport Regional Training School, 383 Hay Street, Perth, June 1982"
+  },
+  "315795PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_36.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_36.jpg",
+    "date": "1988-02-26",
+    "height": 510.0,
+    "text": null,
+    "years": [
+      1988.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Camptell House, 383 Hay Street, Perth, February 1988"
+  }
+}

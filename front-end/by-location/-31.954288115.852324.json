@@ -1,0 +1,58 @@
+{
+  "311503PD": {
+    "width": 505.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_3.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_3.jpg",
+    "date": "1982-11-26",
+    "height": 760.0,
+    "text": null,
+    "years": [
+      1982.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "The Parmelia Hilton Hotel, Mill Street, Perth, November 1982"
+  },
+  "311644PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_6.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_6.jpg",
+    "date": "1982-12-26",
+    "height": 503.0,
+    "text": null,
+    "years": [
+      1982.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Hamersley House and City Mutual, Mill Street, Perth, December 1982"
+  },
+  "314916PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_8.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_8.jpg",
+    "date": "1987-06-26",
+    "height": 516.0,
+    "text": null,
+    "years": [
+      1987.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Hana of Perth Japanese Restaurant, Mill Street, Perth, June 1987"
+  },
+  "319113PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_11.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800039_11.jpg",
+    "date": "1973-03-26",
+    "height": 751.0,
+    "text": null,
+    "years": [
+      1973.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "The Parmelia Hilton Hotel, Mill Street, Perth, March 1973"
+  }
+}

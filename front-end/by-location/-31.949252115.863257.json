@@ -1,0 +1,30 @@
+{
+  "BA1530/5826": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970415_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970415_1.jpg",
+    "date": "1993-06-26",
+    "height": 509.0,
+    "text": null,
+    "years": [
+      1993.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Turn'n Tender Steakhouse, 96 Beaufort Street, Perth, June 1993."
+  },
+  "067209PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2863808_001.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2863808_001.jpg",
+    "date": "1914-01-01",
+    "height": 555.0,
+    "text": null,
+    "years": [
+      1914.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "E. J. Stuart's Veterinary Hospital, 96 Beaufort Street, Perth, 1914"
+  }
+}

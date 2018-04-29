@@ -1,0 +1,30 @@
+{
+  "359991PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096639_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096639_1.jpg",
+    "date": null,
+    "height": 722.0,
+    "text": null,
+    "years": [
+      null
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "The Peppermint Cloud Night Club, 393 Murray Street, Perth, 1973"
+  },
+  "312626PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_26.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_26.jpg",
+    "date": "1984-03-26",
+    "height": 492.0,
+    "text": null,
+    "years": [
+      1984.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Pinocchio's Night Club, 393 Murray Street, Perth, March 1984"
+  }
+}

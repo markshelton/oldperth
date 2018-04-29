@@ -1,0 +1,58 @@
+{
+  "311732PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800011_26.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800011_26.jpg",
+    "date": "1982-12-26",
+    "height": 507.0,
+    "text": null,
+    "years": [
+      1982.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Musgroves, 223 Murray Street, Perth, December 1982"
+  },
+  "140884PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635199_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635199_1.jpg",
+    "date": null,
+    "height": 527.0,
+    "text": null,
+    "years": [
+      null
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Perth Telephone Exchange, 410 Murray Street, Perth, ca.1977"
+  },
+  "BA1271/218": {
+    "width": 582.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2130891_2.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2130891_2.jpg",
+    "date": null,
+    "height": 760.0,
+    "text": null,
+    "years": [
+      null
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "Perth Telephone Exchange, 410 Murray Street, Perth, ca.1920"
+  },
+  "BA533/19": {
+    "width": 586.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1922147_2.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1922147_2.jpg",
+    "date": null,
+    "height": 760.0,
+    "text": null,
+    "years": [
+      null
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "P. Falk & Co. Ltd. building, 223 Murray Street, Perth, ca.1923"
+  }
+}

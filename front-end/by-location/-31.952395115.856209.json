@@ -1,0 +1,30 @@
+{
+  "140897PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635882_1.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635882_1.jpg",
+    "date": null,
+    "height": 522.0,
+    "text": null,
+    "years": [
+      null
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "F.H. Faulding House premises of Fletcher Jones and House of Tarvydas, 307 Murray Street, Perth, ca.1977"
+  },
+  "311119PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_3.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_3.jpg",
+    "date": "1981-12-26",
+    "height": 504.0,
+    "text": null,
+    "years": [
+      1981.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "F.H. Faulding House premises of Fletcher Jones, 307 Murray Street, Perth, December 1981"
+  }
+}

@@ -4,28 +4,16 @@
 // /#g:lat,lon
 // /#photo_id,g:lat,lon
 
-import {
-  countPhotos,
-  getPopularPhotoIds,
-  hideAbout,
-  lat_lon_to_marker,
-  parseLatLon,
-  createMarker,
-  selectMarker,
-  map,
-  hideExpanded,
-  showExpanded,
-  generateLatLonCounts
-} from "./viewer";
-import { loadInfoForLatLon } from "./photo-info";
+import {countPhotos, getPopularPhotoIds, hideAbout, lat_lon_to_marker, parseLatLon, createMarker, selectMarker, map, hideExpanded, showExpanded} from './viewer';
+import {loadInfoForLatLon} from './photo-info';
 
 // Returns {photo_id:string, g:string}
 export function getCurrentStateObject() {
-  if (!$("#expanded").is(":visible")) {
+  if (!$('#expanded').is(':visible')) {
     return {};
   }
-  var g = $("#expanded").data("grid-key");
-  var selectedId = $("#grid-container").expandableGrid("selectedId");
+  var g = $('#expanded').data('grid-key');
+  var selectedId = $('#grid-container').expandableGrid('selectedId');
 
   return selectedId ? { photo_id: selectedId, g: g } : { g: g };
 }
@@ -36,13 +24,13 @@ export function getCurrentStateObject() {
 export function hashToStateObject(hash, cb) {
   var m = hash.match(/(.*),g:(.*)/);
   if (m) {
-    cb({ photo_id: m[1], g: m[2] });
-  } else if (hash.substr(0, 2) == "g:") {
-    cb({ g: hash.substr(2) });
+    cb({photo_id: m[1], g: m[2]});
+  } else if (hash.substr(0, 2) == 'g:') {
+    cb({g: hash.substr(2)});
   } else if (hash.length > 0) {
     var photo_id = hash;
     findLatLonForPhoto(photo_id, function(g) {
-      cb({ photo_id: hash, g: g });
+      cb({photo_id: hash, g: g});
     });
   } else {
     cb({});
@@ -51,17 +39,17 @@ export function hashToStateObject(hash, cb) {
 
 export function stateObjectToHash(state) {
   if (state.photo_id) {
-    if (state.g == "pop") {
-      return state.photo_id + ",g:pop";
+    if (state.g == 'pop') {
+      return state.photo_id + ',g:pop';
     } else {
       return state.photo_id;
     }
   }
 
   if (state.g) {
-    return "g:" + state.g;
+    return 'g:' + state.g;
   }
-  return "";
+  return '';
 }
 
 // Change whatever is currently displayed to reflect the state in obj.
@@ -74,11 +62,11 @@ export function transitionToStateObject(targetState) {
   // (it also strips out extraneous fields)
   hashToStateObject(stateObjectToHash(targetState), function(state) {
     if (JSON.stringify(currentState) == JSON.stringify(state)) {
-      return; // nothing to do.
+      return;  // nothing to do.
     }
 
     // Reset to map view.
-    if (JSON.stringify(state) == "{}") {
+    if (JSON.stringify(state) == '{}') {
       hideAbout();
       hideExpanded();
     }
@@ -86,50 +74,47 @@ export function transitionToStateObject(targetState) {
     // Show a different grid?
     if (currentState.g != state.g) {
       var lat_lon = state.g;
-      require("./photo-info").lat_lons.then(lat_lons => {
-        console.log(lat_lons);
-        var count = countPhotos(lat_lons[lat_lon]);
-        if (state.g == "pop") {
-          count = getPopularPhotoIds().length;
-        } else {
-          // Highlight the marker, creating it if necessary.
-          var marker = lat_lon_to_marker[lat_lon];
-          var latLng = parseLatLon(lat_lon);
-          if (!marker) {
-            marker = createMarker(lat_lon, latLng);
-          }
-          if (marker) {
-            selectMarker(marker, count);
-            if (!map.getBounds().contains(latLng)) {
-              map.panTo(latLng);
-            }
+      var count = countPhotos(lat_lons[lat_lon]);
+      if (state.g == 'pop') {
+        count = getPopularPhotoIds().length;
+      } else {
+        // Highlight the marker, creating it if necessary.
+        var marker = lat_lon_to_marker[lat_lon];
+        var latLng = parseLatLon(lat_lon);
+        if (!marker) {
+          marker = createMarker(lat_lon, latLng);
+        }
+        if (marker) {
+          selectMarker(marker, count);
+          if (!map.getBounds().contains(latLng)) {
+            map.panTo(latLng);
           }
         }
-        loadInfoForLatLon(lat_lon).done(function(photo_ids) {
-          showExpanded(state.g, photo_ids, state.photo_id);
-        });
-        return;
+      }
+      loadInfoForLatLon(lat_lon).done(function(photo_ids) {
+        showExpanded(state.g, photo_ids, state.photo_id);
       });
+      return;
     }
 
     if (currentState.photo_id && !state.photo_id) {
       // Hide the selected photo
-      $("#grid-container").expandableGrid("deselect");
+      $('#grid-container').expandableGrid('deselect');
     } else {
       // Show a different photo
-      $("#grid-container").expandableGrid("select", state.photo_id);
+      $('#grid-container').expandableGrid('select', state.photo_id);
     }
   });
 }
 
+
 export function findLatLonForPhoto(photo_id, cb) {
+  var id4 = photo_id.slice(0, 4);
   $.ajax({
     dataType: "json",
-    url: "/data.json",
-    success: function(data) {
-      const entry = data.photos.find(photo => photo.photo_id === photo_id);
-      const latlon = `${entry.location.lat},${entry.location.lon}`;
-      cb(latlon);
+    url: '/id4-to-location/' + id4 + '.json',
+    success: function(id_to_latlon) {
+      cb(id_to_latlon[photo_id])
     }
   });
 }

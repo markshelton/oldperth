@@ -1,0 +1,30 @@
+{
+  "311900PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_17.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_17.jpg",
+    "date": "1982-03-26",
+    "height": 508.0,
+    "text": null,
+    "years": [
+      1982.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "The Duke of Bedford Hotel, 334 Murray Street, Perth, March 1982. Demolished during 1982 and replaced with the Prince's Hotel"
+  },
+  "314997PD": {
+    "width": 760.0,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_27.png",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_27.jpg",
+    "date": "1987-02-26",
+    "height": 503.0,
+    "text": null,
+    "years": [
+      1987.0
+    ],
+    "folder": null,
+    "original_title": "",
+    "title": "The Prince's Hotel, 334 Murray Street, Perth, February 1987"
+  }
+}

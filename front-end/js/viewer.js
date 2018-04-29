@@ -1,16 +1,11 @@
-import {
-  nameForLatLon,
-  backId,
-  libraryUrlForPhotoId,
-  descriptionForPhotoId,
-  infoForPhotoId,
-  loadInfoForLatLon
-} from "./photo-info";
-import { MAP_STYLE, STATIC_MAP_STYLE } from "./map-styles";
-import { getCanonicalUrlForPhoto } from "./social";
-import { findLatLonForPhoto } from "./url-state";
+import {nameForLatLon, backId, libraryUrlForPhotoId, descriptionForPhotoId, infoForPhotoId, loadInfoForLatLon} from './photo-info';
+import {MAP_STYLE, STATIC_MAP_STYLE} from './map-styles';
+import {getCanonicalUrlForPhoto} from './social';
+import {getFeedbackText, sendFeedback, deleteCookie, setCookie} from './feedback';
+import {popular_photos} from './popular-photos';
+import {findLatLonForPhoto} from './url-state';
 
-import * as _ from "underscore";
+import * as _ from 'underscore';
 
 var markers = [];
 var marker_icons = [];
@@ -24,23 +19,16 @@ export var mapPromise = $.Deferred();
 
 // TODO: inline image source into popular-photos.js and get rid of this.
 function expandedImageUrl(photo_id) {
-  return `${process.env.BASE_SOURCE_URL}/${photo_id}.jpg`;
+  return 'http://oldnyc-assets.nypl.org/600px/' + photo_id + '.jpg';
 }
 
 // lat_lon is a "lat,lon" string.
 function makeStaticMapsUrl(lat_lon) {
-  return (
-    "http://maps.googleapis.com/maps/api/staticmap?center=" +
-    lat_lon +
-    "&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C" +
-    lat_lon +
-    "&style=" +
-    STATIC_MAP_STYLE
-  );
+  return 'http://maps.googleapis.com/maps/api/staticmap?center=' + lat_lon + '&zoom=15&size=150x150&maptype=roadmap&markers=color:red%7C' + lat_lon + '&style=' + STATIC_MAP_STYLE;
 }
 
 function isFullTimeRange(yearRange) {
-  return yearRange[0] === 1800 && yearRange[1] === 2000;
+  return (yearRange[0] === 1800 && yearRange[1] === 2000);
 }
 
 // A photo is in the date range if any dates mentioned in it are in the range.
@@ -63,9 +51,8 @@ export function countPhotos(yearToCounts) {
   } else {
     const [first, last] = year_range;
     return _.reduce(
-      _.filter(yearToCounts, (c, y) => y > first && y <= last),
-      (a, b) => a + b
-    );
+        _.filter(yearToCounts, (c, y) => (y > first && y <= last)),
+        (a, b) => a + b);
   }
 }
 
@@ -89,56 +76,50 @@ export function selectMarker(marker, yearToCounts) {
 
 export function updateYears(firstYear, lastYear) {
   year_range = [firstYear, lastYear];
-  require("./photo-info").lat_lons.then(lat_lons => {
-    _.forEach(lat_lon_to_marker, (marker, lat_lon) => {
-      const count = countPhotos(lat_lons[lat_lon], year_range);
-      if (count) {
-        marker.setIcon(marker_icons[Math.min(count, 100)]);
-        marker.setVisible(true);
-      } else {
-        marker.setVisible(false);
-      }
-    });
+  _.forEach(lat_lon_to_marker, (marker, lat_lon) => {
+    const count = countPhotos(lat_lons[lat_lon], year_range);
+    if (count) {
+      marker.setIcon(marker_icons[Math.min(count, 100)]);
+      marker.setVisible(true);
+    } else {
+      marker.setVisible(false);
+    }
   });
   addNewlyVisibleMarkers();
-  $("#time-range-labels").text(`${firstYear}–${lastYear}`);
+  $('#time-range-labels').text(`${firstYear}–${lastYear}`);
 }
 
 // The callback gets fired when the info for all lat/lons at this location
 // become available (i.e. after the /info RPC returns).
 function displayInfoForLatLon(lat_lon, marker, opt_selectCallback) {
-  require("./photo-info").lat_lons.then(lat_lons => {
-    if (marker) selectMarker(marker, lat_lons[lat_lon]);
+  if (marker) selectMarker(marker, lat_lons[lat_lon]);
+
+  loadInfoForLatLon(lat_lon).done(function(photoIds) {
+    var selectedId = null;
+    if (photoIds.length <= 10) {
+      selectedId = photoIds[0];
+    }
+    showExpanded(lat_lon, photoIds, selectedId);
+    if (opt_selectCallback && selectedId) {
+      opt_selectCallback(selectedId);
+    }
+  }).fail(function() {
   });
-  loadInfoForLatLon(lat_lon)
-    .done(function(photoIds) {
-      var selectedId = null;
-      if (photoIds.length <= 10) {
-        selectedId = photoIds[0];
-      }
-      showExpanded(lat_lon, photoIds, selectedId);
-      if (opt_selectCallback && selectedId) {
-        opt_selectCallback(selectedId);
-      }
-    })
-    .fail(function() {});
 }
 
 function handleClick(e) {
-  var lat_lon = e.latLng.lat().toFixed(6) + "," + e.latLng.lng().toFixed(6);
+  var lat_lon = e.latLng.lat().toFixed(6) + ',' + e.latLng.lng().toFixed(6)
   var marker = lat_lon_to_marker[lat_lon];
   displayInfoForLatLon(lat_lon, marker, function(photo_id) {
-    $(window).trigger("openPreviewPanel");
-    $(window).trigger("showPhotoPreview", photo_id);
+    $(window).trigger('openPreviewPanel');
+    $(window).trigger('showPhotoPreview', photo_id);
   });
-  $(window).trigger("showGrid", lat_lon);
+  $(window).trigger('showGrid', lat_lon);
 }
 
 export function initialize_map() {
-  var latlng = new google.maps.LatLng(
-    process.env.GOOGLE_MAPS_INITIAL_LATITUDE,
-    process.env.GOOGLE_MAPS_INITIAL_LONGITUDE
-  );
+  //var latlng = new google.maps.LatLng(-31.953512, 115.857048);
+  var latlng = new google.maps.LatLng(-31.953512, 115.857048);
   var opts = {
     zoom: 15,
     maxZoom: 18,
@@ -154,72 +135,66 @@ export function initialize_map() {
     styles: MAP_STYLE
   };
 
-  map = new google.maps.Map($("#map").get(0), opts);
+  map = new google.maps.Map($('#map').get(0), opts);
 
   // This shoves the navigation bits down by a CSS-specified amount
   // (see the .spacer rule). This is surprisingly hard to do.
-  var map_spacer = $("<div/>")
-    .append($("<div/>").addClass("spacer"))
-    .get(0);
+  var map_spacer = $('<div/>').append($('<div/>').addClass('spacer')).get(0);
   map_spacer.index = -1;
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(map_spacer);
 
   // The OldSF UI just gets in the way of Street View.
   // Even worse, it blocks the "exit" button!
   var streetView = map.getStreetView();
-  google.maps.event.addListener(streetView, "visible_changed", function() {
-    $(".streetview-hide").toggle(!streetView.getVisible());
-  });
+  google.maps.event.addListener(streetView, 'visible_changed',
+      function() {
+        $('.streetview-hide').toggle(!streetView.getVisible());
+      });
 
   // Create marker icons for each number.
-  marker_icons.push(null); // it's easier to be 1-based.
+  marker_icons.push(null);  // it's easier to be 1-based.
   selected_marker_icons.push(null);
   for (var i = 0; i < 100; i++) {
     var num = i + 1;
-    var size = num == 1 ? 9 : 13;
-    var selectedSize = num == 1 ? 15 : 21;
-    marker_icons.push(
-      new google.maps.MarkerImage(
-        "images/sprite-2014-08-29.png",
-        new google.maps.Size(size, size),
-        new google.maps.Point((i % 10) * 39, Math.floor(i / 10) * 39),
-        new google.maps.Point((size - 1) / 2, (size - 1) / 2)
-      )
-    );
-    selected_marker_icons.push(
-      new google.maps.MarkerImage(
-        "images/selected-2014-08-29.png",
-        new google.maps.Size(selectedSize, selectedSize),
-        new google.maps.Point((i % 10) * 39, Math.floor(i / 10) * 39),
-        new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1) / 2)
-      )
-    );
+    var size = (num == 1 ? 9 : 13);
+    var selectedSize = (num == 1 ? 15 : 21);
+    marker_icons.push(new google.maps.MarkerImage(
+      'images/sprite-2014-08-29.png',
+      new google.maps.Size(size, size),
+      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
+      new google.maps.Point((size - 1) / 2, (size - 1)/2)
+    ));
+    selected_marker_icons.push(new google.maps.MarkerImage(
+      'images/selected-2014-08-29.png',
+      new google.maps.Size(selectedSize, selectedSize),
+      new google.maps.Point((i%10)*39, Math.floor(i/10)*39),
+      new google.maps.Point((selectedSize - 1) / 2, (selectedSize - 1)/2)
+    ));
   }
 
   // Adding markers is expensive -- it's important to defer this when possible.
-  var idleListener = google.maps.event.addListener(map, "idle", function() {
+  var idleListener = google.maps.event.addListener(map, 'idle', function() {
     google.maps.event.removeListener(idleListener);
     addNewlyVisibleMarkers();
     mapPromise.resolve(map);
   });
 
-  google.maps.event.addListener(map, "bounds_changed", function() {
+  google.maps.event.addListener(map, 'bounds_changed', function() {
     addNewlyVisibleMarkers();
   });
 }
 
 function addNewlyVisibleMarkers() {
   var bounds = map.getBounds();
-  require("./photo-info").lat_lons.then(lat_lons => {
-    for (var lat_lon in lat_lons) {
-      if (lat_lon in lat_lon_to_marker) continue;
 
-      var pos = parseLatLon(lat_lon);
-      if (!bounds.contains(pos)) continue;
+  for (var lat_lon in lat_lons) {
+    if (lat_lon in lat_lon_to_marker) continue;
 
-      createMarker(lat_lon, pos);
-    }
-  });
+    var pos = parseLatLon(lat_lon);
+    if (!bounds.contains(pos)) continue;
+
+    createMarker(lat_lon, pos);
+  }
 }
 
 export function parseLatLon(lat_lon) {
@@ -228,83 +203,67 @@ export function parseLatLon(lat_lon) {
 }
 
 export function createMarker(lat_lon, latLng) {
-  require("./photo-info").lat_lons.then(lat_lons => {
-    const count = countPhotos(lat_lons[lat_lon], year_range);
-    if (!count) {
-      return;
-    }
-    const marker = new google.maps.Marker({
-      position: latLng,
-      map: map,
-      flat: true,
-      visible: true,
-      icon: marker_icons[Math.min(count, 100)],
-      title: lat_lon
-    });
-    markers.push(marker);
-    lat_lon_to_marker[lat_lon] = marker;
-    google.maps.event.addListener(marker, "click", handleClick);
-    return marker;
+  const count = countPhotos(lat_lons[lat_lon], year_range);
+  if (!count) {
+    return;
+  }
+  const marker = new google.maps.Marker({
+    position: latLng,
+    map: map,
+    flat: true,
+    visible: true,
+    icon: marker_icons[Math.min(count, 100)],
+    title: lat_lon
   });
+  markers.push(marker);
+  lat_lon_to_marker[lat_lon] = marker;
+  google.maps.event.addListener(marker, 'click', handleClick);
+  return marker;
 }
+
 
 // NOTE: This can only be called when the info for all photo_ids at the current
 // position have been loaded (in particular the image widths).
 // key is used to construct URL fragments.
 export function showExpanded(key, photo_ids, opt_selected_id) {
   hideAbout();
-  map.set("keyboardShortcuts", false);
-  $("#expanded")
-    .show()
-    .data("grid-key", key);
-  $(".location").text(nameForLatLon(key));
+  map.set('keyboardShortcuts', false);
+  $('#expanded').show().data('grid-key', key);
+  $('.location').text(nameForLatLon(key));
   if (isFullTimeRange(year_range)) {
-    $("#filtered-slideshow").hide();
+    $('#filtered-slideshow').hide();
   } else {
     const [first, last] = year_range;
-    $("#filtered-slideshow").show();
-    $("#slideshow-filter-first").text(first);
-    $("#slideshow-filter-last").text(last);
+    $('#filtered-slideshow').show();
+    $('#slideshow-filter-first').text(first);
+    $('#slideshow-filter-last').text(last);
   }
-  console.log(photo_ids);
-  var images = photo_ids.map(photo_id => {
-    return infoForPhotoId(photo_id).then(info => {
-      if (!isPhotoInDateRange(info, year_range)) return null;
-      const info_full = $.extend(
-        {
-          id: photo_id,
-          largesrc: info.library_url,
-          src: info.library_url,
-          width: 600, // these are fallbacks
-          height: 400
-        },
-        info
-      );
-      console.log(info_full);
-      return info_full;
-    });
+  var images = $.map(photo_ids, function(photo_id) {
+    var info = infoForPhotoId(photo_id);
+    if (!isPhotoInDateRange(info, year_range)) return null;
+    return $.extend({
+      id: photo_id,
+      largesrc: info.image_url,
+      src: info.thumb_url,
+      width: 600,   // these are fallbacks
+      height: 400
+    }, info);
   });
-  Promise.all(images).then(images => {
-    images = images.filter(image => image !== null);
-    console.log(images);
-    $("#preview-map").attr("src", makeStaticMapsUrl(key));
-    $("#grid-container").expandableGrid(
-      {
-        rowHeight: 200,
-        speed: 200 /* ms for transitions */
-      },
-      images
-    );
-    if (opt_selected_id) {
-      $("#grid-container").expandableGrid("select", opt_selected_id);
-    }
-  });
+  images = images.filter(image => image !== null);
+  $('#preview-map').attr('src', makeStaticMapsUrl(key));
+  $('#grid-container').expandableGrid({
+    rowHeight: 200,
+    speed: 200 /* ms for transitions */
+  }, images);
+  if (opt_selected_id) {
+    $('#grid-container').expandableGrid('select', opt_selected_id);
+  }
 }
 
 export function hideExpanded() {
-  $("#expanded").hide();
-  $(document).unbind("keyup");
-  map.set("keyboardShortcuts", true);
+  $('#expanded').hide();
+  $(document).unbind('keyup');
+  map.set('keyboardShortcuts', true);
 }
 
 // This fills out details for either a thumbnail or the expanded image pane.
@@ -312,76 +271,81 @@ function fillPhotoPane(photo_id, $pane) {
   // $pane is div.og-details
   // This could be either a thumbnail on the right-hand side or an expanded
   // image, front and center.
-  $(".description", $pane).html(descriptionForPhotoId(photo_id));
+  $('.description', $pane).html(descriptionForPhotoId(photo_id));
 
-  infoForPhotoId(photo_id).then(info => {
-    var $text = $pane.find(".text");
-    $text.text(info.title.replace(/\n*$/, ""));
-    // Some browser plugins block twitter
-    if (typeof twttr != "undefined") {
-      twttr.widgets.createShareButton(
-        document.location.href,
-        $pane.find(".tweet").get(0),
-        {
-          count: "none",
-          text: (info.original_title || info.title) + " - " + info.date,
-          via: "Old_Perth @statelibrarywa" //FIXME:
-        }
-      );
-    }
-  });
-
+  var info = infoForPhotoId(photo_id);
   var library_url = libraryUrlForPhotoId(photo_id);
 
   // this one is actually on the left panel, not $pane.
-  $pane
-    .parent()
-    .find(".library-link a")
-    .attr("href", library_url);
-  $(".library-logo a").attr("href", library_url);
+  $pane.parent().find('.nypl-link a').attr('href', library_url);
+  $('.nypl-logo a').attr('href', library_url);
 
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
 
-  if (typeof FB != "undefined") {
-    var $comments = $pane.find(".comments");
+  // OCR'd text
+  getFeedbackText(backId(photo_id)).done(function(ocr) {
+    var text = ocr ? ocr.text : info.text;
+    var ocr_url = '/ocr.html#' + photo_id,
+        hasBack = photo_id.match('[0-9]f');
+
+    if (text) {
+      var $text = $pane.find('.text');
+      $text.text(text.replace(/\n*$/, ''));
+      $text.append($('<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>'));
+      $text.find('a').attr('href', ocr_url);
+    } else if (hasBack) {
+      var $more = $pane.find('.more-on-back');
+      $more.find('a.ocr-tool').attr('href', ocr_url);
+      $more.find('a.nypl').attr('href', library_url);
+      $more.show();
+    }
+  });
+
+  if (typeof(FB) != 'undefined') {
+    var $comments = $pane.find('.comments');
     var width = $comments.parent().width();
     $comments.empty().append(
-      $('<fb:comments data-numposts="5" data-colorscheme="light"/>')
-        .attr("data-width", width)
-        .attr("data-href", canonicalUrl)
-        .attr("data-version", "v2.3")
-    );
+        $('<fb:comments data-numposts="5" data-colorscheme="light"/>')
+            .attr('data-width', width)
+            .attr('data-href', canonicalUrl)
+            .attr('data-version', 'v2.3'))
     FB.XFBML.parse($comments.get(0));
     console.log(canonicalUrl);
   }
 
   // Social links
-  var client = new ZeroClipboard($pane.find(".copy-link"));
-  client.on("ready", function() {
-    client.on("copy", function(event) {
+  var client = new ZeroClipboard($pane.find('.copy-link'));
+  client.on('ready', function() {
+    client.on('copy', function(event) {
       var clipboard = event.clipboardData;
-      clipboard.setData("text/plain", window.location.href);
+      clipboard.setData('text/plain', window.location.href);
     });
-    client.on("aftercopy", function(event) {
+    client.on( 'aftercopy', function( event ) {
       var $btn = $(event.target);
-      $btn
-        .css({ width: $btn.get(0).offsetWidth })
-        .addClass("clicked")
-        .text("Copied!");
+      $btn.css({width: $btn.get(0).offsetWidth}).addClass('clicked').text('Copied!');
     });
   });
 
-  if (typeof FB != "undefined") {
-    var $fb_holder = $pane.find(".facebook-holder");
-    $fb_holder.empty().append(
-      $("<fb:like>").attr({
-        href: canonicalUrl,
-        layout: "button",
-        action: "like",
-        show_faces: "false",
-        share: "true"
-      })
-    );
+  // Some browser plugins block twitter
+  if (typeof(twttr) != 'undefined') {
+    twttr.widgets.createShareButton(
+        document.location.href,
+        $pane.find('.tweet').get(0), {
+          count: 'none',
+          text: (info.original_title || info.title) + ' - ' + info.date,
+          via: 'Old_NYC @NYPL'
+        });
+  }
+
+  if (typeof(FB) != 'undefined') {
+    var $fb_holder = $pane.find('.facebook-holder');
+    $fb_holder.empty().append($('<fb:like>').attr({
+        'href': canonicalUrl,
+        'layout': 'button',
+        'action': 'like',
+        'show_faces': 'false',
+        'share': 'true'
+      }));
     FB.XFBML.parse($fb_holder.get(0));
   }
 
@@ -389,244 +353,233 @@ function fillPhotoPane(photo_id, $pane) {
   // See http://stackoverflow.com/a/10514680/388951
   $pane.off("mousewheel").on("mousewheel", function(event) {
     var height = $pane.height(),
-      scrollHeight = $pane.get(0).scrollHeight;
-    var blockScrolling =
-      (this.scrollTop === scrollHeight - height && event.deltaY < 0) ||
-      (this.scrollTop === 0 && event.deltaY > 0);
+        scrollHeight = $pane.get(0).scrollHeight;
+    var blockScrolling = this.scrollTop === scrollHeight - height &&
+                         event.deltaY < 0 || this.scrollTop === 0 &&
+                         event.deltaY > 0;
     return !blockScrolling;
   });
 }
 
 function photoIdFromATag(a) {
-  return $(a)
-    .attr("href")
-    .replace("/#", "");
+  return $(a).attr('href').replace('/#', '');
 }
 
 export function getPopularPhotoIds() {
-  return $(".popular-photo:visible a")
-    .map(function(_, a) {
-      return photoIdFromATag(a);
-    })
-    .toArray();
+  return $('.popular-photo:visible a').map(function(_, a) {
+    return photoIdFromATag(a);
+  }).toArray();
 }
 
 // User selected a photo in the "popular" grid. Update the static map.
 function updateStaticMapsUrl(photo_id) {
+  var key = 'New York City';
   var lat_lon = findLatLonForPhoto(photo_id);
-  var key = lat_lon || process.env.GOOGLE_MAPS_FALLBACK_LOCATION;
-  $("#preview-map").attr("src", makeStaticMapsUrl(key));
+  if (lat_lon) key = lat_lon;
+  $('#preview-map').attr('src', makeStaticMapsUrl(key));
 }
 
 export function fillPopularImagesPanel() {
   // Rotate the images daily.
-  require("./photo-info").popular_photos.then(popular_photos => {
-    var elapsedMs = new Date().getTime() - new Date("2015/12/15").getTime(),
+  var elapsedMs = new Date().getTime() - new Date('2015/12/15').getTime(),
       elapsedDays = Math.floor(elapsedMs / 86400 / 1000),
       shift = elapsedDays % popular_photos.length;
-    var shownPhotos = popular_photos
-      .slice(shift)
-      .concat(popular_photos.slice(0, shift));
-    var makePanel = function(row) {
-      var $panel = $("#popular-photo-template")
-        .clone()
-        .removeAttr("id");
-      $panel.find("a").attr("href", "#" + row.id);
-      $panel
-        .find("img")
-        .attr("border", "0") // For IE8
-        .attr("data-src", expandedImageUrl(row.id))
-        .attr("height", row.height);
-      $panel.find(".desc").text(row.desc);
-      //$panel.find(".loc").text(row.loc);
-      //if (row.date) $panel.find(".date").text(" (" + row.date + ")");
-      return $panel.get(0);
-    };
+  var shownPhotos = popular_photos.slice(shift).concat(popular_photos.slice(0, shift));
 
-    var popularPhotos = $.map(shownPhotos, makePanel);
-    $("#popular").append($(popularPhotos).show());
-    $(popularPhotos).appear({ force_process: true });
-    $("#popular").on("appear", ".popular-photo", function() {
-      var $img = $(this).find("img[data-src]");
-      loadDeferredImage($img.get(0));
-    });
+  var makePanel = function(row) {
+    var $panel = $('#popular-photo-template').clone().removeAttr('id');
+    $panel.find('a').attr('href', '#' + row.id);
+    $panel.find('img')
+        .attr('border', '0')  // For IE8
+        .attr('data-src', expandedImageUrl(row.id))
+        .attr('height', row.height);
+    $panel.find('.desc').text(row.desc);
+    $panel.find('.loc').text(row.loc);
+    if (row.date) $panel.find('.date').text(' (' + row.date + ')');
+    return $panel.get(0);
+  };
+
+  var popularPhotos = $.map(shownPhotos, makePanel);
+  $('#popular').append($(popularPhotos).show());
+  $(popularPhotos).appear({force_process:true});
+  $('#popular').on('appear', '.popular-photo', function() {
+    var $img = $(this).find('img[data-src]');
+    loadDeferredImage($img.get(0));
   });
 }
 
 function loadDeferredImage(img) {
   var $img = $(img);
-  if ($img.attr("src")) return;
+  if ($img.attr('src')) return;
   $(img)
-    .attr("src", $(img).attr("data-src"))
-    .removeAttr("data-src");
+    .attr('src', $(img).attr('data-src'))
+    .removeAttr('data-src');
 }
 
 function hidePopular() {
-  $("#popular").hide();
-  $(".popular-link").show();
+  $('#popular').hide();
+  $('.popular-link').show();
 }
 function showPopular() {
-  $("#popular").show();
-  $(".popular-link").hide();
-  $("#popular").appear({ force_process: true });
+  $('#popular').show();
+  $('.popular-link').hide();
+  $('#popular').appear({force_process: true});
 }
 
 export function showAbout() {
   hideExpanded();
-  $("#about-page").show();
+  $('#about-page').show();
   // Hack! There's probably a way to do this with CSS
-  var $container = $("#about-page .container");
+  var $container = $('#about-page .container');
   var w = $container.width();
-  var mw = parseInt($container.css("max-width"), 0);
+  var mw = parseInt($container.css('max-width'), 0);
   if (w < mw) {
-    $container.css("margin-left", "-" + w / 2 + "px");
+    $container.css('margin-left', '-' + (w / 2) + 'px');
   }
 }
 export function hideAbout() {
-  $("#about-page").hide();
+  $('#about-page').hide();
 }
 
 // See http://stackoverflow.com/a/30112044/388951
 $.fn.scrollGuard = function() {
-  return this.on("mousewheel", function() {
+  return this.on('mousewheel', function() {
     var scrollHeight = this.scrollHeight,
-      height = $(this).height();
-    var blockScrolling =
-      (this.scrollTop === scrollHeight - height && event.deltaY < 0) ||
-      (this.scrollTop === 0 && event.deltaY > 0);
+        height = $(this).height();
+    var blockScrolling = this.scrollTop === scrollHeight - height && event.deltaY < 0 || this.scrollTop === 0 && event.deltaY > 0;
     return !blockScrolling;
   });
 };
 
 $(function() {
   // Clicks on the background or "exit" button should leave the slideshow.
-  $(document).on("click", "#expanded .curtains, #expanded .exit", function() {
+  $(document).on('click', '#expanded .curtains, #expanded .exit', function() {
     hideExpanded();
-    $(window).trigger("hideGrid");
+    $(window).trigger('hideGrid');
   });
-  $("#grid-container, #expanded .header").on("click", function(e) {
-    if (e.target == this || $(e.target).is(".og-grid")) {
+  $('#grid-container, #expanded .header').on('click', function(e) {
+    if (e.target == this || $(e.target).is('.og-grid')) {
       hideExpanded();
-      $(window).trigger("hideGrid");
+      $(window).trigger('hideGrid');
     }
   });
 
   // Fill in the expanded preview pane.
-  $("#grid-container")
-    .on("og-fill", "li", function(e, div) {
-      var id = $(this).data("image-id");
-      $(div)
-        .empty()
-        .append(
-          $("#image-details-template")
-            .clone()
-            .removeAttr("id")
-            .show()
-        );
-      $(div)
-        .parent()
-        .find(".og-details-left")
-        .empty()
-        .append(
-          $("#image-details-left-template")
-            .clone()
-            .removeAttr("id")
-            .show()
-        );
-      fillPhotoPane(id, $(div));
+  $('#grid-container').on('og-fill', 'li', function(e, div) {
+    var id = $(this).data('image-id');
+    $(div).empty().append(
+        $('#image-details-template').clone().removeAttr('id').show());
+    $(div).parent().find('.og-details-left').empty().append(
+        $('#image-details-left-template').clone().removeAttr('id').show());
+    fillPhotoPane(id, $(div));
 
-      var g = $("#expanded").data("grid-key");
-      if (g == "pop") {
-        updateStaticMapsUrl(id);
-      }
-    })
-    .on("click", ".og-fullimg > img", function() {
-      var photo_id = $("#grid-container").expandableGrid("selectedId");
-      window.open(libraryUrlForPhotoId(photo_id), "_blank");
-    });
-
-  $("#grid-container")
-    .on("click", ".rotate-image-button", function(e) {
-      e.preventDefault();
-      var $img = $(this)
-        .closest("li")
-        .find(".og-fullimg > img");
-      var currentRotation = $img.data("rotate") || 0;
-      currentRotation += 90;
-      $img
-        .css("transform", "rotate(" + currentRotation + "deg)")
-        .data("rotate", currentRotation);
-
-      var photo_id = $("#grid-container").expandableGrid("selectedId");
-      ga("send", "event", "link", "rotate", {
-        page: "/#" + photo_id + "(" + currentRotation + ")"
-      });
-    })
-    .on("click", ".feedback-button", function(e) {
-      e.preventDefault();
-      $("#grid-container .details").fadeOut();
-      $("#grid-container .feedback").fadeIn();
-    })
-    .on("click", "a.back", function(e) {
-      e.preventDefault();
-      $("#grid-container .feedback").fadeOut();
-      $("#grid-container .details").fadeIn();
-    });
-  $(document).on("keyup", "input, textarea", function(e) {
-    e.stopPropagation();
+    var g = $('#expanded').data('grid-key');
+    if (g == 'pop') {
+      updateStaticMapsUrl(id);
+    }
+  })
+  .on('click', '.og-fullimg > img', function() {
+    var photo_id = $('#grid-container').expandableGrid('selectedId');
+    window.open(libraryUrlForPhotoId(photo_id), '_blank');
   });
 
-  $(".popular-photo").on("click", "a", function(e) {
+  $('#grid-container').on('click', '.rotate-image-button', function(e) {
+    e.preventDefault();
+    var $img = $(this).closest('li').find('.og-fullimg > img');
+    var currentRotation = $img.data('rotate') || 0;
+    currentRotation += 90;
+    $img
+      .css('transform', 'rotate(' + currentRotation + 'deg)')
+      .data('rotate', currentRotation);
+
+    var photo_id = $('#grid-container').expandableGrid('selectedId');
+    ga('send', 'event', 'link', 'rotate', {
+      'page': '/#' + photo_id + '(' + currentRotation + ')'
+    });
+    sendFeedback(photo_id, 'rotate', {
+      'rotate': currentRotation,
+      'original': infoForPhotoId(photo_id).rotation || null
+    });
+  }).on('click', '.feedback-button', function(e) {
+    e.preventDefault();
+    $('#grid-container .details').fadeOut();
+    $('#grid-container .feedback').fadeIn();
+  }).on('click', 'a.back', function(e) {
+    e.preventDefault();
+    $('#grid-container .feedback').fadeOut();
+    $('#grid-container .details').fadeIn();
+  });
+  $(document).on('keyup', 'input, textarea', function(e) { e.stopPropagation(); });
+
+  $('.popular-photo').on('click', 'a', function(e) {
     e.preventDefault();
     var selectedPhotoId = photoIdFromATag(this);
 
-    loadInfoForLatLon("pop")
-      .done(function(photoIds) {
-        showExpanded("pop", photoIds, selectedPhotoId);
-        $(window).trigger("showGrid", "pop");
-        $(window).trigger("openPreviewPanel");
-        $(window).trigger("showPhotoPreview", selectedPhotoId);
-      })
-      .fail(function() {});
+    loadInfoForLatLon('pop').done(function(photoIds) {
+      showExpanded('pop', photoIds, selectedPhotoId);
+      $(window).trigger('showGrid', 'pop');
+      $(window).trigger('openPreviewPanel');
+      $(window).trigger('showPhotoPreview', selectedPhotoId);
+    }).fail(function() {
+    });
   });
 
   // ... it's annoying that we have to do this. jquery.appear.js should work!
-  $("#popular").on("scroll", function() {
-    $(this).appear({ force_process: true });
+  $('#popular').on('scroll', function() {
+    $(this).appear({force_process: true});
   });
 
   // Show/hide popular images
-  $("#popular .close").on("click", function() {
+  $('#popular .close').on('click', function() {
+    setCookie('nopop', '1');
     hidePopular();
   });
-  $(".popular-link a").on("click", function(e) {
+  $('.popular-link a').on('click', function(e) {
     showPopular();
+    deleteCookie('nopop');
     e.preventDefault();
   });
-  if (document.cookie.indexOf("nopop=") >= 0) {
+  if (document.cookie.indexOf('nopop=') >= 0) {
     hidePopular();
   }
 
   // Display the about page on top of the map.
-  $("#about a").on("click", function(e) {
+  $('#about a').on('click', function(e) {
     e.preventDefault();
     showAbout();
   });
-  $("#about-page .curtains, #about-page .exit").on("click", hideAbout);
+  $('#about-page .curtains, #about-page .exit').on('click', hideAbout);
 
-  $("#grid-container")
-    .on("og-select", "li", function() {
-      var photo_id = $(this).data("image-id");
-      $(window).trigger("showPhotoPreview", photo_id);
-    })
-    .on("og-deselect", function() {
-      $(window).trigger("closePreviewPanel");
-    })
-    .on("og-openpreview", function() {
-      $(window).trigger("openPreviewPanel");
-    });
+  // Record feedback on images. Can have a parameter or not.
+  var thanks = function(button) {
+    return function() { $(button).text('Thanks!'); };
+  };
+  $('#grid-container').on('click', '.feedback button[feedback]', function() {
+    var $button = $(this);
+    var value = true;
+    if ($button.attr('feedback-param')) {
+      var $input = $button.siblings('input, textarea');
+      value = $input.val();
+      if (value == '') return;
+      $input.prop('disabled', true);
+    }
+    $button.prop('disabled', true);
+    var photo_id = $('#grid-container').expandableGrid('selectedId');
+    var type = $button.attr('feedback');
+    var obj = {}; obj[type] = value;
+    sendFeedback(photo_id, type, obj).then(thanks($button.get(0)));
+  });
 
-  $("#time-slider").slider({
+  $('#grid-container').on('og-select', 'li', function() {
+    var photo_id = $(this).data('image-id')
+    $(window).trigger('showPhotoPreview', photo_id);
+  }).on('og-deselect', function() {
+    $(window).trigger('closePreviewPanel');
+  }).on('og-openpreview', function() {
+    $(window).trigger('openPreviewPanel');
+  });
+
+  $('#time-slider').slider({
     range: true,
     min: 1800,
     max: 2000,
@@ -637,23 +590,23 @@ $(function() {
     },
     stop: (event, ui) => {
       const [a, b] = ui.values;
-      ga("send", "event", "link", "time-slider", {
-        page: `/#${a}–${b}`
+      ga('send', 'event', 'link', 'time-slider', {
+        'page': `/#${a}–${b}`
       });
     }
   });
 
-  $("#time-range-summary").on("click", () => {
-    $("#time-range").toggle();
+  $('#time-range-summary').on('click', () => {
+    $('#time-range').toggle();
   });
 
-  $("#slideshow-all").on("click", () => {
+  $('#slideshow-all').on('click', () => {
     updateYears(1800, 2000);
-    $("#time-slider").slider({
+    $('#time-slider').slider({
       values: year_range
     });
-    const lat_lon = $("#expanded").data("grid-key");
-    ga("send", "event", "link", "time-slider-clear");
+    const lat_lon = $('#expanded').data('grid-key');
+    ga('send', 'event', 'link', 'time-slider-clear');
     hideExpanded();
     displayInfoForLatLon(lat_lon);
   });
