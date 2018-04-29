@@ -1,0 +1,46 @@
+version: '3'
+
+services:      
+  
+  db:
+    container_name: ${CONTAINER_DB_NAME}
+    image: ${DB_IMAGE}:${DB_VERSION}
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    env_file:
+      - .env
+  
+  db_manager:
+    container_name: ${CONTAINER_DBMGR_NAME}
+    image: ${DBMGR_IMAGE}:${DBMGR_VERSION}
+    restart: always
+    ports:
+      - "5050:5050"
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+  app:
+    container_name: ${CONTAINER_APP_NAME}
+    image: ${APP_IMAGE}:${APP_VERSION}
+    env_file:
+      - .env
+    environment: 
+      DB_HOST: db
+    volumes:
+      - ${PROJECT_DIR}/:/home/
+    working_dir: /home
+    ports:
+      - "8888:8888"
+      - "6006:6006"
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+    external:
+      name: ${VOLUME_DB_NAME}
