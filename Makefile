@@ -1,51 +1,84 @@
-MAKEFLAGS += --warn-undefined-variables
-SHELL := bash
-.SHELLFLAGS := -eu -o pipefail -c
-.DEFAULT_GOAL := all
-.DELETE_ON_ERROR:
-.SUFFIXES:
+#######################################################################
+# HIGH-LEVEL COMMANDS
+#######################################################################
 
-PROJECT_DIR = $(shell echo $(CURDIR) | sed 's|^/[^/]*||')
+.PHONY: deploy
 
-CONFIG ?= ./back-end/src/config/config.env
-include $(CONFIG)
-export $(shell sed 's/=.*//' $(CONFIG))
+deploy: export generate serve
 
-APP_NAME = "$(REPO_NAME)/$(PROJECT_NAME)"
+#######################################################################
+# FRONT-END COMMANDS
+#######################################################################
 
-.DEFAULT_GOAL := start
+FRONT_END_DIR = front-end/
+FRONT_END_NPM = npm --prefix $(FRONT_END_DIR) 
 
-.PHONY: build
-build: prebuild; docker build -t $(PROJECT_NAME) -f $(DOCKERFILE_PATH) $(BUILD_CONTEXT)
+.PHONY: serve build_front install_npm
 
-.PHONY: jupyter
-jupyter:
-	sleep 3
-	-explorer.exe "http://localhost:8888/tree"
+serve:
+	$(FRONT_END_NPM) run start
 
-.PHONY: prebuild
-prebuild:
-	npm list -g dockerignore --depth=0 || npm install -g dockerignore
-	dockerignore -g="$(GITIGNORE_PATH)" -D="$(DOCKERIGNORE_PATH)"
+build_front:
+	$(FRONT_END_NPM) run build
 
-.PHONY: restart
-restart: stop start
+install_npm:
+	$(FRONT_END_NPM) install
 
-.PHONY: run
-run: 
-	docker run -td --rm --name="$(PROJECT_NAME)" \
-		-p 8888:8888 -p 6006:6006 \
-		-v $(PROJECT_DIR):/home/app/ \
-		$(PROJECT_NAME)
+#######################################################################
+# BACK-END COMMANDS
+#######################################################################
 
-.PHONY: shell
-shell:
-	docker exec -it $(PROJECT_NAME) /bin/bash
+BACK_END_MAKE_DIR = back-end/
+BACK_END_MAKE = $(MAKE) -C $(BACK_END_MAKE_DIR) 
 
-.PHONY: start
-start: build run shell
+.PHONY: build_back load parse export generate
 
-.PHONY: stop
+build_back:
+	$(BACK_END_MAKE) build
+
+load:
+	$(BACK_END_MAKE) load
+
+parse:
+	$(BACK_END_MAKE) parse
+
+export:
+	$(BACK_END_MAKE) export
+
+generate:
+	$(BACK_END_MAKE) generate
+
+#######################################################################
+# THICKSHAKE COMMANDS
+#######################################################################
+
+THICKSHAKE_MAKE_DIR = back-end/deploy/
+THICKSHAKE_MAKE = $(MAKE) -C $(THICKSHAKE_MAKE_DIR) 
+
+.PHONY: start stop restart up freeze notebook dashboard shell
+
+start:
+	$(THICKSHAKE_MAKE) start
+
 stop:
-	-docker exec -it $(PROJECT_NAME) /bin/bash -c "pip3 freeze > $(REQUIREMENTS_PATH)"
-	-docker stop $(PROJECT_NAME)
+	$(THICKSHAKE_MAKE) stop
+
+restart:
+	$(THICKSHAKE_MAKE) restart
+
+up:
+	$(THICKSHAKE_MAKE) up
+
+freeze:
+	$(THICKSHAKE_MAKE) freeze
+
+notebook:
+	$(THICKSHAKE_MAKE) notebook
+
+dashboard:
+	$(THICKSHAKE_MAKE) dashboard
+
+shell:
+	$(THICKSHAKE_MAKE) shell
+
+#######################################################################
