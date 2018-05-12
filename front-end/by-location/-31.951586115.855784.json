@@ -1,30 +1,44 @@
 {
-  "311900PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_17.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_17.jpg",
-    "date": "1982-03-26",
-    "height": 508.0,
+  "312922PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-01-26",
+    "width": 503.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_21.png",
+    "title": "Hair International Buildings and the Prince's Hotel, 340-334 Murray Street, Perth, January 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_21.jpg"
+  },
+  "311900PD": {
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Duke of Bedford Hotel, 334 Murray Street, Perth, March 1982. Demolished during 1982 and replaced with the Prince's Hotel"
+    "date": "1982-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_17.png",
+    "title": "The Duke of Bedford Hotel, 334 Murray Street, Perth, March 1982. Demolished during 1982 and replaced with the Prince's Hotel",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_17.jpg"
   },
   "314997PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_27.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_27.jpg",
-    "date": "1987-02-26",
-    "height": 503.0,
-    "text": null,
     "years": [
       1987.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Prince's Hotel, 334 Murray Street, Perth, February 1987"
+    "date": "1987-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_27.png",
+    "title": "The Prince's Hotel, 334 Murray Street, Perth, February 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800014_27.jpg"
   }
 }

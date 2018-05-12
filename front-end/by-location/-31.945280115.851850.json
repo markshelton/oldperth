@@ -1,30 +1,72 @@
 {
-  "312934PD": {
+  "312393PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-01-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_17.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_17.jpg",
-    "date": "1984-01-26",
+    "folder": null,
     "height": 503.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_23.png",
+    "title": "The Roma Social Club, 155 James Street, Northbridge, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_23.jpg"
+  },
+  "312934PD": {
     "years": [
       1984.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Century Motors (166-168) and the State Film Centre & State Film Archives and Shapiro's NIght Club (no.160), James Street, Northbridge, January 1984"
+    "date": "1984-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_17.png",
+    "title": "Century Motors (166-168) and the State Film Centre & State Film Archives and Shapiro's NIght Club (no.160), James Street, Northbridge, January 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_17.jpg"
   },
   "315709PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_35.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_35.jpg",
-    "date": "1990-02-26",
-    "height": 499.0,
-    "text": null,
     "years": [
       1990.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Economic Pest Control (no.106) and new R&I Bank building, James Street, Northbridge, February 1990"
+    "date": "1990-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 499.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_35.png",
+    "title": "Economic Pest Control (no.106) and new R&I Bank building, James Street, Northbridge, February 1990",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_35.jpg"
+  },
+  "311844PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_13.png",
+    "title": "Canterbury Court Car Park, 35 James Street, Northbridge, February 1984. Demolished June 1991",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_13.jpg"
+  },
+  "315723PD": {
+    "years": [
+      1990.0
+    ],
+    "original_title": "",
+    "date": "1990-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_39.png",
+    "title": "International Food Hall, corner James and Lake Streets, Northbridge, February 1990",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_39.jpg"
   }
 }

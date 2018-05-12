@@ -1,16 +1,16 @@
 {
   "BA1530/5934": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3973030_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3973030_1.jpg",
-    "date": "1995-04-26",
-    "height": 518.0,
-    "text": null,
     "years": [
       1995.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "West End Executive Apartments, 451 Murray Street, Perth, April 1995."
+    "date": "1995-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 518.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3973030_1.png",
+    "title": "West End Executive Apartments, 451 Murray Street, Perth, April 1995.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3973030_1.jpg"
   }
 }

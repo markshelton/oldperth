@@ -1,16 +1,16 @@
 {
   "312133PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_13.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_13.jpg",
-    "date": "1983-08-26",
-    "height": 508.0,
-    "text": null,
     "years": [
       1983.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Chellingworth Motors Mercedes-Benz showrooms, 138 Mounts Bay Rd, Perth, August 1983"
+    "date": "1983-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_13.png",
+    "title": "Chellingworth Motors Mercedes-Benz showrooms, 138 Mounts Bay Rd, Perth, August 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_13.jpg"
   }
 }

@@ -1,86 +1,128 @@
 {
   "311271PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-02-26",
     "width": 504.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
     "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_4.jpg",
-    "date": "1982-02-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Salvation Army Headquarters, Pier Street, Perth, February 1982"
+    "title": "Salvation Army Headquarters, Pier Street, Perth, February 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_4.jpg"
   },
-  "311268PD": {
-    "width": 504.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_2.jpg",
-    "date": "1982-02-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Salvation Army Headquarters, Pier Street, Perth, February 1982. Looking down Pier Street from Murray Street to Hay Street"
-  },
-  "314927PD": {
-    "width": 511.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_22.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_22.jpg",
-    "date": "1987-03-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Playhouse Theatre and NZ Securities House, Pier Street Perth from St George's Tce to Hay St, March 1987"
-  },
-  "315000PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_23.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_23.jpg",
-    "date": "1987-02-26",
-    "height": 503.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Woods Building (centre), Pier Street, Perth, February 1987"
-  },
-  "312421PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_18.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_18.jpg",
-    "date": "1983-01-26",
-    "height": 433.0,
-    "text": null,
+  "312414PD": {
     "years": [
       1983.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Salvation Army Mens Home (no.106 corner of Wellington Street) and the Red Shield Shop (no.104), Pier Street, Perth, January 1983"
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 501.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_12.png",
+    "title": "The Deanery, 1 Pier Street, Perth, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_12.jpg"
   },
-  "327730PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104476_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104476_1.jpg",
-    "date": "1975-07-04",
+  "314927PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-03-26",
+    "width": 511.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_22.png",
+    "title": "The Playhouse Theatre and NZ Securities House, Pier Street Perth from St George's Tce to Hay St, March 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_22.jpg"
+  },
+  "312422PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_19.png",
+    "title": "Miss Maud Hotel and Swedish Restaurant, Pier Street facade, Perth, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_19.jpg"
+  },
+  "327730PD": {
     "years": [
       1975.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "A crowd in the foyer of the Playhouse Theatre, Pier Street, Perth, 4 July 1975"
+    "date": "1975-07-04",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104476_1.png",
+    "title": "A crowd in the foyer of the Playhouse Theatre, Pier Street, Perth, 4 July 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104476_1.jpg"
+  },
+  "315000PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_23.png",
+    "title": "The Woods Building (centre), Pier Street, Perth, February 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_23.jpg"
+  },
+  "021290PD": {
+    "years": [
+      1925.0
+    ],
+    "original_title": "",
+    "date": "1925-01-01",
+    "width": 490.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2958214_001.png",
+    "title": "Max Wilson's Turkish Baths, 11 Pier Street, Perth, ca. 1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2958214_001.jpg"
+  },
+  "312421PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 433.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_18.png",
+    "title": "The Salvation Army Mens Home (no.106 corner of Wellington Street) and the Red Shield Shop (no.104), Pier Street, Perth, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_18.jpg"
+  },
+  "311268PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-02-26",
+    "width": 504.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_2.png",
+    "title": "Salvation Army Headquarters, Pier Street, Perth, February 1982. Looking down Pier Street from Murray Street to Hay Street",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_2.jpg"
   }
 }

@@ -1,44 +1,58 @@
 {
-  "140909PD": {
-    "width": 527.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_1.jpg",
-    "date": null,
-    "height": 760.0,
-    "text": null,
+  "140910PD": {
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Wesfarmers offices, 569 Wellington Street, Perth, ca.1977"
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 525.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_2.png",
+    "title": "Wesfarmers offices, 569 Wellington Street, Perth, ca.1977",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_2.jpg"
   },
-  "113725PD": {
-    "width": 604.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3598039_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3598039_1.jpg",
-    "date": "1954-08-25",
+  "BA533/80": {
+    "years": [
+      1925.0
+    ],
+    "original_title": "",
+    "date": "1925-01-01",
+    "width": 591.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1927159_2.png",
+    "title": "The Westralian Farmers Ltd building, 569-571 Wellington St., Perth, ca.1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1927159_2.jpg"
+  },
+  "140909PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 527.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_1.png",
+    "title": "Wesfarmers offices, 569 Wellington Street, Perth, ca.1977",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_1.jpg"
+  },
+  "113725PD": {
     "years": [
       1954.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Wesfarmers offices, 569 Wellington Street, Perth, 25 August 1954"
-  },
-  "140910PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635991_2.jpg",
-    "date": null,
-    "height": 525.0,
+    "date": "1954-08-25",
+    "width": 604.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Wesfarmers offices, 569 Wellington Street, Perth, ca.1977"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3598039_1.png",
+    "title": "Wesfarmers offices, 569 Wellington Street, Perth, 25 August 1954",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3598039_1.jpg"
   }
 }

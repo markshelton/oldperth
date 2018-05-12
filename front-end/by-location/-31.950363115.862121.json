@@ -1,184 +1,198 @@
 {
-  "231236PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_1.jpg",
-    "date": "1979-01-01",
-    "height": 536.0,
-    "text": null,
-    "years": [
-      1979.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Western Australian State Library, James Street, Perth, 1979"
-  },
-  "311160PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_1.jpg",
-    "date": "1981-09-26",
-    "height": 500.0,
-    "text": null,
-    "years": [
-      1981.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Western Australian Museum, James Street, Perth, September 1981"
-  },
-  "313625PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_33.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_33.jpg",
-    "date": "1984-08-26",
-    "height": 510.0,
-    "text": null,
-    "years": [
-      1984.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Entrance to the Perth Technical School (formerly Perth Boys School), James Street, Perth, August 1984"
-  },
-  "314390PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_34.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_34.jpg",
-    "date": "1986-03-26",
-    "height": 509.0,
-    "text": null,
+  "316550PD": {
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, March 1986"
-  },
-  "316553PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_44.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_44.jpg",
     "date": "1986-02-26",
+    "width": 760.0,
+    "folder": null,
     "height": 503.0,
     "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Plaque for the erection of Perth Girls School, James Street, Perth, February 1986"
-  },
-  "231237PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_2.jpg",
-    "date": "1979-01-01",
-    "height": 536.0,
-    "text": null,
-    "years": [
-      1979.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Hacktt Hall housing the Western Australian State Library, James Street, Perth, 1979"
-  },
-  "311288PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_2.jpg",
-    "date": "1982-01-26",
-    "height": 504.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Oyster Bar Seafood Restaurant (no.88) and the Commonwealth Bank Northbridge Branch (no. 86), James Street, Perth, January 1982"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_42.png",
+    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, February 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_42.jpg"
   },
   "316536PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-02-26",
     "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
     "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_40.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_40.jpg",
-    "date": "1986-02-26",
-    "height": 503.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The eastern end of the Perth Cultural Centre mall, James Street, Perth, February 1986"
+    "title": "The eastern end of the Perth Cultural Centre mall, James Street, Perth, February 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_40.jpg"
   },
-  "311206PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_4.jpg",
-    "date": "1981-05-26",
-    "height": 508.0,
-    "text": null,
+  "231237PD": {
     "years": [
-      1981.0
+      1979.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, May 1981"
+    "date": "1979-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 536.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_2.png",
+    "title": "Hacktt Hall housing the Western Australian State Library, James Street, Perth, 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_2.jpg"
   },
-  "316550PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_42.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_42.jpg",
-    "date": "1986-02-26",
-    "height": 503.0,
-    "text": null,
+  "231236PD": {
     "years": [
-      1986.0
+      1979.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, February 1986"
-  },
-  "311340PD": {
+    "date": "1979-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_12.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_12.jpg",
-    "date": "1981-05-26",
-    "height": 508.0,
-    "text": null,
-    "years": [
-      1981.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, May 1981"
+    "height": 536.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_1.png",
+    "title": "Western Australian State Library, James Street, Perth, 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3030997_1.jpg"
   },
   "315345PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_36.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_36.jpg",
-    "date": "1989-09-26",
-    "height": 503.0,
-    "text": null,
     "years": [
       1989.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Behind the Perth Institute of Contemporary Art, James Street, Perth, September 1989"
-  },
-  "314391PD": {
+    "date": "1989-09-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_35.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_35.jpg",
-    "date": "1986-03-26",
-    "height": 509.0,
+    "folder": null,
+    "height": 503.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_36.png",
+    "title": "Behind the Perth Institute of Contemporary Art, James Street, Perth, September 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_36.jpg"
+  },
+  "311160PD": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-09-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_1.png",
+    "title": "The Western Australian Museum, James Street, Perth, September 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_1.jpg"
+  },
+  "313625PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_33.png",
+    "title": "Entrance to the Perth Technical School (formerly Perth Boys School), James Street, Perth, August 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_33.jpg"
+  },
+  "311288PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_2.png",
+    "title": "The Oyster Bar Seafood Restaurant (no.88) and the Commonwealth Bank Northbridge Branch (no. 86), James Street, Perth, January 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800003_2.jpg"
+  },
+  "314390PD": {
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, March 1986"
+    "date": "1986-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 509.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_34.png",
+    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, March 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_34.jpg"
+  },
+  "314391PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 509.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_35.png",
+    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, March 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_35.jpg"
+  },
+  "311340PD": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_12.png",
+    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, May 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_12.jpg"
+  },
+  "347016PD": {
+    "years": [
+      1970.0
+    ],
+    "original_title": "",
+    "date": "1970-02-26",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3057303_1.png",
+    "title": "Perth Technical College, James Street, formerly Perth Boys School building, February 1970",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3057303_1.jpg"
+  },
+  "311206PD": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_4.png",
+    "title": "Perth Technical School (formerly Perth Boys School), James Street, Perth, May 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_4.jpg"
+  },
+  "316553PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_44.png",
+    "title": "Plaque for the erection of Perth Girls School, James Street, Perth, February 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_44.jpg"
   }
 }

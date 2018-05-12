@@ -1,44 +1,44 @@
 {
-  "313561PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_2.jpg",
-    "date": "1985-11-26",
-    "height": 504.0,
-    "text": null,
-    "years": [
-      1985.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Meerilinga, 1186 Hay Street, West Perth, November 1985"
-  },
   "311604PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_1.jpg",
-    "date": "1982-07-26",
-    "height": 500.0,
-    "text": null,
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Meerilinga, 1186 Hay Street, West Perth, July 1982"
+    "date": "1982-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_1.png",
+    "title": "Meerilinga, 1186 Hay Street, West Perth, July 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_1.jpg"
   },
   "314974PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_3.jpg",
-    "date": "1987-02-26",
-    "height": 506.0,
-    "text": null,
     "years": [
       1987.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Meerilinga, 1186 Hay Street, West Perth, February 1987"
+    "date": "1987-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_3.png",
+    "title": "Meerilinga, 1186 Hay Street, West Perth, February 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_3.jpg"
+  },
+  "313561PD": {
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
+    "date": "1985-11-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_2.png",
+    "title": "Meerilinga, 1186 Hay Street, West Perth, November 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799992_2.jpg"
   }
 }

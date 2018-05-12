@@ -1,30 +1,100 @@
 {
   "315782PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_37.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_37.jpg",
-    "date": "1988-02-26",
-    "height": 502.0,
-    "text": null,
     "years": [
       1988.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Rear Building Society House, 297 Murray Street, Perth, February 1988. Taken from Wellington Street"
-  },
-  "BA1271/217": {
-    "width": 583.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2102899_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2102899_2.jpg",
-    "date": null,
-    "height": 760.0,
+    "date": "1988-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 502.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_37.png",
+    "title": "Rear Building Society House, 297 Murray Street, Perth, February 1988. Taken from Wellington Street",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800012_37.jpg"
+  },
+  "115690PD": {
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Methodist Mission and Central Hall, 289 Murray Street, Perth, 1916"
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 602.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3708078_1.png",
+    "title": "Drug Houses of Australia Ltd, wholesale chemists, 297 Murray Street, Perth, 1962",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3708078_1.jpg"
+  },
+  "101409PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-02-20",
+    "width": 760.0,
+    "folder": null,
+    "height": 580.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473557_2.png",
+    "title": "Felton Grimwade & Bickford Ltd Surgical and Dental Department, 297-303 Murray Street, Perth, 20 February 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473557_2.jpg"
+  },
+  "101408PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-02-20",
+    "width": 760.0,
+    "folder": null,
+    "height": 579.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473557_1.png",
+    "title": "Felton Grimwade & Bickford Ltd Surgical and Dental Department, 297-303 Murray Street, Perth, 20 February 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473557_1.jpg"
+  },
+  "BA1271/217": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 583.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2102899_2.png",
+    "title": "Methodist Mission and Central Hall, 289 Murray Street, Perth, 1916",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2102899_2.jpg"
+  },
+  "344372PD": {
+    "years": [
+      1970.0
+    ],
+    "original_title": "",
+    "date": "1970-04-26",
+    "width": 757.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3048500_1.png",
+    "title": "Building Society House, 297-305 Murray Street, Perth, April 1970",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3048500_1.jpg"
+  },
+  "311778PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-06-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_17.png",
+    "title": "Part of Queen's Buildings, 99-107 William Street, Perth, June 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_17.jpg"
   }
 }

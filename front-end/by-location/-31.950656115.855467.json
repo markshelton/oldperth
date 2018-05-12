@@ -1,16 +1,16 @@
 {
   "311564PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_9.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_9.jpg",
-    "date": "1982-07-26",
-    "height": 503.0,
-    "text": null,
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Gordonson Cycles, 587 Wellington Street, Perth, July 1982"
+    "date": "1982-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_9.png",
+    "title": "Gordonson Cycles, 587 Wellington Street, Perth, July 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_9.jpg"
   }
 }

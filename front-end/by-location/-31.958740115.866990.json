@@ -1,44 +1,72 @@
 {
-  "343269PD": {
-    "width": 604.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3159375_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3159375_1.jpg",
-    "date": "1982-12-13",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Eastpoint Plaza, 233 Adelaide Terrace, Perth, 13 December 1982"
-  },
   "323567PD": {
-    "width": 642.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165715_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165715_1.jpg",
-    "date": "1985-06-28",
-    "height": 760.0,
-    "text": null,
     "years": [
       1985.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Eastpoint Plaza, 233 Adelaide Terrace, Perth, 28 June 1985"
-  },
-  "325651PD": {
-    "width": 594.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165613_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165613_1.jpg",
-    "date": "1984-10-09",
+    "date": "1985-06-28",
+    "width": 642.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165715_1.png",
+    "title": "Eastpoint Plaza, 233 Adelaide Terrace, Perth, 28 June 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165715_1.jpg"
+  },
+  "343269PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-12-13",
+    "width": 604.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3159375_1.png",
+    "title": "Eastpoint Plaza, 233 Adelaide Terrace, Perth, 13 December 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3159375_1.jpg"
+  },
+  "325651PD": {
     "years": [
       1984.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Eastpoint Plaza, 233 Adelaide Terrace, Perth, 9 October 1984"
+    "date": "1984-10-09",
+    "width": 594.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165613_1.png",
+    "title": "Eastpoint Plaza, 233 Adelaide Terrace, Perth, 9 October 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165613_1.jpg"
+  },
+  "312040PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-11-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799966_7.png",
+    "title": "Eastpoint Plaza, 233 Adelaide Tce, Perth, November 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799966_7.jpg"
+  },
+  "312325PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-03-26",
+    "width": 505.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799966_9.png",
+    "title": "Eastpoint Plaza, 233 Adelaide Tce, Perth, March 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799966_9.jpg"
   }
 }

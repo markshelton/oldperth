@@ -1,58 +1,72 @@
 {
-  "311766PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_6.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_6.jpg",
-    "date": "1982-03-26",
-    "height": 507.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Gateway Inn, 10 Irwin Street, Perth, March 1982"
-  },
   "312496PD": {
-    "width": 505.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_10.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_10.jpg",
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
     "date": "1985-01-26",
+    "width": 505.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
-    "years": [
-      1985.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Gateway Inn, 10 Irwin Street, Perth, January 1985"
-  },
-  "312499PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_11.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_11.jpg",
-    "date": "1985-01-26",
-    "height": 505.0,
-    "text": null,
-    "years": [
-      1985.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Gateway Inn, 10 Irwin Street, Perth, January 1985"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_10.png",
+    "title": "Gateway Inn, 10 Irwin Street, Perth, January 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_10.jpg"
   },
   "324101PD": {
-    "width": 620.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373496_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373496_1.jpg",
-    "date": "1986-06-06",
-    "height": 760.0,
-    "text": null,
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Ansett International Hotel, 10 Irwin Street, Perth, 6 June 1986"
+    "date": "1986-06-06",
+    "width": 620.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373496_1.png",
+    "title": "Ansett International Hotel, 10 Irwin Street, Perth, 6 June 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373496_1.jpg"
+  },
+  "312499PD": {
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
+    "date": "1985-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_11.png",
+    "title": "Gateway Inn, 10 Irwin Street, Perth, January 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_11.jpg"
+  },
+  "348198PD": {
+    "years": [
+      1972.0
+    ],
+    "original_title": "",
+    "date": "1972-01-01",
+    "width": 612.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2438437_1.png",
+    "title": "International House, 26 St George's Terrace, Perth, 1972",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2438437_1.jpg"
+  },
+  "311766PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_6.png",
+    "title": "Gateway Inn, 10 Irwin Street, Perth, March 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800019_6.jpg"
   }
 }

@@ -1,72 +1,72 @@
 {
-  "324013PD": {
-    "width": 639.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_2.jpg",
-    "date": "1986-04-16",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986"
-  },
   "325733PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-04-16",
     "width": 596.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
     "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_4.jpg",
-    "date": "1986-04-16",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986"
+    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_4.jpg"
   },
-  "325734PD": {
-    "width": 574.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_5.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_5.jpg",
-    "date": "1986-04-16",
-    "height": 760.0,
-    "text": null,
+  "324013PD": {
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986"
+    "date": "1986-04-16",
+    "width": 639.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_2.png",
+    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_2.jpg"
   },
   "324014PD": {
-    "width": 639.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_3.jpg",
-    "date": "1986-04-16",
-    "height": 760.0,
-    "text": null,
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986"
+    "date": "1986-04-16",
+    "width": 639.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_3.png",
+    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_3.jpg"
+  },
+  "325734PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-04-16",
+    "width": 574.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_5.png",
+    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_5.jpg"
   },
   "324012PD": {
-    "width": 639.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_1.jpg",
-    "date": "1986-04-16",
-    "height": 760.0,
-    "text": null,
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986"
+    "date": "1986-04-16",
+    "width": 639.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_1.png",
+    "title": "Hair styles modelled for the Associates Hair Salon & Academy, 331 Murray Street, Perth, 16 April 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373468_1.jpg"
   }
 }

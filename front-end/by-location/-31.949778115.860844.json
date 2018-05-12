@@ -1,30 +1,226 @@
 {
-  "328686PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4636565_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4636565_1.jpg",
-    "date": "1978-10-30",
+  "323082PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-06-14",
+    "width": 760.0,
+    "folder": null,
+    "height": 645.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3159513_2.png",
+    "title": "Boxes of Peters pasties leaving Peters Bakery, 92 Roe Street, Perth, 14 June 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3159513_2.jpg"
+  },
+  "319419PD": {
+    "years": [
+      1961.0
+    ],
+    "original_title": "",
+    "date": "1961-01-01",
+    "width": 510.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3430621_1.png",
+    "title": "Peggy Ellis at the directories, State Reference Library, Perth, 1961",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3430621_1.jpg"
+  },
+  "144204PD": {
     "years": [
-      1978.0
+      1967.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Western Australian Museum, Roe Street, Perth under construction, 30 October 1978"
+    "date": "1967-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 538.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894809_3.png",
+    "title": "Western Australian Museum and Art Gallery, and State Reference Library, Perth, 1967.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894809_3.jpg"
   },
   "311045PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_2.jpg",
-    "date": "1980-12-26",
-    "height": 506.0,
-    "text": null,
     "years": [
       1980.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Art Gallery Car Park, Roe Street, Perth, December 1980"
+    "date": "1980-12-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_2.png",
+    "title": "Art Gallery Car Park, Roe Street, Perth, December 1980",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_2.jpg"
+  },
+  "319570PD": {
+    "years": [
+      1956.0
+    ],
+    "original_title": "",
+    "date": "1956-09-11",
+    "width": 717.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3430603_1.png",
+    "title": "Old Newpaper Room, State Reference Library, Perth, 11 September 1956",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3430603_1.jpg"
+  },
+  "143898PD": {
+    "years": [
+      1968.0
+    ],
+    "original_title": "",
+    "date": "1968-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 541.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762640_1.png",
+    "title": "Choi's Inn Chinese restaurant, 68 Roe Street, Perth, 1988-1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762640_1.jpg"
+  },
+  "144202PD": {
+    "years": [
+      1967.0
+    ],
+    "original_title": "",
+    "date": "1967-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 538.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894809_1.png",
+    "title": "Western Australian Museum and Art Gallery, and State Reference Library, Perth, 1967.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894809_1.jpg"
+  },
+  "319420PD": {
+    "years": [
+      1961.0
+    ],
+    "original_title": "",
+    "date": "1961-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3430622_1.png",
+    "title": "Arthur Ellis answering an enquiry, State Reference Library, Perth, 1961",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3430622_1.jpg"
+  },
+  "313766PD": {
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
+    "date": "1985-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_8.png",
+    "title": "State Library of Western Australia building, 25 Francis Street, Perth, March 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_8.jpg"
+  },
+  "311293PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_4.png",
+    "title": "The Golden Ravioli and Romany Restaurant, 188-192 William Street, Perth, January 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_4.jpg"
+  },
+  "313767PD": {
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
+    "date": "1985-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 499.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_9.png",
+    "title": "State Library of Western Australia building, 25 Francis Street, Perth, March 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_9.jpg"
+  },
+  "144203PD": {
+    "years": [
+      1967.0
+    ],
+    "original_title": "",
+    "date": "1967-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 538.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894809_2.png",
+    "title": "Western Australian Museum and Art Gallery, and State Reference Library, Perth, 1967.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894809_2.jpg"
+  },
+  "014338PD": {
+    "years": [
+      1933.0
+    ],
+    "original_title": "",
+    "date": "1933-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 580.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418184_1.png",
+    "title": "Michelides Ltd, 80-82 Roe Street, Perth, 1933",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418184_1.jpg"
+  },
+  "328686PD": {
+    "years": [
+      1978.0
+    ],
+    "original_title": "",
+    "date": "1978-10-30",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4636565_1.png",
+    "title": "Western Australian Museum, Roe Street, Perth under construction, 30 October 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4636565_1.jpg"
+  },
+  "319572PD": {
+    "years": [
+      1956.0
+    ],
+    "original_title": "",
+    "date": "1956-09-11",
+    "width": 717.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3430603_2.png",
+    "title": "Old Newpaper Room, State Reference Library, Perth, 11 September 1956",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3430603_2.jpg"
+  },
+  "312908PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_22.png",
+    "title": "Perth Technical School, Roe Street side, Perth, January 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_22.jpg"
   }
 }

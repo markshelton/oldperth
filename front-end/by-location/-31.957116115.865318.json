@@ -1,394 +1,562 @@
 {
-  "6923B/103b": {
-    "width": 549.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_2.jpg",
-    "date": "1960-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1960.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Cactus in the back garden of Alpha Cottage, St Georges Terrace, Perth, 1960?"
-  },
-  "6923B/131": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4172609_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4172609_1.jpg",
-    "date": "1861-01-01",
-    "height": 567.0,
-    "text": null,
-    "years": [
-      1861.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "George Shenton's residence and store, St Georges Terrace, Perth, 1861?"
-  },
-  "090684PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4726545_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4726545_1.jpg",
-    "date": "1910-01-01",
-    "height": 575.0,
-    "text": null,
-    "years": [
-      1910.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Christian Brothers College, St Georges Terrace, Perth, ca. 1910."
-  },
-  "BA1271/256": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2105850_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2105850_2.jpg",
-    "date": "1918-01-01",
-    "height": 584.0,
-    "text": null,
-    "years": [
-      1918.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Courtyard of the Soldiers' Institute in Government Gardens, St Georges Terrace, Perth, 1918"
-  },
-  "231949PD": {
-    "width": 537.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_15.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_15.jpg",
-    "date": "1954-04-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1954.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Newspaper House, St Georges Terrace, Perth decorated for the 1954 royal visit"
-  },
-  "6923B/51": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4167656_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4167656_1.jpg",
-    "date": "1860-01-01",
-    "height": 536.0,
-    "text": null,
-    "years": [
-      1860.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Government Offices, St Georges Terrace, Perth, 1860"
-  },
-  "6923B/103a": {
-    "width": 570.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_1.jpg",
-    "date": "1860-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1860.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Datura in the back garden of Alpha Cottage, St Georges Terrace, Perth, 1860?"
-  },
-  "6923B/95": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4170452_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4170452_1.jpg",
-    "date": "1860-01-01",
-    "height": 540.0,
-    "text": null,
-    "years": [
-      1860.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Sir Alex Campbell Onslow's residence, St Georges Terrace, Perth, 1860?"
-  },
-  "143195PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_1.jpg",
-    "date": "1973-01-01",
-    "height": 528.0,
-    "text": null,
-    "years": [
-      1973.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Deanery, St Georges Terrace, Perth, 1973"
-  },
-  "6923B/158": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2238020_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2238020_1.jpg",
-    "date": "1861-01-01",
-    "height": 462.0,
-    "text": null,
-    "years": [
-      1861.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Government Offices, St Georges Terrace, Perth, 1861"
-  },
-  "6923B/12": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4164694_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4164694_1.jpg",
-    "date": "1860-01-01",
-    "height": 577.0,
-    "text": null,
-    "years": [
-      1860.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Bishop Hale's School, St Georges Terrace, Perth, 1860"
-  },
-  "6923B/165": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4173075_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4173075_1.jpg",
-    "date": "1862-01-01",
-    "height": 581.0,
-    "text": null,
-    "years": [
-      1862.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Bishop Hale's School, St Georges Terrace, Perth, 1862? Later named the Cloisters"
-  },
-  "143202PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_2.jpg",
-    "date": "1973-01-01",
-    "height": 526.0,
-    "text": null,
-    "years": [
-      1973.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Deanery, St Georges Terrace, Perth, 1973"
-  },
   "140911PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635993_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635993_1.jpg",
+    "years": [
+      1977.0
+    ],
+    "original_title": "",
     "date": "1977-01-01",
+    "width": 760.0,
+    "folder": null,
     "height": 527.0,
     "text": null,
-    "years": [
-      1977.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The old Perth Boys' School, St Georges Terrace, Perth, ca.1977"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635993_1.png",
+    "title": "The old Perth Boys' School, St Georges Terrace, Perth, ca.1977",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635993_1.jpg"
   },
-  "6923B/84": {
+  "241185PD": {
+    "years": [
+      1951.0
+    ],
+    "original_title": "",
+    "date": "1951-05-15",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4169104_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4169104_1.jpg",
-    "date": "1863-01-01",
-    "height": 531.0,
-    "text": null,
-    "years": [
-      1863.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "Home of Mrs Mary Ann Purkis, St Georges Terrace, Perth, 1863?"
-  },
-  "BA533/74": {
-    "width": 589.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1922697_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1922697_2.jpg",
-    "date": "1920-01-01",
-    "height": 760.0,
+    "height": 576.0,
     "text": null,
-    "years": [
-      1920.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Colonial Mutual Chambers building, St Georges Terrace, Perth, ca.1920"
-  },
-  "6923B/190": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4175929_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4175929_1.jpg",
-    "date": "1863-01-01",
-    "height": 482.0,
-    "text": null,
-    "years": [
-      1863.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Stereograph of Bishop Hale's School, St Georges Terrace, Perth, 1863?"
-  },
-  "314634PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_15.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_15.jpg",
-    "date": "1987-08-26",
-    "height": 504.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Mercedes College and St John's Pro Cathedral, Victoria Avenue, Perth, August 1987"
-  },
-  "140892PD": {
-    "width": 528.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635876_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635876_1.jpg",
-    "date": "1974-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1974.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Colonial Mutual Life Building, St Georges Terrace, Perth, ca.1974"
-  },
-  "311330PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_4.jpg",
-    "date": "1981-09-26",
-    "height": 506.0,
-    "text": null,
-    "years": [
-      1981.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Mercedes College Chapel, Victoria Avenue, Perth, September 1981"
-  },
-  "312118PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_5.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_5.jpg",
-    "date": "1983-08-26",
-    "height": 509.0,
-    "text": null,
-    "years": [
-      1983.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "St John's Pro Cathedral, Victoria Avenue, Perth, August 1983"
-  },
-  "144255PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3899065_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3899065_1.jpg",
-    "date": "2018-03-26",
-    "height": 542.0,
-    "text": null,
-    "years": [
-      2018.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "St Mary's Cathedral, Victoria Avenue, Perth, 1966."
-  },
-  "BA2651/51": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4539849_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4539849_2.jpg",
-    "date": "2015-08-14",
-    "height": 570.0,
-    "text": null,
-    "years": [
-      2015.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Gardens at St Georges Square, St Georges Terrace, Perth, 14/8/2015"
-  },
-  "140901PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635943_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635943_1.jpg",
-    "date": "1977-01-01",
-    "height": 530.0,
-    "text": null,
-    "years": [
-      1977.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Balcony on Merlin Court, St Georges Terrace, Perth, ca.1977"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3760664_3.png",
+    "title": "Jock Keady (seated in cart) with his horse and cart in front of the Lattice Tea Rooms, St George's Tce, Perth 15 May 1951",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3760664_3.jpg"
   },
   "143035PD": {
-    "width": 536.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4014779_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4014779_1.jpg",
-    "date": "1966-01-01",
-    "height": 760.0,
-    "text": null,
     "years": [
       1966.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Trinity Congregational Church, St Georges Terrace, Perth, 1966"
-  },
-  "6923B/48": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4167650_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4167650_1.jpg",
-    "date": "1862-01-01",
-    "height": 554.0,
+    "date": "1966-01-01",
+    "width": 536.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4014779_1.png",
+    "title": "Trinity Congregational Church, St Georges Terrace, Perth, 1966",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4014779_1.jpg"
+  },
+  "314634PD": {
     "years": [
-      1862.0
+      1987.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Government House under construction seen from the verandah of Alpha Cottage, St Georges Terrace, Perth, 1862?"
+    "date": "1987-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_15.png",
+    "title": "Mercedes College and St John's Pro Cathedral, Victoria Avenue, Perth, August 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_15.jpg"
   },
   "6923B/181": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4175921_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4175921_1.jpg",
-    "date": "1863-01-01",
-    "height": 444.0,
-    "text": null,
     "years": [
       1863.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Fanny and Maria Stone (sitting on the verandah) at Alpha Cottage, St Georges Terrace, Perth, 1863?"
-  },
-  "6909B/57": {
+    "date": "1863-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3983295_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3983295_1.jpg",
-    "date": "1860-01-01",
-    "height": 560.0,
+    "folder": null,
+    "height": 444.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4175921_1.png",
+    "title": "Fanny and Maria Stone (sitting on the verandah) at Alpha Cottage, St Georges Terrace, Perth, 1863?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4175921_1.jpg"
+  },
+  "231949PD": {
+    "years": [
+      1954.0
+    ],
+    "original_title": "",
+    "date": "1954-04-26",
+    "width": 537.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_15.png",
+    "title": "Newspaper House, St Georges Terrace, Perth decorated for the 1954 royal visit",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_15.jpg"
+  },
+  "BA533/74": {
+    "years": [
+      1920.0
+    ],
+    "original_title": "",
+    "date": "1920-01-01",
+    "width": 589.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1922697_2.png",
+    "title": "Colonial Mutual Chambers building, St Georges Terrace, Perth, ca.1920",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1922697_2.jpg"
+  },
+  "090684PD": {
+    "years": [
+      1910.0
+    ],
+    "original_title": "",
+    "date": "1910-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 575.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4726545_1.png",
+    "title": "Christian Brothers College, St Georges Terrace, Perth, ca. 1910.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4726545_1.jpg"
+  },
+  "144690PD": {
+    "years": [
+      1963.0
+    ],
+    "original_title": "",
+    "date": "1963-03-17",
+    "width": 528.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4558662_1.png",
+    "title": "T&G and MLC buildings, St Georges Tce, Perth, 17 March 1963",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4558662_1.jpg"
+  },
+  "6923B/51": {
     "years": [
       1860.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Dale Cottage originally built for Ensign Dale, St Georges Terrace, Perth, 1860?"
+    "date": "1860-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 536.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4167656_1.png",
+    "title": "Government Offices, St Georges Terrace, Perth, 1860",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4167656_1.jpg"
+  },
+  "312118PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 509.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_5.png",
+    "title": "St John's Pro Cathedral, Victoria Avenue, Perth, August 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_5.jpg"
+  },
+  "6923B/12": {
+    "years": [
+      1860.0
+    ],
+    "original_title": "",
+    "date": "1860-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 577.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4164694_1.png",
+    "title": "Bishop Hale's School, St Georges Terrace, Perth, 1860",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4164694_1.jpg"
+  },
+  "6923B/165": {
+    "years": [
+      1862.0
+    ],
+    "original_title": "",
+    "date": "1862-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 581.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4173075_1.png",
+    "title": "Bishop Hale's School, St Georges Terrace, Perth, 1862? Later named the Cloisters",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4173075_1.jpg"
+  },
+  "217724PD": {
+    "years": [
+      1941.0
+    ],
+    "original_title": "",
+    "date": "1941-01-01",
+    "width": 565.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416428_22.png",
+    "title": "Entrance to London Court, St George's Tce, Perth, 1941",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416428_22.jpg"
+  },
+  "BA2651/51": {
+    "years": [
+      2015.0
+    ],
+    "original_title": "",
+    "date": "2015-08-14",
+    "width": 760.0,
+    "folder": null,
+    "height": 570.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4539849_2.png",
+    "title": "Gardens at St Georges Square, St Georges Terrace, Perth, 14/8/2015",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4539849_2.jpg"
+  },
+  "140892PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-01-01",
+    "width": 528.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635876_1.png",
+    "title": "Colonial Mutual Life Building, St Georges Terrace, Perth, ca.1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635876_1.jpg"
+  },
+  "6923B/48": {
+    "years": [
+      1862.0
+    ],
+    "original_title": "",
+    "date": "1862-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 554.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4167650_1.png",
+    "title": "Government House under construction seen from the verandah of Alpha Cottage, St Georges Terrace, Perth, 1862?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4167650_1.jpg"
+  },
+  "113231PD": {
+    "years": [
+      1967.0
+    ],
+    "original_title": "",
+    "date": "1967-01-12",
+    "width": 760.0,
+    "folder": null,
+    "height": 607.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3597865_1.png",
+    "title": "Merthyr House (left) and Leith House being prepared for demolition, St George's Tce, Perth, 12 January 1967",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3597865_1.jpg"
+  },
+  "316135PD": {
+    "years": [
+      1843.0
+    ],
+    "original_title": "",
+    "date": "1843-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_17.png",
+    "title": "St John's Pro Cathedral, built 1843, Victoria Avenue, Perth, October 1994",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_17.jpg"
+  },
+  "6923B/158": {
+    "years": [
+      1861.0
+    ],
+    "original_title": "",
+    "date": "1861-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 462.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2238020_1.png",
+    "title": "The Government Offices, St Georges Terrace, Perth, 1861",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2238020_1.jpg"
+  },
+  "6923B/131": {
+    "years": [
+      1861.0
+    ],
+    "original_title": "",
+    "date": "1861-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 567.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4172609_1.png",
+    "title": "George Shenton's residence and store, St Georges Terrace, Perth, 1861?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4172609_1.jpg"
+  },
+  "BA1289/148": {
+    "years": [
+      1954.0
+    ],
+    "original_title": "",
+    "date": "1954-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 493.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4539709_2.png",
+    "title": "St Georges Terrace Post Office in Airways House, 88 St Georges Terrace, Perth, 1954",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4539709_2.jpg"
+  },
+  "067455PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 349.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2396434_005.png",
+    "title": "Band heading the procession, St. George's Terr. Perth, 22.7.01",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2396434_005.jpg"
+  },
+  "6923B/95": {
+    "years": [
+      1860.0
+    ],
+    "original_title": "",
+    "date": "1860-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 540.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4170452_1.png",
+    "title": "Sir Alex Campbell Onslow's residence, St Georges Terrace, Perth, 1860?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4170452_1.jpg"
+  },
+  "6923B/190": {
+    "years": [
+      1863.0
+    ],
+    "original_title": "",
+    "date": "1863-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 482.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4175929_1.png",
+    "title": "Stereograph of Bishop Hale's School, St Georges Terrace, Perth, 1863?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4175929_1.jpg"
+  },
+  "6923B/103b": {
+    "years": [
+      1960.0
+    ],
+    "original_title": "",
+    "date": "1960-01-01",
+    "width": 549.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_2.png",
+    "title": "Cactus in the back garden of Alpha Cottage, St Georges Terrace, Perth, 1960?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_2.jpg"
+  },
+  "231306PD": {
+    "years": [
+      1968.0
+    ],
+    "original_title": "",
+    "date": "1968-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 544.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3031082_1.png",
+    "title": "United Service Hotel, St George's Tce, Perth, 1968",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3031082_1.jpg"
+  },
+  "6923B/84": {
+    "years": [
+      1863.0
+    ],
+    "original_title": "",
+    "date": "1863-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 531.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4169104_1.png",
+    "title": "Home of Mrs Mary Ann Purkis, St Georges Terrace, Perth, 1863?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4169104_1.jpg"
+  },
+  "6923B/103a": {
+    "years": [
+      1860.0
+    ],
+    "original_title": "",
+    "date": "1860-01-01",
+    "width": 570.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_1.png",
+    "title": "Datura in the back garden of Alpha Cottage, St Georges Terrace, Perth, 1860?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4170489_1.jpg"
+  },
+  "311330PD": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-09-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_4.png",
+    "title": "Mercedes College Chapel, Victoria Avenue, Perth, September 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800018_4.jpg"
+  },
+  "143202PD": {
+    "years": [
+      1973.0
+    ],
+    "original_title": "",
+    "date": "1973-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 526.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_2.png",
+    "title": "The Deanery, St Georges Terrace, Perth, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_2.jpg"
+  },
+  "BA1271/256": {
+    "years": [
+      1918.0
+    ],
+    "original_title": "",
+    "date": "1918-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 584.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2105850_2.png",
+    "title": "Courtyard of the Soldiers' Institute in Government Gardens, St Georges Terrace, Perth, 1918",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2105850_2.jpg"
+  },
+  "143195PD": {
+    "years": [
+      1973.0
+    ],
+    "original_title": "",
+    "date": "1973-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 528.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_1.png",
+    "title": "The Deanery, St Georges Terrace, Perth, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4020225_1.jpg"
+  },
+  "6909B/57": {
+    "years": [
+      1860.0
+    ],
+    "original_title": "",
+    "date": "1860-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 560.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3983295_1.png",
+    "title": "Dale Cottage originally built for Ensign Dale, St Georges Terrace, Perth, 1860?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3983295_1.jpg"
+  },
+  "100017PD": {
+    "years": [
+      1890.0
+    ],
+    "original_title": "",
+    "date": "1890-08-27",
+    "width": 760.0,
+    "folder": null,
+    "height": 632.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2239209_1.png",
+    "title": "Opening of Post and Telegraphs Office (later the Treasury Buildings), St Georges Tce, Perth, 27 August 1890",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2239209_1.jpg"
+  },
+  "241184PD": {
+    "years": [
+      1951.0
+    ],
+    "original_title": "",
+    "date": "1951-05-15",
+    "width": 760.0,
+    "folder": null,
+    "height": 581.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3760664_2.png",
+    "title": "Jock Keady (seated in cart) with his horse and cart in front of the Lattice Tea Rooms, St George's Tce, Perth 15 May 1951",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3760664_2.jpg"
+  },
+  "140901PD": {
+    "years": [
+      1977.0
+    ],
+    "original_title": "",
+    "date": "1977-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 530.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4635943_1.png",
+    "title": "Balcony on Merlin Court, St Georges Terrace, Perth, ca.1977",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4635943_1.jpg"
+  },
+  "6909B/16": {
+    "years": [
+      1868.0
+    ],
+    "original_title": "",
+    "date": "1868-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 425.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3979475_1.png",
+    "title": "Drawing room in Mrs Johanna Bruce's house, St. George's Tce, Perth, 1868",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3979475_1.jpg"
+  },
+  "BA1530/6190": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3983427_4.png",
+    "title": "Wapet House, Esanda and St Georges Terrace, Perth, August 1981,",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3983427_4.jpg"
+  },
+  "144255PD": {
+    "years": [
+      2018.0
+    ],
+    "original_title": "",
+    "date": "2018-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 542.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3899065_1.png",
+    "title": "St Mary's Cathedral, Victoria Avenue, Perth, 1966.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3899065_1.jpg"
   }
 }

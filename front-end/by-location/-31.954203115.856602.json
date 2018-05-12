@@ -1,338 +1,450 @@
 {
-  "101410PD": {
+  "242267PD": {
+    "years": [
+      1952.0
+    ],
+    "original_title": "",
+    "date": "1952-12-19",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_1.jpg",
-    "date": "1931-01-01",
-    "height": 585.0,
-    "text": null,
-    "years": [
-      1931.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "The Capitol Theatre, William Street, Perth, 1931"
-  },
-  "314491PD": {
-    "width": 511.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_30.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_30.jpg",
-    "date": "1986-07-26",
-    "height": 760.0,
+    "height": 601.0,
     "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Eagle House (no.10) and the Wesfarmers Building (corner of The Esplanade), William Street, Perth, July 1986"
-  },
-  "090690PD": {
-    "width": 539.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4726348_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4726348_1.jpg",
-    "date": "1910-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1910.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "West's Pictures at the Queens Hall, William Street, Perth, ca. 1910."
-  },
-  "025820PD": {
-    "width": 570.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2231897_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2231897_1.jpg",
-    "date": "1917-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1917.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Queen's Hall, William Street Perth, home of Vic's Continuous Pictures and the Royal Agricultural Society, 1917"
-  },
-  "144263PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3902642_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3902642_1.jpg",
-    "date": "1973-01-01",
-    "height": 542.0,
-    "text": null,
-    "years": [
-      1973.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Metro Theatre, William Street, Perth, before 1973."
-  },
-  "BA1271/262": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_4.jpg",
-    "date": "1925-01-01",
-    "height": 583.0,
-    "text": null,
-    "years": [
-      1925.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Mallabone's Pty. Ltd., William Street, Perth, manufacturers of leather & fibre goods, 1925"
-  },
-  "144243PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_2.jpg",
-    "date": "1965-04-26",
-    "height": 542.0,
-    "text": null,
-    "years": [
-      1965.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Capitol Theatre site after demolition, William Street, Perth, between 1965 and 1968."
-  },
-  "101412PD": {
-    "width": 578.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_3.jpg",
-    "date": "1931-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1931.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Capitol Theatre, William Street, Perth, 1931"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_1.png",
+    "title": "Waiting to see Quo Vadis at the Metro, William Street, Perth, 19 December 1952",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_1.jpg"
   },
   "BA533/420": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4690637_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4690637_2.jpg",
-    "date": "1924-01-01",
-    "height": 578.0,
-    "text": null,
     "years": [
       1924.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "G.W. Turner with a display of umbrellas at his premised on the second floor of Economic Chambers, William Street, Perth, ca.1924"
-  },
-  "315422PD": {
-    "width": 502.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_37.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_37.jpg",
-    "date": "1989-03-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1989.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Westpac Bank, William Street, Perth, March 1989. Formerly the site of the Embassy Ballroom"
-  },
-  "144242PD": {
+    "date": "1924-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_1.jpg",
-    "date": "1965-04-26",
-    "height": 542.0,
-    "text": null,
-    "years": [
-      1965.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "Capitol Theatre, William Street, Perth, between 1965 and 1968."
-  },
-  "101411PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_2.jpg",
-    "date": "1931-01-01",
-    "height": 586.0,
-    "text": null,
-    "years": [
-      1931.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Capitol Theatre, William Street, Perth, 1931"
-  },
-  "101413PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_4.jpg",
-    "date": "1931-01-01",
     "height": 578.0,
     "text": null,
-    "years": [
-      1931.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Capitol Theatre, William Street, Perth, 1931"
-  },
-  "014022PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2151615_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2151615_1.jpg",
-    "date": "1899-01-01",
-    "height": 581.0,
-    "text": null,
-    "years": [
-      1899.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Queen's Hall, William Street, Perth, 1899?"
-  },
-  "242268PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_2.jpg",
-    "date": "1952-12-19",
-    "height": 608.0,
-    "text": null,
-    "years": [
-      1952.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Waiting to see Quo Vadis at the Metro, William Street, Perth, 19 December 1952"
-  },
-  "101414PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_1.jpg",
-    "date": "1931-01-01",
-    "height": 578.0,
-    "text": null,
-    "years": [
-      1931.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "An evening audience leaving the Capitol Theatre, William Street, Perth, 1931"
-  },
-  "BA1271/201": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_3.jpg",
-    "date": "1930-01-01",
-    "height": 586.0,
-    "text": null,
-    "years": [
-      1930.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Britannia Building, William Street, Perth, ca.1930. Includes the Britannia Coffee Palace, A.C. Blacklaws Britannia Book Store & Lending Library, E. Jacques, fruiterer & Greengrocer and the Western Milk Palace"
-  },
-  "311745PD": {
-    "width": 507.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_13.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_13.jpg",
-    "date": "1982-03-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Extensions to the Palace Hotel underway, William Street, Perth, March 1982"
-  },
-  "BA1271/261": {
-    "width": 572.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_3.jpg",
-    "date": "1925-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1925.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Mallabone's Pty. Ltd., William Street, Perth, manufacturers of leather & fibre goods, 1925"
-  },
-  "242267PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_1.jpg",
-    "date": "1952-12-19",
-    "height": 601.0,
-    "text": null,
-    "years": [
-      1952.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Waiting to see Quo Vadis at the Metro, William Street, Perth, 19 December 1952"
-  },
-  "101415PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_2.jpg",
-    "date": "1931-01-01",
-    "height": 575.0,
-    "text": null,
-    "years": [
-      1931.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "An evening audience leaving the Capitol Theatre, William Street, Perth, 1931"
-  },
-  "BA1271/202": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_4.jpg",
-    "date": "1930-01-01",
-    "height": 587.0,
-    "text": null,
-    "years": [
-      1930.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Britannia Building, William Street, Perth, ca.1930. Includes the Hostel Britannia and David Wells Cash Grocer"
-  },
-  "319103PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_41.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_41.jpg",
-    "date": "1973-01-01",
-    "height": 751.0,
-    "text": null,
-    "years": [
-      1973.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Wesley Centre under construction, William Street, Perth, 1973"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4690637_2.png",
+    "title": "G.W. Turner with a display of umbrellas at his premised on the second floor of Economic Chambers, William Street, Perth, ca.1924",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4690637_2.jpg"
   },
   "323746PD": {
-    "width": 640.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165774_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165774_2.jpg",
-    "date": "1985-10-11",
-    "height": 760.0,
-    "text": null,
     "years": [
       1985.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Australia Place, William Street, Perth, 11 October 1985"
+    "date": "1985-10-11",
+    "width": 640.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3165774_2.png",
+    "title": "Australia Place, William Street, Perth, 11 October 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3165774_2.jpg"
+  },
+  "101410PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 585.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_1.png",
+    "title": "The Capitol Theatre, William Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_1.jpg"
+  },
+  "BA1271/262": {
+    "years": [
+      1925.0
+    ],
+    "original_title": "",
+    "date": "1925-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 583.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_4.png",
+    "title": "Mallabone's Pty. Ltd., William Street, Perth, manufacturers of leather & fibre goods, 1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_4.jpg"
+  },
+  "144243PD": {
+    "years": [
+      1965.0
+    ],
+    "original_title": "",
+    "date": "1965-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 542.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_2.png",
+    "title": "Capitol Theatre site after demolition, William Street, Perth, between 1965 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_2.jpg"
+  },
+  "014022PD": {
+    "years": [
+      1899.0
+    ],
+    "original_title": "",
+    "date": "1899-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 581.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2151615_1.png",
+    "title": "Queen's Hall, William Street, Perth, 1899?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2151615_1.jpg"
+  },
+  "BA1271/261": {
+    "years": [
+      1925.0
+    ],
+    "original_title": "",
+    "date": "1925-01-01",
+    "width": 572.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_3.png",
+    "title": "Mallabone's Pty. Ltd., William Street, Perth, manufacturers of leather & fibre goods, 1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2105892_3.jpg"
+  },
+  "101414PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_1.png",
+    "title": "An evening audience leaving the Capitol Theatre, William Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_1.jpg"
+  },
+  "311745PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-03-26",
+    "width": 507.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_13.png",
+    "title": "Extensions to the Palace Hotel underway, William Street, Perth, March 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_13.jpg"
+  },
+  "101415PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 575.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_2.png",
+    "title": "An evening audience leaving the Capitol Theatre, William Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473559_2.jpg"
+  },
+  "144242PD": {
+    "years": [
+      1965.0
+    ],
+    "original_title": "",
+    "date": "1965-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 542.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_1.png",
+    "title": "Capitol Theatre, William Street, Perth, between 1965 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3898993_1.jpg"
+  },
+  "025820PD": {
+    "years": [
+      1917.0
+    ],
+    "original_title": "",
+    "date": "1917-01-01",
+    "width": 570.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2231897_1.png",
+    "title": "Queen's Hall, William Street Perth, home of Vic's Continuous Pictures and the Royal Agricultural Society, 1917",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2231897_1.jpg"
+  },
+  "BA1271/229": {
+    "years": [
+      1925.0
+    ],
+    "original_title": "",
+    "date": "1925-01-01",
+    "width": 579.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2103301_2.png",
+    "title": "Princes Chambers, 23 William Street, Perth, ca.1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2103301_2.jpg"
+  },
+  "101411PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 586.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_2.png",
+    "title": "The Capitol Theatre, William Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_2.jpg"
+  },
+  "315422PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-03-26",
+    "width": 502.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_37.png",
+    "title": "Westpac Bank, William Street, Perth, March 1989. Formerly the site of the Embassy Ballroom",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_37.jpg"
+  },
+  "018216PD": {
+    "years": [
+      1932.0
+    ],
+    "original_title": "",
+    "date": "1932-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 582.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_4.png",
+    "title": "Entrance to offices of the Royal Agricultural Society of W.A. Inc in the Western Australian Bank Chambers, 18 William Street, Perth, 1932",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_4.jpg"
+  },
+  "018215PD": {
+    "years": [
+      1932.0
+    ],
+    "original_title": "",
+    "date": "1932-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 580.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_3.png",
+    "title": "Entrance to offices of the Colonial Sugar Refining Co. Ltd in the Western Australian Bank Chambers, 18 William Street, Perth, 1932",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_3.jpg"
+  },
+  "018213PD": {
+    "years": [
+      1932.0
+    ],
+    "original_title": "",
+    "date": "1932-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_1.png",
+    "title": "The lifts in the Western Australian Bank Chambers, 18 William Street, Perth, 1932",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_1.jpg"
+  },
+  "090690PD": {
+    "years": [
+      1910.0
+    ],
+    "original_title": "",
+    "date": "1910-01-01",
+    "width": 539.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4726348_1.png",
+    "title": "West's Pictures at the Queens Hall, William Street, Perth, ca. 1910.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4726348_1.jpg"
+  },
+  "314491PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-07-26",
+    "width": 511.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_30.png",
+    "title": "Eagle House (no.10) and the Wesfarmers Building (corner of The Esplanade), William Street, Perth, July 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_30.jpg"
+  },
+  "BA1271/201": {
+    "years": [
+      1930.0
+    ],
+    "original_title": "",
+    "date": "1930-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 586.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_3.png",
+    "title": "Britannia Building, William Street, Perth, ca.1930. Includes the Britannia Coffee Palace, A.C. Blacklaws Britannia Book Store & Lending Library, E. Jacques, fruiterer & Greengrocer and the Western Milk Palace",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_3.jpg"
+  },
+  "242268PD": {
+    "years": [
+      1952.0
+    ],
+    "original_title": "",
+    "date": "1952-12-19",
+    "width": 760.0,
+    "folder": null,
+    "height": 608.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_2.png",
+    "title": "Waiting to see Quo Vadis at the Metro, William Street, Perth, 19 December 1952",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1921935_2.jpg"
+  },
+  "BA1271/202": {
+    "years": [
+      1930.0
+    ],
+    "original_title": "",
+    "date": "1930-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 587.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_4.png",
+    "title": "Britannia Building, William Street, Perth, ca.1930. Includes the Hostel Britannia and David Wells Cash Grocer",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101548_4.jpg"
+  },
+  "BA1271/213": {
+    "years": [
+      1922.0
+    ],
+    "original_title": "",
+    "date": "1922-01-01",
+    "width": 586.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2102882_4.png",
+    "title": "Dalgety Buildings, 11 William Street, Perth, 1922",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2102882_4.jpg"
+  },
+  "101412PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-01-01",
+    "width": 578.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_3.png",
+    "title": "The Capitol Theatre, William Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_3.jpg"
+  },
+  "328304PD": {
+    "years": [
+      1977.0
+    ],
+    "original_title": "",
+    "date": "1977-09-01",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135146_1.png",
+    "title": "PBS Building, 25 William Street, Perth from behind Wesley Church, 1 September 1977",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135146_1.jpg"
+  },
+  "018217PD": {
+    "years": [
+      1932.0
+    ],
+    "original_title": "",
+    "date": "1932-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 580.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_5.png",
+    "title": "Second floor lobby and offices of J.G. Pritchard and Briggs & Dallimore insurance agents in the Western Australian Bank Chambers, 18 William Street, Perth, 1932",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894777_5.jpg"
+  },
+  "101413PD": {
+    "years": [
+      1931.0
+    ],
+    "original_title": "",
+    "date": "1931-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_4.png",
+    "title": "The Capitol Theatre, William Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473558_4.jpg"
+  },
+  "144263PD": {
+    "years": [
+      1973.0
+    ],
+    "original_title": "",
+    "date": "1973-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 542.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3902642_1.png",
+    "title": "Metro Theatre, William Street, Perth, before 1973.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3902642_1.jpg"
+  },
+  "319103PD": {
+    "years": [
+      1973.0
+    ],
+    "original_title": "",
+    "date": "1973-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 751.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_41.png",
+    "title": "The Wesley Centre under construction, William Street, Perth, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_41.jpg"
+  },
+  "BA1271/212": {
+    "years": [
+      1922.0
+    ],
+    "original_title": "",
+    "date": "1922-01-01",
+    "width": 584.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2102882_3.png",
+    "title": "Dalgety Buildings, 11 William Street, Perth, 1922",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2102882_3.jpg"
   }
 }

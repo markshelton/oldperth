@@ -1,16 +1,16 @@
 {
   "BA2741/185": {
-    "width": 507.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4634348_20.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4634348_20.jpg",
-    "date": "2010-04-25",
-    "height": 760.0,
-    "text": null,
     "years": [
       2010.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "War Memorial, Anzac Day, Perth. 25 April 2010"
+    "date": "2010-04-25",
+    "width": 507.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4634348_20.png",
+    "title": "War Memorial, Anzac Day, Perth. 25 April 2010",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4634348_20.jpg"
   }
 }

@@ -1,86 +1,100 @@
 {
-  "275269PD": {
-    "width": 515.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4490124_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4490124_1.jpg",
-    "date": "1949-12-14",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1949.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "St. James's Anglican Church, Aberdeen Street, Perth, 14 December 1949"
-  },
-  "314609PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_42.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_42.jpg",
-    "date": "1987-07-26",
-    "height": 501.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Perth Technical College, Aberdeen Street, Perth, July 1987"
-  },
   "313764PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_39.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_39.jpg",
-    "date": "1985-03-26",
-    "height": 505.0,
-    "text": null,
     "years": [
       1985.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Extensions being built to Perth Technical College, Aberdeen Street, Perth, March 1985"
+    "date": "1985-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_39.png",
+    "title": "Extensions being built to Perth Technical College, Aberdeen Street, Perth, March 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_39.jpg"
+  },
+  "275269PD": {
+    "years": [
+      1949.0
+    ],
+    "original_title": "",
+    "date": "1949-12-14",
+    "width": 515.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4490124_1.png",
+    "title": "St. James's Anglican Church, Aberdeen Street, Perth, 14 December 1949",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4490124_1.jpg"
+  },
+  "BA533/168": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 586.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1923333_2.png",
+    "title": "The Perth Tannery, 257 Aberdeen Street, Perth, 1916",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1923333_2.jpg"
   },
   "311047PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_1.jpg",
-    "date": "1989-12-26",
-    "height": 506.0,
-    "text": null,
     "years": [
       1989.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Technical College, Aberdeen Street, Perth, December 1989"
-  },
-  "314608PD": {
+    "date": "1989-12-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_41.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_41.jpg",
-    "date": "1987-07-26",
-    "height": 501.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "Perth Technical College, Aberdeen Street, Perth, July 1987"
-  },
-  "311048PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_2.jpg",
-    "date": "1980-12-26",
     "height": 506.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_1.png",
+    "title": "Perth Technical College, Aberdeen Street, Perth, December 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_1.jpg"
+  },
+  "311048PD": {
     "years": [
       1980.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Car park opposite Perth Technical College, Aberdeen Street, Perth, December 1980"
+    "date": "1980-12-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_2.png",
+    "title": "Car park opposite Perth Technical College, Aberdeen Street, Perth, December 1980",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_2.jpg"
+  },
+  "314608PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 501.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_41.png",
+    "title": "Perth Technical College, Aberdeen Street, Perth, July 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_41.jpg"
+  },
+  "314609PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 501.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_42.png",
+    "title": "Perth Technical College, Aberdeen Street, Perth, July 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_42.jpg"
   }
 }

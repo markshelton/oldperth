@@ -1,16 +1,16 @@
 {
   "327241PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096715_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096715_1.jpg",
-    "date": null,
-    "height": 755.0,
-    "text": null,
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Walsh's menswear shop, 177 High Street, Fremantle, 1974"
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 755.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096715_1.png",
+    "title": "Walsh's menswear shop, 177 High Street, Fremantle, 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096715_1.jpg"
   }
 }

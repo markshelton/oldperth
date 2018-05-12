@@ -1,16 +1,30 @@
 {
-  "311301PD": {
+  "312403PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-01-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_6.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_6.jpg",
-    "date": "1982-01-26",
-    "height": 504.0,
+    "folder": null,
+    "height": 505.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_5.png",
+    "title": "Peters Ice Cream factory, Lake Street (corner of Roe Street), Northbridge, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_5.jpg"
+  },
+  "311301PD": {
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Monopole Restaurant (no.38) and Federal Sheet Metal (no. 36), Roe Street, Northbridge, January 1982"
+    "date": "1982-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_6.png",
+    "title": "Monopole Restaurant (no.38) and Federal Sheet Metal (no. 36), Roe Street, Northbridge, January 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800005_6.jpg"
   }
 }

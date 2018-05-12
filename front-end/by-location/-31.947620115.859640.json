@@ -1,16 +1,16 @@
 {
   "312945PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800002_7.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800002_7.jpg",
-    "date": "1981-01-26",
-    "height": 503.0,
-    "text": null,
     "years": [
       1981.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Golden Galleon Chinese Restaurant, 40 Francis Street, Northbridge, January 1981"
+    "date": "1981-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800002_7.png",
+    "title": "Golden Galleon Chinese Restaurant, 40 Francis Street, Northbridge, January 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800002_7.jpg"
   }
 }

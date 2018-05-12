@@ -1,16 +1,44 @@
 {
-  "228044PD": {
+  "144291PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3756150_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3756150_1.jpg",
-    "date": "1962-01-01",
-    "height": 607.0,
+    "folder": null,
+    "height": 532.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_8.png",
+    "title": "Mitchell Freeway construction, near Parliament House, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_8.jpg"
+  },
+  "144293PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 532.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_10.png",
+    "title": "Mitchell Freeway construction, near Parliament House, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_10.jpg"
+  },
+  "228044PD": {
     "years": [
       1962.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Interior of the Legislative Assembly, Parliament House, West Perth, ca. 1962."
+    "date": "1962-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 607.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3756150_1.png",
+    "title": "Interior of the Legislative Assembly, Parliament House, West Perth, ca. 1962.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3756150_1.jpg"
   }
 }

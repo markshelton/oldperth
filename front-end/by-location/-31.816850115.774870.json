@@ -1,16 +1,16 @@
 {
   "6923B/83": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4169098_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4169098_1.jpg",
-    "date": "1863-01-01",
-    "height": 601.0,
-    "text": null,
     "years": [
       1863.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Left-right: King Street, Walter Padbury's home (Lot G7 St Georges Tce), unknown, the Western Australian Bank, Col. John Bruce's home, ca.1863"
+    "date": "1863-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 601.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4169098_1.png",
+    "title": "Left-right: King Street, Walter Padbury's home (Lot G7 St Georges Tce), unknown, the Western Australian Bank, Col. John Bruce's home, ca.1863",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4169098_1.jpg"
   }
 }

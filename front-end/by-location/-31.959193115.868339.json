@@ -1,100 +1,198 @@
 {
   "363092PD": {
-    "width": 719.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_3.jpg",
-    "date": "1979-03-29",
-    "height": 760.0,
-    "text": null,
     "years": [
       1979.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Love-Cave on display at the Furniture Fair, Sheraton Perth Hotel, 29 March 1979"
+    "date": "1979-03-29",
+    "width": 719.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_3.png",
+    "title": "The Love-Cave on display at the Furniture Fair, Sheraton Perth Hotel, 29 March 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_3.jpg"
+  },
+  "143071PD": {
+    "years": [
+      1967.0
+    ],
+    "original_title": "",
+    "date": "1967-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 519.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4018917_1.png",
+    "title": "Spitfire PK481 in front of Air Force Memorial House, 207 Adelaide Terrace, Perth, August 1967",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4018917_1.jpg"
+  },
+  "363093PD": {
+    "years": [
+      1979.0
+    ],
+    "original_title": "",
+    "date": "1979-03-29",
+    "width": 709.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_4.png",
+    "title": "The Love-Cave on display at the Furniture Fair, Sheraton Perth Hotel, 29 March 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_4.jpg"
   },
   "327249PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_2.jpg",
-    "date": "1974-01-01",
-    "height": 755.0,
-    "text": null,
     "years": [
       1974.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Downunder Clinker Grill, Sheraton Hotel, Perth, 1974"
+    "date": "1974-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 755.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_2.png",
+    "title": "Downunder Clinker Grill, Sheraton Hotel, Perth, 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_2.jpg"
+  },
+  "143017PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-12-31",
+    "width": 760.0,
+    "folder": null,
+    "height": 517.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4014754_1.png",
+    "title": "Spitfire PK481 in front of Air Force Memorial House, 207 Adelaide Terrace, Perth, 31 December 1966",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4014754_1.jpg"
+  },
+  "220024PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 604.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416443_1.png",
+    "title": "Air Force Memorial House, 207 Adelaide Terrace, Perth, ca. 1960",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416443_1.jpg"
+  },
+  "327248PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 755.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_1.png",
+    "title": "Eating in the Wandarrah Restaurant, Sheraton Hotel, Perth, 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_1.jpg"
+  },
+  "144494PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 538.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3989828_1.png",
+    "title": "Air Force Memorial House, 207 Adelaide Terrace, Perth, 1962.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3989828_1.jpg"
+  },
+  "142851PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 530.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3987832_1.png",
+    "title": "Spitfire PK481 in front of Air Force Memorial House, 207 Adelaide Terrace, Perth, 1960",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3987832_1.jpg"
   },
   "359949PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096588_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096588_1.jpg",
-    "date": "1973-01-01",
-    "height": 745.0,
-    "text": null,
     "years": [
       1973.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Windarra Room, Sheraton Perth Hotel, 1973"
-  },
-  "327250PD": {
+    "date": "1973-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_3.jpg",
-    "date": "1974-01-01",
-    "height": 755.0,
-    "text": null,
-    "years": [
-      1974.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "The gift shop, Sheraton Hotel, Perth, 1974"
+    "height": 745.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096588_1.png",
+    "title": "Windarra Room, Sheraton Perth Hotel, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096588_1.jpg"
   },
-  "327248PD": {
+  "144495PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_1.jpg",
-    "date": "1974-01-01",
-    "height": 755.0,
-    "text": null,
-    "years": [
-      1974.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "Eating in the Wandarrah Restaurant, Sheraton Hotel, Perth, 1974"
-  },
-  "363093PD": {
-    "width": 709.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3133188_4.jpg",
-    "date": "1979-03-29",
-    "height": 760.0,
+    "height": 538.0,
     "text": null,
-    "years": [
-      1979.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Love-Cave on display at the Furniture Fair, Sheraton Perth Hotel, 29 March 1979"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3989828_2.png",
+    "title": "Air Force Memorial House, 207 Adelaide Terrace, Perth, 1962.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3989828_2.jpg"
   },
   "363301PD": {
-    "width": 753.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3159491_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3159491_4.jpg",
-    "date": "1983-09-26",
-    "height": 760.0,
-    "text": null,
     "years": [
       1983.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Rolf Harris completes a painting to be auctioned for charity at an event held by the Variety Club of W.A., Sheraton Hotel, Perth, 26 September 1983"
+    "date": "1983-09-26",
+    "width": 753.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3159491_4.png",
+    "title": "Rolf Harris completes a painting to be auctioned for charity at an event held by the Variety Club of W.A., Sheraton Hotel, Perth, 26 September 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3159491_4.jpg"
+  },
+  "361729PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-11-06",
+    "width": 760.0,
+    "folder": null,
+    "height": 755.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3116831_1.png",
+    "title": "Jim Cockett, General Manager Sheraton Perth Hotel, draws the Western Australian lottery, 6 November 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3116831_1.jpg"
+  },
+  "327250PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 755.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_3.png",
+    "title": "The gift shop, Sheraton Hotel, Perth, 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096716_3.jpg"
   }
 }

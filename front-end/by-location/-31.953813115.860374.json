@@ -1,16 +1,30 @@
 {
   "313340PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800023_31.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800023_31.jpg",
-    "date": "1986-01-26",
-    "height": 505.0,
-    "text": null,
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Canberra Television Services, 87 Barrack Street, Perth, January 1986"
+    "date": "1986-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800023_31.png",
+    "title": "Canberra Television Services, 87 Barrack Street, Perth, January 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800023_31.jpg"
+  },
+  "311437PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-06-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800023_9.png",
+    "title": "Canberra Television Services and Hungry Jacks, 87-91 Barrack Street, Perth, June 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800023_9.jpg"
   }
 }

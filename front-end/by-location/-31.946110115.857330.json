@@ -1,16 +1,16 @@
 {
   "312814PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_30.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_30.jpg",
-    "date": "1984-06-26",
-    "height": 505.0,
-    "text": null,
     "years": [
       1984.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Bouzoukia Restaurant, 115 Aberdeen Street, Northbridge, June 1984"
+    "date": "1984-06-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_30.png",
+    "title": "Bouzoukia Restaurant, 115 Aberdeen Street, Northbridge, June 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799999_30.jpg"
   }
 }

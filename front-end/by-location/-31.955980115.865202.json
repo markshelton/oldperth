@@ -1,30 +1,30 @@
 {
-  "312449PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_32.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_32.jpg",
-    "date": "1983-01-26",
-    "height": 505.0,
-    "text": null,
-    "years": [
-      1983.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Catholic Parish Centre, 450 Hay Street, Perth, January 1983"
-  },
   "113253PD": {
-    "width": 614.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3597866_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3597866_1.jpg",
-    "date": null,
-    "height": 760.0,
-    "text": null,
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Record House premises of The Record newspaper and Record Print, 450 Hay Street, Perth, 1967?"
+    "date": null,
+    "width": 614.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3597866_1.png",
+    "title": "Record House premises of The Record newspaper and Record Print, 450 Hay Street, Perth, 1967?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3597866_1.jpg"
+  },
+  "312449PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_32.png",
+    "title": "Catholic Parish Centre, 450 Hay Street, Perth, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_32.jpg"
   }
 }

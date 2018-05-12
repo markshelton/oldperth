@@ -1,16 +1,30 @@
 {
   "311917PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_14.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_14.jpg",
-    "date": "1982-03-26",
-    "height": 508.0,
-    "text": null,
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "C.S.A. Credit Union and Reg Robinson Discounts electrical goods store, 447 Hay Street, Perth, March 1982"
+    "date": "1982-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_14.png",
+    "title": "C.S.A. Credit Union and Reg Robinson Discounts electrical goods store, 447 Hay Street, Perth, March 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_14.jpg"
+  },
+  "311257PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-03-26",
+    "width": 511.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_4.png",
+    "title": "Civil Service Association building and Aldo House, 445-447 Hay Street, Perth, March 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799995_4.jpg"
   }
 }

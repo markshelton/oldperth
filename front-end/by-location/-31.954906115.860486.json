@@ -1,16 +1,16 @@
 {
   "128411PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348204_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348204_1.jpg",
-    "date": "1939-10-26",
-    "height": 503.0,
-    "text": null,
     "years": [
       1939.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Rose Marie Fruit Palace, 599 Hay Street, Perth, October 1939"
+    "date": "1939-10-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348204_1.png",
+    "title": "Rose Marie Fruit Palace, 599 Hay Street, Perth, October 1939",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348204_1.jpg"
   }
 }

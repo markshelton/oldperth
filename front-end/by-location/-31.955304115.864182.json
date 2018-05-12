@@ -1,16 +1,16 @@
 {
   "311331PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_9.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_9.jpg",
-    "date": "1981-09-26",
-    "height": 506.0,
-    "text": null,
     "years": [
       1981.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Fire Station, 480 Hay St, Perth, September 1981"
+    "date": "1981-09-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_9.png",
+    "title": "Perth Fire Station, 480 Hay St, Perth, September 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_9.jpg"
   }
 }

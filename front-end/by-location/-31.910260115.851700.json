@@ -1,16 +1,16 @@
 {
   "BA1994/130": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_003.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_003.jpg",
-    "date": "1965-01-01",
-    "height": 597.0,
-    "text": null,
     "years": [
       1965.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Front of brick house, located in Warralong Crescent, Coolbinia. 1960-1965"
+    "date": "1965-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 597.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_003.png",
+    "title": "Front of brick house, located in Warralong Crescent, Coolbinia. 1960-1965",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_003.jpg"
   }
 }

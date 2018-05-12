@@ -1,170 +1,338 @@
 {
-  "BA2500/WASL 3860": {
+  "BA533/82": {
+    "years": [
+      1920.0
+    ],
+    "original_title": "",
+    "date": "1920-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_35.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_35.jpg",
-    "date": "2012-04-09",
-    "height": 506.0,
-    "text": null,
-    "years": [
-      2012.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "District Court of W.A. behind the heritage listed portico of St George's Hall, 500 Hay Street, Perth, 9 April 2012"
-  },
-  "014586PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_1.jpg",
-    "date": "1933-01-01",
-    "height": 578.0,
+    "height": 586.0,
     "text": null,
-    "years": [
-      1933.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Electricity is cheap, City of Perth Electricity & Gas Dept hourly cost of electrical appliances, 1933"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1969395_2.png",
+    "title": "Cars for hire in Barrack Street, corner of Murray Street, Perth, 1920",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1969395_2.jpg"
   },
-  "324173PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373532_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373532_1.jpg",
-    "date": "1986-08-08",
-    "height": 620.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Christopher Ellis, Headmaster of Perth College, and family, 8 August 1986"
-  },
-  "018669PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3513543_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3513543_1.jpg",
-    "date": "1927-01-01",
-    "height": 578.0,
-    "text": null,
-    "years": [
-      1927.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Deliver vans for Charlie Carter Ltd, Grocers of Perth and Fremantle, 1927"
-  },
-  "BA2500/WASL 3859": {
-    "width": 506.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_34.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_34.jpg",
-    "date": "2012-04-09",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      2012.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "District Court of W.A. behind the heritage listed portico of St George's Hall, 500 Hay Street, Perth, 9 April 2012"
-  },
-  "143880PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762633_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762633_1.jpg",
-    "date": "1989-01-01",
-    "height": 544.0,
-    "text": null,
-    "years": [
-      1989.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Heirisson Island, City of Perth in the background, 1988-1989"
-  },
-  "014591PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_2.jpg",
-    "date": "1933-01-01",
-    "height": 574.0,
-    "text": null,
-    "years": [
-      1933.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Electricity is cheap, City of Perth Electricity & Gas Dept hourly cost of electrical appliances, 1933"
-  },
-  "371613PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_003.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_003.jpg",
-    "date": null,
-    "height": 510.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The District Court Building under construction behind the facade of St George's Hall, 500 Hay Street, Perth, ca. 2007"
-  },
-  "025803PD": {
-    "width": 520.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3032524_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3032524_1.jpg",
-    "date": "1878-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1878.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Mr Richard Davies, Headmaster of Perth High School, 1878"
-  },
-  "371582PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_001.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_001.jpg",
-    "date": null,
-    "height": 507.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The District Court Building under construction behind the facade of St George's Hall, 500 Hay Street, Perth, 2007?"
-  },
-  "371612PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_002.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_002.jpg",
-    "date": null,
-    "height": 510.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The District Court Building under construction behind the facade of St George's Hall, 500 Hay Street, Perth, ca. 2007"
-  },
-  "361464PD": {
-    "width": 736.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104419_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104419_4.jpg",
-    "date": "1975-06-03",
-    "height": 760.0,
-    "text": null,
+  "333868PD": {
     "years": [
       1975.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "George Burnett, Mayor of Perth presents Sir Charles Court with a silver bucket at the opening of the Como Centre, 3 June 1975"
+    "date": "1975-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_14.png",
+    "title": "John Murray riding Runyon, winner of the Perth Cup, 1 January 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_14.jpg"
+  },
+  "014586PD": {
+    "years": [
+      1933.0
+    ],
+    "original_title": "",
+    "date": "1933-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_1.png",
+    "title": "Electricity is cheap, City of Perth Electricity & Gas Dept hourly cost of electrical appliances, 1933",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_1.jpg"
+  },
+  "312727PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_27.png",
+    "title": "Police Station on top of the Horseshoe Bridge, part of the Perth Railway Station, May 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_27.jpg"
+  },
+  "BA2500/WASL 3859": {
+    "years": [
+      2012.0
+    ],
+    "original_title": "",
+    "date": "2012-04-09",
+    "width": 506.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_34.png",
+    "title": "District Court of W.A. behind the heritage listed portico of St George's Hall, 500 Hay Street, Perth, 9 April 2012",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_34.jpg"
+  },
+  "312129PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_9.png",
+    "title": "Sebel furniture warehouse and store in Mounts Bay Rd, corner of Mill St, Perth, August 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_9.jpg"
+  },
+  "333866PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_12.png",
+    "title": "John Murray on Runyon with owner Mrs P.E. Parker (foreground), winner of the Perth Cup, 1 January 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_12.jpg"
+  },
+  "014608PD": {
+    "years": [
+      1932.0
+    ],
+    "original_title": "",
+    "date": "1932-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 577.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418260_1.png",
+    "title": "349-351 Murray Street, corner of King Street, Perth, 1932. A sign post for Munster Place is at extreme left in King St",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418260_1.jpg"
+  },
+  "025803PD": {
+    "years": [
+      1878.0
+    ],
+    "original_title": "",
+    "date": "1878-01-01",
+    "width": 520.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3032524_1.png",
+    "title": "Mr Richard Davies, Headmaster of Perth High School, 1878",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3032524_1.jpg"
+  },
+  "329263PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-07-15",
+    "width": 760.0,
+    "folder": null,
+    "height": 758.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3159424_1.png",
+    "title": "Dr Stan Reid, Commodore of Royal Perth Yacht Club of Western Australia, 15 July 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3159424_1.jpg"
+  },
+  "014591PD": {
+    "years": [
+      1933.0
+    ],
+    "original_title": "",
+    "date": "1933-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 574.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_2.png",
+    "title": "Electricity is cheap, City of Perth Electricity & Gas Dept hourly cost of electrical appliances, 1933",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418256_2.jpg"
+  },
+  "018669PD": {
+    "years": [
+      1927.0
+    ],
+    "original_title": "",
+    "date": "1927-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3513543_1.png",
+    "title": "Deliver vans for Charlie Carter Ltd, Grocers of Perth and Fremantle, 1927",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3513543_1.jpg"
+  },
+  "361464PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-06-03",
+    "width": 736.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104419_4.png",
+    "title": "George Burnett, Mayor of Perth presents Sir Charles Court with a silver bucket at the opening of the Como Centre, 3 June 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104419_4.jpg"
+  },
+  "143880PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 544.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762633_1.png",
+    "title": "Heirisson Island, City of Perth in the background, 1988-1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762633_1.jpg"
+  },
+  "371612PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_002.png",
+    "title": "The District Court Building under construction behind the facade of St George's Hall, 500 Hay Street, Perth, ca. 2007",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_002.jpg"
+  },
+  "331186PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_21.png",
+    "title": "Runyon, winner of the Perth Cup, 1 January 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_21.jpg"
+  },
+  "BA2500/WASL 3860": {
+    "years": [
+      2012.0
+    ],
+    "original_title": "",
+    "date": "2012-04-09",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_35.png",
+    "title": "District Court of W.A. behind the heritage listed portico of St George's Hall, 500 Hay Street, Perth, 9 April 2012",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3604327_35.jpg"
+  },
+  "324173PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-08-08",
+    "width": 760.0,
+    "folder": null,
+    "height": 620.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3373532_1.png",
+    "title": "Christopher Ellis, Headmaster of Perth College, and family, 8 August 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3373532_1.jpg"
+  },
+  "371582PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_001.png",
+    "title": "The District Court Building under construction behind the facade of St George's Hall, 500 Hay Street, Perth, 2007?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_001.jpg"
+  },
+  "241266PD": {
+    "years": [
+      1951.0
+    ],
+    "original_title": "",
+    "date": "1951-06-17",
+    "width": 583.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1921405_10.png",
+    "title": "W.F.S. Bardon, Chairman of the Perth Road Board, 17 June 1951",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1921405_10.jpg"
+  },
+  "371613PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_003.png",
+    "title": "The District Court Building under construction behind the facade of St George's Hall, 500 Hay Street, Perth, ca. 2007",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3009097_003.jpg"
+  },
+  "333870PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_16.png",
+    "title": "Runyon, winner of the Perth Cup, 1 January 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_16.jpg"
+  },
+  "315569PD": {
+    "years": [
+      1991.0
+    ],
+    "original_title": "",
+    "date": "1991-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_31.png",
+    "title": "Central Park under construction, back of the Perth Technical College at centre, March 1991",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799955_31.jpg"
+  },
+  "333869PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 517.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_15.png",
+    "title": "Runyon, winner of the Perth Cup, 1 January 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3104350_15.jpg"
   }
 }

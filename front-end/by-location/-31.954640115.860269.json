@@ -1,352 +1,534 @@
 {
-  "018209PD": {
-    "width": 574.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894776_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894776_1.jpg",
-    "date": null,
-    "height": 760.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Diamond House, 655 Hay Street, Perth premises of Dunklings Ltd Jewellers, 1930"
-  },
-  "359930PD": {
-    "width": 731.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_2.jpg",
-    "date": null,
-    "height": 760.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Barney's menswear shop, 707 Hay Street, Perth, 1973"
-  },
   "328916PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1898370_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1898370_1.jpg",
-    "date": "1979-06-25",
-    "height": 760.0,
-    "text": null,
     "years": [
       1979.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Hoyts cinema 2 interior, Wanamba Arcade, Perth, 25 June 1979"
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1898370_1.png",
+    "title": "Hoyts cinema 2 interior, Wanamba Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1898370_1.jpg"
   },
   "327388PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_1.jpg",
-    "date": "1974-04-01",
-    "height": 759.0,
-    "text": null,
     "years": [
       1974.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Alan Smith menswear store, City Arcade, Perth, 1 April 1974"
+    "date": "1974-04-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 759.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_1.png",
+    "title": "Alan Smith menswear store, City Arcade, Perth, 1 April 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_1.jpg"
   },
-  "328919PD": {
+  "328625PD": {
+    "years": [
+      1978.0
+    ],
+    "original_title": "",
+    "date": "1978-08-29",
     "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900266_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900266_1.jpg",
-    "date": "2018-04-01",
+    "folder": null,
     "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_4.png",
+    "title": "Ringcraft Jewellers, City Arcade, Perth, 29 August 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_4.jpg"
+  },
+  "328914PD": {
+    "years": [
+      1979.0
+    ],
+    "original_title": "",
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1898075_1.png",
+    "title": "Hoyts Cinema 1, interior, City Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1898075_1.jpg"
+  },
+  "128333PD": {
     "years": [
       2018.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Hoyts Cinema 1 ticket office, City Arcade, Perth, 25 June 1979"
-  },
-  "018385PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894798_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894798_1.jpg",
-    "date": null,
-    "height": 578.0,
-    "text": null,
-    "years": [
-      null
-    ],
+    "date": "2018-04-12",
+    "width": 515.0,
     "folder": null,
-    "original_title": "",
-    "title": "Thomsons Ltd, 672 Hay Street, Perth, 1935"
-  },
-  "328624PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_3.jpg",
-    "date": "1978-08-29",
     "height": 760.0,
     "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Ringcraft Jewellers, City Arcade, Perth, 29 August 1978"
-  },
-  "328915PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900264_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900264_1.jpg",
-    "date": "1979-06-25",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1979.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Hoyts Cinema 1 foyer, City Arcade, Perth, 25 June 1979"
-  },
-  "328623PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_2.jpg",
-    "date": "1978-08-29",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Jewellers at work in the workshop of Ringcraft Jewellers, City Arcade, Perth, 29 August 1978"
-  },
-  "311653PD": {
-    "width": 503.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_25.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_25.jpg",
-    "date": "1982-12-26",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "National Mutual Arcade, 703 Hay Street, Perth, December 1982. Demolished June 1986"
-  },
-  "359929PD": {
-    "width": 740.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_1.jpg",
-    "date": null,
-    "height": 760.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Barney's menswear shop, 707 Hay Street, Perth, 1973"
-  },
-  "328622PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_1.jpg",
-    "date": "1978-08-29",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "A jeweller at work in the workshop of Ringcraft Jewellers, City Arcade, Perth, 29 August 1978"
-  },
-  "328625PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_4.jpg",
-    "date": "1978-08-29",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Ringcraft Jewellers, City Arcade, Perth, 29 August 1978"
-  },
-  "018383PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894796_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894796_1.jpg",
-    "date": null,
-    "height": 575.0,
-    "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "C & H Locke furnishings, 793 Hay Street, Perth, 1935"
-  },
-  "327391PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_2.jpg",
-    "date": "1974-04-01",
-    "height": 759.0,
-    "text": null,
-    "years": [
-      1974.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Alan Smith menswear store, City Arcade, Perth, 1 April 1974"
-  },
-  "328921PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900260_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900260_1.jpg",
-    "date": "1979-06-25",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1979.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Entrance to Hoyts Cinemas 2 & 3, Wanamba Arcade, Perth, 25 June 1979"
-  },
-  "328920PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900256_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900256_1.jpg",
-    "date": "1979-06-25",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1979.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Entrance to Hoyts Cinemas 2 & 3 entrance, Wanamba Arcade, Perth, 25 June 1979"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348154_1.png",
+    "title": "Milady's Fancy Florist, 12 Royal Arcade, Perth, 1945",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348154_1.jpg"
   },
   "328918PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3133226_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3133226_1.jpg",
-    "date": "1979-06-25",
-    "height": 760.0,
-    "text": null,
     "years": [
       1979.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Entrance to Hoyts Cinema 1 and the Atheneum II Coffee Lounge, City Arcade, Perth, 25 June 1979"
-  },
-  "BA1271/190": {
-    "width": 579.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101450_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101450_2.jpg",
-    "date": null,
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
-    "years": [
-      null
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "E. S. Wigg & Son Ltd. Stationers & Printers, 669 Hay Street, Perth, 1926"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3133226_1.png",
+    "title": "Entrance to Hoyts Cinema 1 and the Atheneum II Coffee Lounge, City Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3133226_1.jpg"
   },
-  "128351PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348164_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348164_1.jpg",
-    "date": null,
-    "height": 500.0,
-    "text": null,
+  "101097PD": {
     "years": [
-      null
+      1931.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Dunklings Ltd jewellers, 655 Hay Street, Perth, 1939"
-  },
-  "311676PD": {
+    "date": "1931-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_27.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_27.jpg",
-    "date": "1982-12-26",
-    "height": 503.0,
+    "folder": null,
+    "height": 577.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473506_1.png",
+    "title": "International Harvester Company offices and showrooms, 789-791 Welllington Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473506_1.jpg"
+  },
+  "312886PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_17.png",
+    "title": "The Piccadilly and another block of flats, 931-933 Beaufort Street, Perth, January 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_17.jpg"
+  },
+  "311631PD": {
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The former David Jones building (formerly Foy & Gibson), 793 Hay Street, Perth, December 1982. Demolished early 1987"
-  },
-  "327390PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_2.jpg",
-    "date": "1974-04-01",
-    "height": 759.0,
+    "date": "1982-07-26",
+    "width": 507.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_17.png",
+    "title": "The Read Buildings, 929-933 Hay Street, Perth, July 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_17.jpg"
+  },
+  "328624PD": {
     "years": [
-      1974.0
+      1978.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Shirt Inn International menswear store, City Arcade, Perth, 1 April 1974"
-  },
-  "327387PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096730_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096730_1.jpg",
-    "date": "1974-04-01",
-    "height": 759.0,
-    "text": null,
-    "years": [
-      1974.0
-    ],
+    "date": "1978-08-29",
+    "width": 758.0,
     "folder": null,
-    "original_title": "",
-    "title": "Ron Bennett Red Coach Shops menswear store, City Arcade, Perth, 1 April 1974"
-  },
-  "327389PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_1.jpg",
-    "date": "1974-04-01",
-    "height": 759.0,
+    "height": 760.0,
     "text": null,
-    "years": [
-      1974.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Shirt Inn International menswear store, City Arcade, Perth, 1 April 1974"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_3.png",
+    "title": "Ringcraft Jewellers, City Arcade, Perth, 29 August 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_3.jpg"
   },
-  "101296PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473539_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473539_1.jpg",
-    "date": null,
-    "height": 583.0,
-    "text": null,
+  "359929PD": {
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Closing down sale at the Daintywalk Shoe Arcade, 704 Hay Street, Perth, 1940"
+    "date": null,
+    "width": 740.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_1.png",
+    "title": "Barney's menswear shop, 707 Hay Street, Perth, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_1.jpg"
+  },
+  "327387PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-04-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 759.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096730_1.png",
+    "title": "Ron Bennett Red Coach Shops menswear store, City Arcade, Perth, 1 April 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096730_1.jpg"
+  },
+  "101296PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 583.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473539_1.png",
+    "title": "Closing down sale at the Daintywalk Shoe Arcade, 704 Hay Street, Perth, 1940",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473539_1.jpg"
+  },
+  "101156PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 575.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473514_1.png",
+    "title": "Dunklings Ltd, jewellers, 655 Hay Street, Perth, 1931",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473514_1.jpg"
+  },
+  "100235PD": {
+    "years": [
+      1927.0
+    ],
+    "original_title": "",
+    "date": "1927-01-01",
+    "width": 580.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3473331_1.png",
+    "title": "Mme Luckey Milliner and Alex Kelly's Shoe Stores, 694-696 Hay Street, Perth, 1927",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3473331_1.jpg"
+  },
+  "328921PD": {
+    "years": [
+      1979.0
+    ],
+    "original_title": "",
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900260_1.png",
+    "title": "Entrance to Hoyts Cinemas 2 & 3, Wanamba Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900260_1.jpg"
+  },
+  "BA1271/190": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 579.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2101450_2.png",
+    "title": "E. S. Wigg & Son Ltd. Stationers & Printers, 669 Hay Street, Perth, 1926",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2101450_2.jpg"
+  },
+  "311653PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-12-26",
+    "width": 503.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_25.png",
+    "title": "National Mutual Arcade, 703 Hay Street, Perth, December 1982. Demolished June 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_25.jpg"
+  },
+  "311772PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-06-26",
+    "width": 507.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_31.png",
+    "title": "Irene Whyte and Peter Shearer, 707-709 Hay Street, Perth, June 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_31.jpg"
+  },
+  "328920PD": {
+    "years": [
+      1979.0
+    ],
+    "original_title": "",
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900256_1.png",
+    "title": "Entrance to Hoyts Cinemas 2 & 3 entrance, Wanamba Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900256_1.jpg"
+  },
+  "327391PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-04-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 759.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_2.png",
+    "title": "Alan Smith menswear store, City Arcade, Perth, 1 April 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096731_2.jpg"
+  },
+  "018209PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 574.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894776_1.png",
+    "title": "Diamond House, 655 Hay Street, Perth premises of Dunklings Ltd Jewellers, 1930",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894776_1.jpg"
+  },
+  "359930PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 731.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_2.png",
+    "title": "Barney's menswear shop, 707 Hay Street, Perth, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096581_2.jpg"
+  },
+  "018383PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 575.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894796_1.png",
+    "title": "C & H Locke furnishings, 793 Hay Street, Perth, 1935",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894796_1.jpg"
+  },
+  "328623PD": {
+    "years": [
+      1978.0
+    ],
+    "original_title": "",
+    "date": "1978-08-29",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_2.png",
+    "title": "Jewellers at work in the workshop of Ringcraft Jewellers, City Arcade, Perth, 29 August 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_2.jpg"
+  },
+  "128351PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348164_1.png",
+    "title": "Dunklings Ltd jewellers, 655 Hay Street, Perth, 1939",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348164_1.jpg"
+  },
+  "327389PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-04-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 759.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_1.png",
+    "title": "Shirt Inn International menswear store, City Arcade, Perth, 1 April 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_1.jpg"
+  },
+  "311676PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-12-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_27.png",
+    "title": "The former David Jones building (formerly Foy & Gibson), 793 Hay Street, Perth, December 1982. Demolished early 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_27.jpg"
+  },
+  "328622PD": {
+    "years": [
+      1978.0
+    ],
+    "original_title": "",
+    "date": "1978-08-29",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_1.png",
+    "title": "A jeweller at work in the workshop of Ringcraft Jewellers, City Arcade, Perth, 29 August 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135436_1.jpg"
+  },
+  "018385PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894798_1.png",
+    "title": "Thomsons Ltd, 672 Hay Street, Perth, 1935",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894798_1.jpg"
+  },
+  "328915PD": {
+    "years": [
+      1979.0
+    ],
+    "original_title": "",
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900264_1.png",
+    "title": "Hoyts Cinema 1 foyer, City Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900264_1.jpg"
+  },
+  "BA533/61": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 590.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1923340_2.png",
+    "title": "Sheffield House premises of Levinson & Sons, Opticians, 713 Hay Street, Perth, 1926?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1923340_2.jpg"
+  },
+  "BA1530/5915": {
+    "years": [
+      1996.0
+    ],
+    "original_title": "",
+    "date": "1996-09-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 512.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3973014_1.png",
+    "title": "Gledden Building, and City Arcade, Perth central business district, September 1996.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3973014_1.jpg"
+  },
+  "311632PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_18.png",
+    "title": "Bike World, 915-917 Hay Street, Perth, July 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_18.jpg"
+  },
+  "327390PD": {
+    "years": [
+      1974.0
+    ],
+    "original_title": "",
+    "date": "1974-04-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 759.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_2.png",
+    "title": "Shirt Inn International menswear store, City Arcade, Perth, 1 April 1974",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096732_2.jpg"
+  },
+  "328917PD": {
+    "years": [
+      1979.0
+    ],
+    "original_title": "",
+    "date": "1979-06-25",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1898389_1.png",
+    "title": "Hoyts Cinema 1, interior, City Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1898389_1.jpg"
+  },
+  "128335PD": {
+    "years": [
+      1940.0
+    ],
+    "original_title": "",
+    "date": "1940-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348156_1.png",
+    "title": "Belle Gladstone Exclusive Hats, 17 Plaza Arcade, Perth, 1940s",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348156_1.jpg"
+  },
+  "328919PD": {
+    "years": [
+      2018.0
+    ],
+    "original_title": "",
+    "date": "2018-04-01",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1900266_1.png",
+    "title": "Hoyts Cinema 1 ticket office, City Arcade, Perth, 25 June 1979",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1900266_1.jpg"
   }
 }

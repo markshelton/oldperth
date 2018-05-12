@@ -1,16 +1,30 @@
 {
-  "312415PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_13.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_13.jpg",
-    "date": "1983-01-26",
-    "height": 501.0,
-    "text": null,
+  "312412PD": {
     "years": [
       1983.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Playhouse Theatre, 3 Pier Street, Perth, January 1983"
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799973_27.png",
+    "title": "Burt Memorial Hall, 38 St George's Terrace, Perth, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799973_27.jpg"
+  },
+  "312415PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 501.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_13.png",
+    "title": "The Playhouse Theatre, 3 Pier Street, Perth, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800020_13.jpg"
   }
 }

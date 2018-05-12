@@ -1,16 +1,58 @@
 {
-  "311652PD": {
-    "width": 503.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_24.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_24.jpg",
-    "date": "1982-12-26",
-    "height": 760.0,
-    "text": null,
+  "311837PD": {
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Vox Adeon, 683 Hay Street Mall, Perth, December 1982"
+    "date": "1982-11-26",
+    "width": 511.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799973_20.png",
+    "title": "New Zealand Insurance Building, 100 St George's Terrace, Perth, November 1982. Demolished Nov. 1982-Oct. 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799973_20.jpg"
+  },
+  "371637PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3012710_001.png",
+    "title": "Construction of the enex 100 building, 100 St George's Terrace, Perth, ca. 2007",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3012710_001.jpg"
+  },
+  "311652PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-12-26",
+    "width": 503.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_24.png",
+    "title": "Vox Adeon, 683 Hay Street Mall, Perth, December 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799996_24.jpg"
+  },
+  "311965PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-10-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799973_22.png",
+    "title": "National Mutual Arcade, 100 St George's Terrace, Perth, October 1983. On the site of the NZ Insurance Building",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799973_22.jpg"
   }
 }

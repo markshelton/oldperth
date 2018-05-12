@@ -1,16 +1,16 @@
 {
   "BA1994/129": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_002.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_002.jpg",
-    "date": "1965-01-01",
-    "height": 604.0,
-    "text": null,
     "years": [
       1965.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Premises of C. Kalaf, South Terrace, South Perth, 1960-1965"
+    "date": "1965-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 604.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_002.png",
+    "title": "Premises of C. Kalaf, South Terrace, South Perth, 1960-1965",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2836570_002.jpg"
   }
 }

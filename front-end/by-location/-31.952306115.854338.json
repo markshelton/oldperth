@@ -1,16 +1,16 @@
 {
   "113851PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3521969_8.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3521969_8.jpg",
-    "date": "1959-02-24",
-    "height": 609.0,
-    "text": null,
     "years": [
       1959.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "J. & W. Bateman, 848 Hay Street, Perth, 24 February 1959"
+    "date": "1959-02-24",
+    "width": 760.0,
+    "folder": null,
+    "height": 609.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3521969_8.png",
+    "title": "J. & W. Bateman, 848 Hay Street, Perth, 24 February 1959",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3521969_8.jpg"
   }
 }

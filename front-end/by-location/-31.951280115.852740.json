@@ -1,16 +1,16 @@
 {
   "BA1530/5852": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970458_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970458_1.jpg",
-    "date": "1994-06-26",
-    "height": 513.0,
-    "text": null,
     "years": [
       1994.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Lenox cafe bar, 437 Murray Street, Perth, June 1994."
+    "date": "1994-06-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 513.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970458_1.png",
+    "title": "Lenox cafe bar, 437 Murray Street, Perth, June 1994.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970458_1.jpg"
   }
 }

@@ -1,114 +1,226 @@
 {
-  "312910PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_2.jpg",
-    "date": "1984-02-26",
-    "height": 503.0,
-    "text": null,
-    "years": [
-      1984.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Part of the W.A. Museum, Francis St, Perth, February 1984. This building demolished September 1985"
-  },
-  "314834PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_9.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_9.jpg",
-    "date": "1987-08-26",
-    "height": 505.0,
-    "text": null,
+  "314830PD": {
     "years": [
       1987.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Bassendean Hotel, Old Perth Road, Bassendean, August 1987"
+    "date": "1987-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_6.png",
+    "title": "B. McIntyre & S. Burns Watchmaker & Jewellers (corner of Wilson St) beside D. Di Blasio Continental Hairdressing, Old Perth Road, Bassendean, August 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_6.jpg"
   },
   "314835PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_10.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_10.jpg",
-    "date": "1987-08-26",
-    "height": 505.0,
-    "text": null,
     "years": [
       1987.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Wespac Bank, Old Perth Road, Bassendean looking towards Guildford Rd, August 1987"
+    "date": "1987-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_10.png",
+    "title": "Wespac Bank, Old Perth Road, Bassendean looking towards Guildford Rd, August 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_10.jpg"
+  },
+  "144320PD": {
+    "years": [
+      1972.0
+    ],
+    "original_title": "",
+    "date": "1972-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 531.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3908040_1.png",
+    "title": "Swan Brewery buildings, Swan River, Perth, 1972.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3908040_1.jpg"
+  },
+  "144305PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 533.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_22.png",
+    "title": "Mitchell Freeway construction, Swan River foreshore, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_22.jpg"
+  },
+  "314834PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_9.png",
+    "title": "Bassendean Hotel, Old Perth Road, Bassendean, August 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_9.jpg"
   },
   "BA2211": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3002832_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3002832_2.jpg",
-    "date": "1914-01-01",
-    "height": 510.0,
-    "text": null,
     "years": [
       1914.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Men enlisting at Swan Barracks, Francis Street, Perth, ca. 1914"
-  },
-  "314830PD": {
+    "date": "1914-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_6.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_6.jpg",
-    "date": "1987-08-26",
-    "height": 505.0,
+    "folder": null,
+    "height": 510.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3002832_2.png",
+    "title": "Men enlisting at Swan Barracks, Francis Street, Perth, ca. 1914",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3002832_2.jpg"
+  },
+  "144303PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 533.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_20.png",
+    "title": "Mitchell Freeway construction, Swan River foreshore, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_20.jpg"
+  },
+  "144306PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 533.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_23.png",
+    "title": "Mitchell Freeway construction, Swan River foreshore, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_23.jpg"
+  },
+  "BA533/533": {
+    "years": [
+      1925.0
+    ],
+    "original_title": "",
+    "date": "1925-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 573.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1924319_2.png",
+    "title": "Valdana river ferry, Swan River, Perth, ca.1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1924319_2.jpg"
+  },
+  "314828PD": {
     "years": [
       1987.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "B. McIntyre & S. Burns Watchmaker & Jewellers (corner of Wilson St) beside D. Di Blasio Continental Hairdressing, Old Perth Road, Bassendean, August 1987"
+    "date": "1987-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_4.png",
+    "title": "Commonwealth Bank (corner of Wilson St) and Lucky Star Chinese Restaurant, Old Perth Road, Bassendean, August 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_4.jpg"
   },
   "312911PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_3.jpg",
-    "date": "1984-02-26",
-    "height": 499.0,
-    "text": null,
     "years": [
       1984.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Part of W.A. Museum, Francis St, Perth, February 1984. Brick building demolished Sept. 1985, multi story building demolished 2011"
-  },
-  "314828PD": {
+    "date": "1984-02-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3654662_4.jpg",
-    "date": "1987-08-26",
-    "height": 505.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
     "folder": null,
+    "height": 499.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_3.png",
+    "title": "Part of W.A. Museum, Francis St, Perth, February 1984. Brick building demolished Sept. 1985, multi story building demolished 2011",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_3.jpg"
+  },
+  "312910PD": {
+    "years": [
+      1984.0
+    ],
     "original_title": "",
-    "title": "Commonwealth Bank (corner of Wilson St) and Lucky Star Chinese Restaurant, Old Perth Road, Bassendean, August 1987"
+    "date": "1984-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_2.png",
+    "title": "Part of the W.A. Museum, Francis St, Perth, February 1984. This building demolished September 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799998_2.jpg"
+  },
+  "144302PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 533.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_19.png",
+    "title": "Mitchell Freeway construction, Swan River foreshore, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_19.jpg"
+  },
+  "319739PD": {
+    "years": [
+      1955.0
+    ],
+    "original_title": "",
+    "date": "1955-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 540.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3880506_1.png",
+    "title": "Crawley Baths, Swan River, Perth, approximately 1955.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3880506_1.jpg"
   },
   "231739PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3430672_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3430672_1.jpg",
-    "date": "1965-01-01",
-    "height": 514.0,
-    "text": null,
     "years": [
       1965.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Library staff car park, Francis Street, Perth, ca. 1965"
+    "date": "1965-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 514.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3430672_1.png",
+    "title": "Library staff car park, Francis Street, Perth, ca. 1965",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3430672_1.jpg"
+  },
+  "144307PD": {
+    "years": [
+      1966.0
+    ],
+    "original_title": "",
+    "date": "1966-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 533.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_24.png",
+    "title": "Mitchell Freeway construction, Swan River foreshore, Perth, between 1966 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3903120_24.jpg"
   }
 }

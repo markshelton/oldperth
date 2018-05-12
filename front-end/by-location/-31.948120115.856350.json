@@ -1,58 +1,72 @@
 {
-  "315711PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_17.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_17.jpg",
-    "date": "1990-02-26",
-    "height": 502.0,
-    "text": null,
-    "years": [
-      1990.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Flamingo's, 21 Lake Street, Northbridge, February 1990"
-  },
-  "315710PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_16.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_16.jpg",
-    "date": "1990-02-26",
-    "height": 509.0,
-    "text": null,
-    "years": [
-      1990.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Liberty Restaurant (right) and other buildings, Lake Street, Northbridge, February 1990. Near James Street, formerly part of the Peters Ice Cream factory"
-  },
-  "312941PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_13.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_13.jpg",
-    "date": "1984-01-26",
-    "height": 503.0,
-    "text": null,
+  "312742PD": {
     "years": [
       1984.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Emperor's Court Chinese restaurant (no.66) and Young Joe's Pizza Bar (no.56), Lake Street, Northbridge, January 1984"
+    "date": "1984-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 498.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_6.png",
+    "title": "The old West Australian Boot Manufacturing Co. building and Comfortwear Pty Ltd, 127 Lake Street, Northbridge, May 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_6.jpg"
+  },
+  "315710PD": {
+    "years": [
+      1990.0
+    ],
+    "original_title": "",
+    "date": "1990-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 509.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_16.png",
+    "title": "Liberty Restaurant (right) and other buildings, Lake Street, Northbridge, February 1990. Near James Street, formerly part of the Peters Ice Cream factory",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_16.jpg"
+  },
+  "315711PD": {
+    "years": [
+      1990.0
+    ],
+    "original_title": "",
+    "date": "1990-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 502.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_17.png",
+    "title": "Flamingo's, 21 Lake Street, Northbridge, February 1990",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_17.jpg"
   },
   "312402PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_4.jpg",
-    "date": "1983-01-26",
-    "height": 505.0,
-    "text": null,
     "years": [
       1983.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Evermond and Etna Import Co., 21 Lake Street, Northbridge, January 1983"
+    "date": "1983-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_4.png",
+    "title": "Evermond and Etna Import Co., 21 Lake Street, Northbridge, January 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_4.jpg"
+  },
+  "312941PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_13.png",
+    "title": "The Emperor's Court Chinese restaurant (no.66) and Young Joe's Pizza Bar (no.56), Lake Street, Northbridge, January 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939371_13.jpg"
   }
 }

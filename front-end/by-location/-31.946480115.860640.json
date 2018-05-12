@@ -1,16 +1,72 @@
 {
-  "BA1530/5883": {
+  "312201PD": {
+    "years": [
+      1983.0
+    ],
+    "original_title": "",
+    "date": "1983-05-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3971965_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3971965_3.jpg",
-    "date": "1996-03-26",
-    "height": 510.0,
+    "folder": null,
+    "height": 502.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_22.png",
+    "title": "Danny's Shoe Store, 241 William Street, Northbridge, May 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800033_22.jpg"
+  },
+  "315075PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_33.png",
+    "title": "William St. Shopping Centre, 375-393 William Street, Northbridge, February 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_33.jpg"
+  },
+  "315076PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 496.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_34.png",
+    "title": "William St. Shopping Centre, 375-393 William Street, Northbridge, February 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_34.jpg"
+  },
+  "BA1530/5883": {
     "years": [
       1996.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Salvation Army State Headquarters Perth Fortress Corps, William Street, Northbridge, March 1996."
+    "date": "1996-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3971965_3.png",
+    "title": "The Salvation Army State Headquarters Perth Fortress Corps, William Street, Northbridge, March 1996.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3971965_3.jpg"
+  },
+  "315078PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 496.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_42.png",
+    "title": "William St. Shopping Centre including the Flower Lounge Chinese Restaurant, 375-393 William Street, Northbridge, February 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800034_42.jpg"
   }
 }

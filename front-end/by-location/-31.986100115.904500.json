@@ -1,16 +1,16 @@
 {
   "328097PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3134991_8.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3134991_8.jpg",
-    "date": "1976-09-10",
-    "height": 750.0,
-    "text": null,
     "years": [
       1976.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Town & Country Permanent Building Society Branch, 892 Albany Highway, East Victoria Park and Hilary Holland & Assoc. Estate Agents, 10 September 1976"
+    "date": "1976-09-10",
+    "width": 760.0,
+    "folder": null,
+    "height": 750.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3134991_8.png",
+    "title": "Town & Country Permanent Building Society Branch, 892 Albany Highway, East Victoria Park and Hilary Holland & Assoc. Estate Agents, 10 September 1976",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3134991_8.jpg"
   }
 }

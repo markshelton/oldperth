@@ -1,16 +1,16 @@
 {
   "311465PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_7.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_7.jpg",
-    "date": "1982-08-26",
-    "height": 508.0,
-    "text": null,
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Civic Hotel, 981 Beaufort Street, Inglewood, August 1982"
+    "date": "1982-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_7.png",
+    "title": "The Civic Hotel, 981 Beaufort Street, Inglewood, August 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_7.jpg"
   }
 }

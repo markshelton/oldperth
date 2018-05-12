@@ -1,16 +1,16 @@
 {
   "018942PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3513559_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3513559_1.jpg",
-    "date": "1890-01-01",
-    "height": 590.0,
-    "text": null,
     "years": [
       1890.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "J.C.H. James and family at Romansleigh, Goderich Street, Perth, ca. 1890"
+    "date": "1890-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 590.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3513559_1.png",
+    "title": "J.C.H. James and family at Romansleigh, Goderich Street, Perth, ca. 1890",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3513559_1.jpg"
   }
 }

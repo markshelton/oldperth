@@ -1,44 +1,44 @@
 {
   "311619PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799990_17.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799990_17.jpg",
-    "date": "1982-07-26",
-    "height": 507.0,
-    "text": null,
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Design House, 1000 Hay Street, Perth, July 1982"
+    "date": "1982-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799990_17.png",
+    "title": "Design House, 1000 Hay Street, Perth, July 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799990_17.jpg"
   },
   "113989PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3522029_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3522029_1.jpg",
+    "years": [
+      1959.0
+    ],
+    "original_title": "",
     "date": "1959-09-26",
+    "width": 760.0,
+    "folder": null,
     "height": 617.0,
     "text": null,
-    "years": [
-      1959.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "A.G. Healing Ltd electrical goods showroom, 1000 Hay Street, Perth, September 1959"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3522029_1.png",
+    "title": "A.G. Healing Ltd electrical goods showroom, 1000 Hay Street, Perth, September 1959",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3522029_1.jpg"
   },
   "113910PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3521994_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3521994_1.jpg",
-    "date": "1959-01-16",
-    "height": 598.0,
-    "text": null,
     "years": [
       1959.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "A.G. Healing Ltd electrical goods showroom, 1000 Hay Street, Perth, 16 January 1959"
+    "date": "1959-01-16",
+    "width": 760.0,
+    "folder": null,
+    "height": 598.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3521994_1.png",
+    "title": "A.G. Healing Ltd electrical goods showroom, 1000 Hay Street, Perth, 16 January 1959",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3521994_1.jpg"
   }
 }

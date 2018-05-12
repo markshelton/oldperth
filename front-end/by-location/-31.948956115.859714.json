@@ -1,16 +1,30 @@
 {
-  "311310PD": {
+  "217541PD": {
+    "years": [
+      null
+    ],
+    "original_title": "",
+    "date": null,
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_8.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_8.jpg",
-    "date": "1982-01-26",
-    "height": 506.0,
+    "folder": null,
+    "height": 558.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416385_15.png",
+    "title": "Exercising on the grounds beside the National Fitness Council of W.A., 50 James Street, Perth",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416385_15.jpg"
+  },
+  "311310PD": {
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The National Bank William Street Branch, 214 William Street, Perth, January 1982"
+    "date": "1982-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_8.png",
+    "title": "The National Bank William Street Branch, 214 William Street, Perth, January 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800035_8.jpg"
   }
 }

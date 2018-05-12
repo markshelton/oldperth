@@ -1,16 +1,16 @@
 {
   "322449PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3149198_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3149198_1.jpg",
-    "date": "1981-09-02",
-    "height": 633.0,
-    "text": null,
     "years": [
       1981.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Outdoor Centre and Clark Rubber, 4 Delawney Street, Balcatta, 2 September 1981"
+    "date": "1981-09-02",
+    "width": 760.0,
+    "folder": null,
+    "height": 633.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3149198_1.png",
+    "title": "Perth Outdoor Centre and Clark Rubber, 4 Delawney Street, Balcatta, 2 September 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3149198_1.jpg"
   }
 }

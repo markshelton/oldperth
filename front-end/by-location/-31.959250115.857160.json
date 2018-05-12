@@ -1,16 +1,16 @@
 {
   "067458PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2396434_008.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2396434_008.jpg",
-    "date": "1901-01-01",
-    "height": 353.0,
-    "text": null,
     "years": [
       1901.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Government Buildings, Barrack St., Perth, 1901. ie Treasury Buildings"
+    "date": "1901-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 353.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2396434_008.png",
+    "title": "Government Buildings, Barrack St., Perth, 1901. ie Treasury Buildings",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2396434_008.jpg"
   }
 }

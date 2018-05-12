@@ -1,0 +1,44 @@
+{
+  "311248PD; Old Fire Station, 45 Murray Street, Perth, May 1981": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800011_8.png",
+    "title": "",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800011_8.jpg"
+  },
+  "311250PD": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 511.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800011_9.png",
+    "title": "Old Fire Station, 45 Murray Street, Perth, May 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800011_9.jpg"
+  },
+  "BA533/174": {
+    "years": [
+      1924.0
+    ],
+    "original_title": "",
+    "date": "1924-04-26",
+    "width": 646.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b1923335_2.png",
+    "title": "Young Australia League Headquarters, 45 Murray Street, Perth under construction, 1924",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b1923335_2.jpg"
+  }
+}

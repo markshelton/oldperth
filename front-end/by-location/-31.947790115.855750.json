@@ -1,16 +1,16 @@
 {
   "315706PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_38.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_38.jpg",
-    "date": "1990-02-26",
-    "height": 508.0,
-    "text": null,
     "years": [
       1990.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Topolino Coffee Bar, 171 James Street, Northbridge, February 1990"
+    "date": "1990-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_38.png",
+    "title": "Topolino Coffee Bar, 171 James Street, Northbridge, February 1990",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800004_38.jpg"
   }
 }

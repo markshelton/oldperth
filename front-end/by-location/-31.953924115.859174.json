@@ -1,16 +1,16 @@
 {
   "128352PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348165_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348165_1.jpg",
-    "date": null,
-    "height": 496.0,
-    "text": null,
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Kodak, 662 Hay Street, Perth, 1939"
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 496.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3348165_1.png",
+    "title": "Kodak, 662 Hay Street, Perth, 1939",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3348165_1.jpg"
   }
 }

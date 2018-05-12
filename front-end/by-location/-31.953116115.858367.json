@@ -1,16 +1,16 @@
 {
   "311773PD": {
-    "width": 507.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_27.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_27.jpg",
-    "date": "1982-06-26",
-    "height": 760.0,
-    "text": null,
     "years": [
       1982.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Piccadilly Arcade, 700 Hay St, Perth, June 1982"
+    "date": "1982-06-26",
+    "width": 507.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_27.png",
+    "title": "Piccadilly Arcade, 700 Hay St, Perth, June 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3799986_27.jpg"
   }
 }

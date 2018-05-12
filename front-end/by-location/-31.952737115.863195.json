@@ -1,464 +1,520 @@
 {
-  "335076PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_2.jpg",
-    "date": "1988-01-01",
-    "height": 500.0,
-    "text": null,
-    "years": [
-      1988.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "A Red City Clipper, Wellington Street, Perth, ca. 1988"
-  },
-  "144273PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3902719_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3902719_1.jpg",
-    "date": "1965-04-26",
-    "height": 542.0,
-    "text": null,
-    "years": [
-      1965.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Beam Service Station, Wellington Street, Perth, between 1965 and 1968."
-  },
-  "BA1530/5618": {
-    "width": 757.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3948954_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3948954_1.jpg",
-    "date": "1973-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1973.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Freeway overpass, Wellington Street, Perth. Big Ben Pies van in foreground, Tower Hotel in background. 1973."
-  },
-  "144221PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3898908_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3898908_1.jpg",
-    "date": "1967-01-01",
-    "height": 536.0,
-    "text": null,
-    "years": [
-      1967.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Horseshoe Bridge, Wellington Street, Perth, 1967."
-  },
-  "315011PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_21.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_21.jpg",
-    "date": "1986-11-26",
-    "height": 505.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Demolition of the Boans building, Wellington Street, Perth, November 1986"
-  },
-  "BA2070/29": {
-    "width": 577.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3447965_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3447965_1.jpg",
-    "date": "1956-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1956.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Dr J.J. Holland explaining a point the Governor General at St John Ambulance Association Headquarters, Wellington St, Perth, 1956?"
-  },
-  "328688PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_2.jpg",
-    "date": "1978-10-30",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Telecom Building, Wellington Street, Perth, 30 October 1978"
-  },
-  "314365PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_26.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_26.jpg",
-    "date": "1986-05-26",
-    "height": 506.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Raine Square, Wellington Street, Perth, May 1986"
-  },
-  "335075PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_1.jpg",
-    "date": "1988-01-01",
-    "height": 498.0,
-    "text": null,
-    "years": [
-      1988.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "A Red City Clipper, Wellington Street, Perth, ca. 1988"
-  },
-  "007681PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4536988_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4536988_2.jpg",
-    "date": "1929-01-01",
-    "height": 557.0,
-    "text": null,
-    "years": [
-      1929.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "A streetsweeper sweeps away horse manure, Wellington Street, Perth, 1929"
-  },
-  "311181PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_4.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_4.jpg",
-    "date": "1981-08-26",
-    "height": 506.0,
-    "text": null,
-    "years": [
-      1981.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Boans Limited, Wellington Street, Perth, August 1981"
-  },
-  "315057PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_28.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_28.jpg",
-    "date": "1987-12-26",
-    "height": 507.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Albert Facey House under construction, Wellington Street, Perth, December 1987"
-  },
-  "315100PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_30.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_30.jpg",
-    "date": "1989-01-26",
-    "height": 503.0,
-    "text": null,
-    "years": [
-      1989.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Albert Facey House under construction, Wellington Street, Perth, January 1989"
-  },
-  "328687PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_1.jpg",
-    "date": "1978-10-30",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Telecom Building, Wellington Street, Perth, 30 October 1978"
-  },
-  "314364PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_25.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_25.jpg",
-    "date": "1986-05-26",
-    "height": 506.0,
-    "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Raine Square, Wellington Street, Perth, May 1986"
-  },
-  "315027PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_22.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_22.jpg",
-    "date": "1987-01-26",
-    "height": 505.0,
-    "text": null,
-    "years": [
-      1987.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Demolition of the Boans building, Wellington Street, Perth, January 1987"
-  },
-  "315102PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_31.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_31.jpg",
-    "date": "1989-01-26",
-    "height": 510.0,
-    "text": null,
-    "years": [
-      1989.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Albert Facey House under construction, Wellington Street, Perth, January 1989"
-  },
-  "144205PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3895843_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3895843_1.jpg",
-    "date": "1967-01-01",
-    "height": 538.0,
-    "text": null,
-    "years": [
-      1967.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Federal Hotel, Wellington Street, Perth, 1967."
-  },
-  "328690PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_3.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_3.jpg",
-    "date": "1978-10-30",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1978.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "The Telecom Building, Wellington Street, Perth, 30 October 1978"
-  },
-  "217597PD": {
-    "width": 555.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_2.jpg",
-    "date": "1941-01-01",
-    "height": 760.0,
-    "text": null,
-    "years": [
-      1941.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Perth Hospital building completed, Wellington Street, Perth, 1941"
-  },
-  "316103PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939336_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939336_1.jpg",
-    "date": "1993-01-01",
-    "height": 503.0,
-    "text": null,
-    "years": [
-      1993.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Red Cross Blood Donor Centre, Wellington Street, Perth, 1993"
-  },
-  "370148PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2071967_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2071967_1.jpg",
-    "date": "2000-01-26",
-    "height": 507.0,
-    "text": null,
-    "years": [
-      2000.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Pedestrian walkway and Railway Station, Wellington Street, Perth, January 2000"
-  },
-  "BA535/1": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3599574_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3599574_1.jpg",
-    "date": "1916-10-25",
-    "height": 574.0,
-    "text": null,
-    "years": [
-      1916.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Parade of troops in support of the conscription referendum, Wellington Street, Perth, 25 October 1916"
-  },
   "231940PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_9.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_9.jpg",
-    "date": "1954-04-26",
-    "height": 537.0,
-    "text": null,
     "years": [
       1954.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Boans building, Wellington Street, Perth decorated for the 1954 royal visit"
-  },
-  "314362PD": {
+    "date": "1954-04-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_23.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_23.jpg",
-    "date": "1986-05-26",
-    "height": 510.0,
+    "folder": null,
+    "height": 537.0,
     "text": null,
-    "years": [
-      1986.0
-    ],
-    "folder": null,
-    "original_title": "",
-    "title": "Raine Square, Wellington Street, Perth, May 1986"
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_9.png",
+    "title": "Boans building, Wellington Street, Perth decorated for the 1954 royal visit",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970474_9.jpg"
   },
-  "217596PD": {
+  "007681PD": {
+    "years": [
+      1929.0
+    ],
+    "original_title": "",
+    "date": "1929-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_1.jpg",
-    "date": "1941-01-01",
+    "folder": null,
     "height": 557.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4536988_2.png",
+    "title": "A streetsweeper sweeps away horse manure, Wellington Street, Perth, 1929",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4536988_2.jpg"
+  },
+  "217596PD": {
     "years": [
       1941.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Perth Hospital building completed, Wellington Street, Perth, 1941"
-  },
-  "315098PD": {
+    "date": "1941-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_29.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_29.jpg",
-    "date": "1989-01-26",
-    "height": 503.0,
+    "folder": null,
+    "height": 557.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_1.png",
+    "title": "Perth Hospital building completed, Wellington Street, Perth, 1941",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_1.jpg"
+  },
+  "328690PD": {
     "years": [
-      1989.0
+      1978.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Albert Facey House under construction, Wellington Street, Perth, January 1989"
-  },
-  "313898PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_22.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_22.jpg",
-    "date": "1985-11-26",
-    "height": 507.0,
+    "date": "1978-10-30",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_3.png",
+    "title": "The Telecom Building, Wellington Street, Perth, 30 October 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_3.jpg"
+  },
+  "380320PD": {
     "years": [
-      1985.0
+      2018.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Royal Hotel, Wellington Street, Perth, November 1985"
-  },
-  "014490PD": {
+    "date": "2018-03-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418220_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418220_1.jpg",
-    "date": "1927-01-01",
-    "height": 573.0,
+    "folder": null,
+    "height": 502.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3807803_3.png",
+    "title": "Labour Day march, in Wellington Street, Perth, 6 March 1972",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3807803_3.jpg"
+  },
+  "328687PD": {
     "years": [
-      1927.0
+      1978.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "The Horseshoe Bridge and Perth Railway Station, Wellington Street, Perth, 1927"
-  },
-  "315031PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_23.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_23.jpg",
-    "date": "1987-02-26",
-    "height": 505.0,
+    "date": "1978-10-30",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_1.png",
+    "title": "The Telecom Building, Wellington Street, Perth, 30 October 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_1.jpg"
+  },
+  "144221PD": {
     "years": [
-      1987.0
+      1967.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Demolition of the Boans building, Wellington Street, Perth, February 1987"
-  },
-  "311726PD": {
+    "date": "1967-01-01",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_13.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_13.jpg",
-    "date": "1982-12-26",
-    "height": 507.0,
-    "text": null,
-    "years": [
-      1982.0
-    ],
     "folder": null,
-    "original_title": "",
-    "title": "The Imperial Hotel and Boans Limited, Wellington Street, Perth, December 1982"
-  },
-  "314363PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_24.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_24.jpg",
-    "date": "1986-05-26",
-    "height": 506.0,
+    "height": 536.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3898908_1.png",
+    "title": "Horseshoe Bridge, Wellington Street, Perth, 1967.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3898908_1.jpg"
+  },
+  "314365PD": {
     "years": [
       1986.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Raine Square, Wellington Street, Perth, May 1986"
-  },
-  "311176PD": {
+    "date": "1986-05-26",
     "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_6.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_6.jpg",
-    "date": "1981-08-26",
-    "height": 500.0,
+    "folder": null,
+    "height": 506.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_26.png",
+    "title": "Raine Square, Wellington Street, Perth, May 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_26.jpg"
+  },
+  "311726PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-12-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_13.png",
+    "title": "The Imperial Hotel and Boans Limited, Wellington Street, Perth, December 1982",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_13.jpg"
+  },
+  "315100PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_30.png",
+    "title": "Albert Facey House under construction, Wellington Street, Perth, January 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_30.jpg"
+  },
+  "311181PD": {
     "years": [
       1981.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Royal Hotel, Wellington Street, Perth, August 1981"
+    "date": "1981-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_4.png",
+    "title": "Boans Limited, Wellington Street, Perth, August 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_4.jpg"
+  },
+  "328688PD": {
+    "years": [
+      1978.0
+    ],
+    "original_title": "",
+    "date": "1978-10-30",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_2.png",
+    "title": "The Telecom Building, Wellington Street, Perth, 30 October 1978",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135456_2.jpg"
+  },
+  "014490PD": {
+    "years": [
+      1927.0
+    ],
+    "original_title": "",
+    "date": "1927-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 573.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3418220_1.png",
+    "title": "The Horseshoe Bridge and Perth Railway Station, Wellington Street, Perth, 1927",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3418220_1.jpg"
+  },
+  "314363PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_24.png",
+    "title": "Raine Square, Wellington Street, Perth, May 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_24.jpg"
+  },
+  "315011PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-11-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_21.png",
+    "title": "Demolition of the Boans building, Wellington Street, Perth, November 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_21.jpg"
+  },
+  "313898PD": {
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
+    "date": "1985-11-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_22.png",
+    "title": "The Royal Hotel, Wellington Street, Perth, November 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_22.jpg"
+  },
+  "335075PD": {
+    "years": [
+      1988.0
+    ],
+    "original_title": "",
+    "date": "1988-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 498.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_1.png",
+    "title": "A Red City Clipper, Wellington Street, Perth, ca. 1988",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_1.jpg"
+  },
+  "335076PD": {
+    "years": [
+      1988.0
+    ],
+    "original_title": "",
+    "date": "1988-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_2.png",
+    "title": "A Red City Clipper, Wellington Street, Perth, ca. 1988",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3762668_2.jpg"
+  },
+  "314362PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_23.png",
+    "title": "Raine Square, Wellington Street, Perth, May 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_23.jpg"
+  },
+  "BA535/1": {
+    "years": [
+      1916.0
+    ],
+    "original_title": "",
+    "date": "1916-10-25",
+    "width": 760.0,
+    "folder": null,
+    "height": 574.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3599574_1.png",
+    "title": "Parade of troops in support of the conscription referendum, Wellington Street, Perth, 25 October 1916",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3599574_1.jpg"
+  },
+  "370140PD": {
+    "years": [
+      2000.0
+    ],
+    "original_title": "",
+    "date": "2000-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2071957_1.png",
+    "title": "Myer, Wellington Street facade, Perth, January 2000",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2071957_1.jpg"
+  },
+  "144205PD": {
+    "years": [
+      1967.0
+    ],
+    "original_title": "",
+    "date": "1967-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 538.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3895843_1.png",
+    "title": "Federal Hotel, Wellington Street, Perth, 1967.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3895843_1.jpg"
+  },
+  "BA2070/29": {
+    "years": [
+      1956.0
+    ],
+    "original_title": "",
+    "date": "1956-01-01",
+    "width": 577.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3447965_1.png",
+    "title": "Dr J.J. Holland explaining a point the Governor General at St John Ambulance Association Headquarters, Wellington St, Perth, 1956?",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3447965_1.jpg"
+  },
+  "314364PD": {
+    "years": [
+      1986.0
+    ],
+    "original_title": "",
+    "date": "1986-05-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_25.png",
+    "title": "Raine Square, Wellington Street, Perth, May 1986",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_25.jpg"
+  },
+  "144273PD": {
+    "years": [
+      1965.0
+    ],
+    "original_title": "",
+    "date": "1965-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 542.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3902719_1.png",
+    "title": "Beam Service Station, Wellington Street, Perth, between 1965 and 1968.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3902719_1.jpg"
+  },
+  "316103PD": {
+    "years": [
+      1993.0
+    ],
+    "original_title": "",
+    "date": "1993-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939336_1.png",
+    "title": "Red Cross Blood Donor Centre, Wellington Street, Perth, 1993",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939336_1.jpg"
+  },
+  "370148PD": {
+    "years": [
+      2000.0
+    ],
+    "original_title": "",
+    "date": "2000-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2071967_1.png",
+    "title": "Pedestrian walkway and Railway Station, Wellington Street, Perth, January 2000",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2071967_1.jpg"
+  },
+  "328587PD": {
+    "years": [
+      1977.0
+    ],
+    "original_title": "",
+    "date": "1977-11-24",
+    "width": 753.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3135265_1.png",
+    "title": "Duncan Datsun car yard, 701 Wellington Street, Perth, 24 November 1977",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3135265_1.jpg"
+  },
+  "371601PD": {
+    "years": [
+      2006.0
+    ],
+    "original_title": "",
+    "date": "2006-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3011122_001.png",
+    "title": "City Central Arcade, Wellington Street facade, Perth, ca. 2006",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3011122_001.jpg"
+  },
+  "315098PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 503.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_29.png",
+    "title": "Albert Facey House under construction, Wellington Street, Perth, January 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_29.jpg"
+  },
+  "315102PD": {
+    "years": [
+      1989.0
+    ],
+    "original_title": "",
+    "date": "1989-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_31.png",
+    "title": "Albert Facey House under construction, Wellington Street, Perth, January 1989",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_31.jpg"
+  },
+  "315027PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-01-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_22.png",
+    "title": "Demolition of the Boans building, Wellington Street, Perth, January 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_22.jpg"
+  },
+  "315057PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-12-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_28.png",
+    "title": "Albert Facey House under construction, Wellington Street, Perth, December 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_28.jpg"
+  },
+  "217597PD": {
+    "years": [
+      1941.0
+    ],
+    "original_title": "",
+    "date": "1941-01-01",
+    "width": 555.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_2.png",
+    "title": "Perth Hospital building completed, Wellington Street, Perth, 1941",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416406_2.jpg"
+  },
+  "BA1530/5618": {
+    "years": [
+      1973.0
+    ],
+    "original_title": "",
+    "date": "1973-01-01",
+    "width": 757.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3948954_1.png",
+    "title": "Freeway overpass, Wellington Street, Perth. Big Ben Pies van in foreground, Tower Hotel in background. 1973.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3948954_1.jpg"
+  },
+  "311176PD": {
+    "years": [
+      1981.0
+    ],
+    "original_title": "",
+    "date": "1981-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_6.png",
+    "title": "Royal Hotel, Wellington Street, Perth, August 1981",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_6.jpg"
+  },
+  "315031PD": {
+    "years": [
+      1987.0
+    ],
+    "original_title": "",
+    "date": "1987-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 505.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_23.png",
+    "title": "Demolition of the Boans building, Wellington Street, Perth, February 1987",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800008_23.jpg"
   }
 }

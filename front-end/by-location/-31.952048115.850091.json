@@ -1,16 +1,16 @@
 {
   "314800PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939282_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939282_1.jpg",
-    "date": "1994-11-26",
-    "height": 498.0,
-    "text": null,
     "years": [
       1994.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Barrack Arch Public Car Park, 991 Hay Street, Perth, November 1994"
+    "date": "1994-11-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 498.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939282_1.png",
+    "title": "Barrack Arch Public Car Park, 991 Hay Street, Perth, November 1994",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939282_1.jpg"
   }
 }

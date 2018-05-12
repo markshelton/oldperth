@@ -1,16 +1,16 @@
 {
   "312110PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_18.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_18.jpg",
-    "date": "1983-07-26",
-    "height": 509.0,
-    "text": null,
     "years": [
       1983.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Western Australian Railways Institute, 605 Wellington Street, Perth, July 1983"
+    "date": "1983-07-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 509.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_18.png",
+    "title": "Western Australian Railways Institute, 605 Wellington Street, Perth, July 1983",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800009_18.jpg"
   }
 }

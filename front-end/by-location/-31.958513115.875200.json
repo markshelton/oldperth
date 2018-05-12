@@ -1,30 +1,30 @@
 {
   "015856PD": {
-    "width": 571.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894494_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894494_1.jpg",
-    "date": "1952-03-11",
-    "height": 760.0,
-    "text": null,
     "years": [
       1952.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "R.W.H. Moline, Archbishop of Perth, 11 March 1952"
-  },
-  "241574PD": {
-    "width": 578.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3760526_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3760526_1.jpg",
-    "date": "1951-12-12",
+    "date": "1952-03-11",
+    "width": 571.0,
+    "folder": null,
     "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3894494_1.png",
+    "title": "R.W.H. Moline, Archbishop of Perth, 11 March 1952",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3894494_1.jpg"
+  },
+  "241574PD": {
     "years": [
       1951.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Dr R.W.H. Moline, Archbishop of Perth, 12 December 1951"
+    "date": "1951-12-12",
+    "width": 578.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3760526_1.png",
+    "title": "Dr R.W.H. Moline, Archbishop of Perth, 12 December 1951",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3760526_1.jpg"
   }
 }

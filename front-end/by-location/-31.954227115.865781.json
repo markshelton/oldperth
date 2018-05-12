@@ -1,44 +1,86 @@
 {
   "231259PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3031017_10.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3031017_10.jpg",
-    "date": null,
-    "height": 536.0,
-    "text": null,
     "years": [
       null
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Princess Margaret Hospital, Royal Perth Hospital, unknown, St John of God Hospital Subiaco, W.A. Mental Health Services School of Nursing, Sir Charles Gairdner Hospital"
+    "date": null,
+    "width": 760.0,
+    "folder": null,
+    "height": 536.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3031017_10.png",
+    "title": "Princess Margaret Hospital, Royal Perth Hospital, unknown, St John of God Hospital Subiaco, W.A. Mental Health Services School of Nursing, Sir Charles Gairdner Hospital",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3031017_10.jpg"
+  },
+  "027116PD": {
+    "years": [
+      1933.0
+    ],
+    "original_title": "",
+    "date": "1933-08-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 226.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3329322_16.png",
+    "title": "Karratha Station homestead kitchen and meat/coolroom, main road to Perth, August 1933",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3329322_16.jpg"
+  },
+  "072464PD": {
+    "years": [
+      1922.0
+    ],
+    "original_title": "",
+    "date": "1922-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 574.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4614790_1.png",
+    "title": "Operating theatre, Ward 7, Royal Perth Hospital, 1922",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4614790_1.jpg"
   },
   "217663PD": {
-    "width": 558.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416416_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416416_1.jpg",
-    "date": "1945-01-01",
-    "height": 760.0,
-    "text": null,
     "years": [
       1945.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Mobile x-ray, Royal Perth Hospital, ca. 1945"
+    "date": "1945-01-01",
+    "width": 558.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3416416_1.png",
+    "title": "Mobile x-ray, Royal Perth Hospital, ca. 1945",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3416416_1.jpg"
+  },
+  "361787PD": {
+    "years": [
+      1975.0
+    ],
+    "original_title": "",
+    "date": "1975-12-19",
+    "width": 725.0,
+    "folder": null,
+    "height": 760.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3116874_1.png",
+    "title": "Gordon Criddle, Secretary Manager Royal Perth Golf Club, draws the Western Australian lottery, 19 December 1975",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3116874_1.jpg"
   },
   "072488PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4615659_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4615659_1.jpg",
-    "date": "1925-01-01",
-    "height": 517.0,
-    "text": null,
     "years": [
       1925.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Nurses, Royal Perth Hospital, ca.1925"
+    "date": "1925-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 517.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4615659_1.png",
+    "title": "Nurses, Royal Perth Hospital, ca.1925",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4615659_1.jpg"
   }
 }

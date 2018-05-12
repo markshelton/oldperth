@@ -1,16 +1,16 @@
 {
   "021606PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4746278_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4746278_1.jpg",
-    "date": "1910-01-01",
-    "height": 500.0,
-    "text": null,
     "years": [
       1910.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Daisy (Marguerite Christina Pryde) Paterson in the garden, Parker Street, South Perth, ca.1910. Later Mrs Hugh McKenzie"
+    "date": "1910-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 500.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b4746278_1.png",
+    "title": "Daisy (Marguerite Christina Pryde) Paterson in the garden, Parker Street, South Perth, ca.1910. Later Mrs Hugh McKenzie",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b4746278_1.jpg"
   }
 }

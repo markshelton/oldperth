@@ -1,16 +1,16 @@
 {
   "312642PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939378_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939378_1.jpg",
-    "date": "2018-04-15",
-    "height": 502.0,
-    "text": null,
     "years": [
       2018.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Throssell House, 15 Throssell Street, Perth, October 1984"
+    "date": "2018-04-15",
+    "width": 760.0,
+    "folder": null,
+    "height": 502.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3939378_1.png",
+    "title": "Throssell House, 15 Throssell Street, Perth, October 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3939378_1.jpg"
   }
 }

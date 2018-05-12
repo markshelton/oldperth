@@ -1,72 +1,184 @@
 {
-  "311281PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_1.jpg",
-    "date": "1982-02-26",
-    "height": 504.0,
-    "text": null,
+  "BA1530/5822": {
     "years": [
-      1982.0
+      1996.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Old railway barracks opposite the Perth Law Courts, Beaufort Street, Perth, February 1982. Later became The Bridge run by the Jesus People, demolished early 1990"
+    "date": "1996-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 507.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970412_1.png",
+    "title": "The Lone Star Saloon and City Backpackers HQ, 167 Beaufort Street, Perth, March 1996.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970412_1.jpg"
   },
-  "144184PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3880566_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3880566_1.jpg",
-    "date": "1967-01-01",
-    "height": 540.0,
-    "text": null,
+  "313011PD": {
     "years": [
-      1967.0
+      1984.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Court Cafe, Beaufort Street, Perth, approximately 1967."
+    "date": "1984-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 499.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_23.png",
+    "title": "Beaufort Studio Pottery, 112 Beaufort Street, Perth, February 1984",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_23.jpg"
   },
   "BA2220/72": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3432977_2.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3432977_2.jpg",
-    "date": "1997-02-07",
-    "height": 304.0,
-    "text": null,
     "years": [
       1997.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Back of the photograph of Ron Maidment (left) and Angus Caldwell at the Scotch College centenary on the site of the original school, Beaufort Street, Perth, 7 February 1997"
+    "date": "1997-02-07",
+    "width": 760.0,
+    "folder": null,
+    "height": 304.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3432977_2.png",
+    "title": "Back of the photograph of Ron Maidment (left) and Angus Caldwell at the Scotch College centenary on the site of the original school, Beaufort Street, Perth, 7 February 1997",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3432977_2.jpg"
   },
   "359836PD": {
-    "width": 758.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096553_1.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096553_1.jpg",
-    "date": "1973-01-01",
-    "height": 760.0,
-    "text": null,
     "years": [
       1973.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Packaging Premium Rib Bacon rashers at Globe Meat Packers, Beaufort Street, Perth, 1973"
-  },
-  "313393PD": {
-    "width": 760.0,
-    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_24.png",
-    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_24.jpg",
-    "date": "1985-10-26",
-    "height": 506.0,
+    "date": "1973-01-01",
+    "width": 758.0,
+    "folder": null,
+    "height": 760.0,
     "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3096553_1.png",
+    "title": "Packaging Premium Rib Bacon rashers at Globe Meat Packers, Beaufort Street, Perth, 1973",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3096553_1.jpg"
+  },
+  "311281PD": {
+    "years": [
+      1982.0
+    ],
+    "original_title": "",
+    "date": "1982-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_1.png",
+    "title": "Old railway barracks opposite the Perth Law Courts, Beaufort Street, Perth, February 1982. Later became The Bridge run by the Jesus People, demolished early 1990",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_1.jpg"
+  },
+  "BA1530/5823": {
+    "years": [
+      1996.0
+    ],
+    "original_title": "",
+    "date": "1996-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 508.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970412_2.png",
+    "title": "The Lone Star Saloon and City Backpackers HQ, 167 Beaufort Street, Perth, March 1996.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970412_2.jpg"
+  },
+  "BA1530/5824": {
+    "years": [
+      1996.0
+    ],
+    "original_title": "",
+    "date": "1996-03-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3970412_3.png",
+    "title": "The Lone Star Saloon, 167 Beaufort Street, Perth, March 1996.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3970412_3.jpg"
+  },
+  "313791PD": {
     "years": [
       1985.0
     ],
-    "folder": null,
     "original_title": "",
-    "title": "Curtin House, Beaufort Street, Perth, October 1985"
+    "date": "1985-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 510.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800024_23.png",
+    "title": "Houses, 109-111 Beaufort Street, Perth, February 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800024_23.jpg"
+  },
+  "233095PD": {
+    "years": [
+      1930.0
+    ],
+    "original_title": "",
+    "date": "1930-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 576.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2940572_001.png",
+    "title": "Fletcher's Meat Store, 166 Beaufort Street, Perth corner of Newcastle Street, 1930",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2940572_001.jpg"
+  },
+  "144184PD": {
+    "years": [
+      1967.0
+    ],
+    "original_title": "",
+    "date": "1967-01-01",
+    "width": 760.0,
+    "folder": null,
+    "height": 540.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3880566_1.png",
+    "title": "Court Cafe, Beaufort Street, Perth, approximately 1967.",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3880566_1.jpg"
+  },
+  "313393PD": {
+    "years": [
+      1985.0
+    ],
+    "original_title": "",
+    "date": "1985-10-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 506.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_24.png",
+    "title": "Curtin House, Beaufort Street, Perth, October 1985",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_24.jpg"
+  },
+  "233096PD": {
+    "years": [
+      1930.0
+    ],
+    "original_title": "",
+    "date": "1930-04-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 578.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b2940572_002.png",
+    "title": "Fletcher's Meat Store, 166 Beaufort Street, Perth corner of Newcastle Street, 1930",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b2940572_002.jpg"
+  },
+  "311283PD": {
+    "years": [
+      1984.0
+    ],
+    "original_title": "",
+    "date": "1984-02-26",
+    "width": 760.0,
+    "folder": null,
+    "height": 504.0,
+    "text": null,
+    "thumb_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_3.png",
+    "title": "Lorraine's Lunch Bar, 32-36 Beaufort Street, Perth, February 1984. Demolished early 1990",
+    "image_url": "http://purl.slwa.wa.gov.au/slwa_b3800025_3.jpg"
   }
 }
