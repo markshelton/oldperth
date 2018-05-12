@@ -6,14 +6,14 @@ CONFIG_PATH = deploy/.env
 include $(CONFIG_PATH)
 export $(shell sed 's/=.*//' $(CONFIG_PATH))
 
-DOCKER_COMMAND = docker exec -it $(CONTAINER_APP_NAME) bash -c
+DOCKER_COMMAND = docker exec -it $(PROJECT_NAME)_app bash -c
 CONFIG_FILE = "/home/back-end/config/settings.ini"
 
 .PHONY: 
 	build load parse export generate \
 	_load _parse _export _generate
 
-build: up _load _parse _export _generate stop deploy
+build: up _load _parse _export _generate stop
 
 load: up _load stop
 

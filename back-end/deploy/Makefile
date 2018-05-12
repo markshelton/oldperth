@@ -35,11 +35,7 @@ restart: stop start
 up: volume _up
 
 _up: 
-	PROJECT_DIR=$(PROJECT_DIR) \
-	CONTAINER_APP_NAME=$(CONTAINER_APP_NAME) \
-	CONTAINER_DB_NAME=$(CONTAINER_DB_NAME) \
-	CONTAINER_DBMGR_NAME=$(CONTAINER_DBMGR_NAME) \
-	VOLUME_DB_NAME=$(VOLUME_DB_NAME) \
+	PROJECT_NAME=$(PROJECT_NAME) \
 	APP_IMAGE=$(APP_IMAGE) \
 	APP_VERSION=$(APP_VERSION) \
 	DB_IMAGE=$(DB_IMAGE) \
@@ -51,7 +47,7 @@ _up:
 #######################################################################
 
 freeze:
-	-docker exec -it $(CONTAINER_APP_NAME) bash -c "pip3 freeze > $(REQUIREMENTS_PATH)"
+	-docker exec -it $(PROJECT_NAME)_app bash -c "pip3 freeze > $(REQUIREMENTS_PATH)"
 
 notebook:
 	-explorer.exe "http://localhost:8888/tree"
@@ -60,9 +56,9 @@ dashboard:
 	-explorer.exe "http://localhost:5050/"
 
 shell:
-	-docker exec -it $(CONTAINER_APP_NAME) $(SHELL)
+	-docker exec -it $(PROJECT_NAME)_app $(SHELL)
 
 volume:
-	-docker volume create --name=$(VOLUME_DB_NAME)
+	-docker volume create --name=$(PROJECT_NAME)_db_data
 
 #######################################################################
