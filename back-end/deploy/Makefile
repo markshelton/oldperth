@@ -13,6 +13,8 @@ CURRENT_DIR = $(shell echo $(CURDIR) | sed 's|^/[^/]*||')
 	start stop restart up _up \
 	freeze notebook dashboard shell volume \
 
+BROWSER ?= "explorer.exe"
+
 #######################################################################
 # CONFIGURATION
 #######################################################################
@@ -50,10 +52,10 @@ freeze:
 	-docker exec -it $(PROJECT_NAME)_app bash -c "pip3 freeze > $(REQUIREMENTS_PATH)"
 
 notebook:
-	-explorer.exe "http://localhost:8888/tree"
+	-$(BROWSER) "http://localhost:8888/tree"
 
 dashboard:
-	-explorer.exe "http://localhost:5050/"
+	-$(BROWSER) "http://localhost:5050/"
 
 shell:
 	-docker exec -it $(PROJECT_NAME)_app $(SHELL)
