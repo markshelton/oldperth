@@ -2,43 +2,49 @@
  * JavaScript for the OCR correction tool. See ocr.html
  */
 
-import {libraryUrlForPhotoId, loadInfoForLatLon, backId, infoForPhotoId, backOfCardUrlForPhotoId} from './photo-info';
-import {findLatLonForPhoto} from './url-state';
-import {getFeedbackText, sendFeedback} from './feedback';
+import {
+  libraryUrlForPhotoId,
+  loadInfoForLatLon,
+  backId,
+  infoForPhotoId,
+  backOfCardUrlForPhotoId
+} from "./photo-info";
+import { findLatLonForPhoto } from "./url-state";
+import { getFeedbackText, sendFeedback } from "./feedback";
 
-if (window.location.search.indexOf('thanks') >= 0) {
-  $('#thanks').show();
+if (window.location.search.indexOf("thanks") >= 0) {
+  $("#thanks").show();
 }
 
 var id = window.location.hash.slice(1);
 $('[name="photo_id"]').val(id);
-$('#back-link').attr('href', '/#' + id);
-$('#hi-res').attr('href', libraryUrlForPhotoId(id));
+$("#back-link").attr("href", "/#" + id);
+$("#hi-res").attr("href", libraryUrlForPhotoId(id));
 var other_photo_ids;
 findLatLonForPhoto(id, function(lat_lon) {
   var infoDef = loadInfoForLatLon(lat_lon),
-      ocrDef = getFeedbackText(backId(id));
+    ocrDef = getFeedbackText(backId(id));
   $.when(infoDef, ocrDef).done(function(photo_ids, ocr_obj) {
     console.log(photo_ids, ocr_obj);
     var info = infoForPhotoId(id);
     other_photo_ids = photo_ids;
-    $('img.back').attr('src', backOfCardUrlForPhotoId(id));
+    $("img.back").attr("src", backOfCardUrlForPhotoId(id));
     var text = ocr_obj ? ocr_obj.text : info.text;
     if (text) {
-      $('#text').text(text);
+      $("#text").text(text);
     }
-    $('#submit').click(function() {
-      submit('text', {text: $('#text').val()});
+    $("#submit").click(function() {
+      submit("text", { text: $("#text").val() });
     });
-    $('#notext').click(function() {
-      submit('notext', {notext: true});
+    $("#notext").click(function() {
+      submit("notext", { notext: true });
     });
-    $('.rotate-image-button').click(rotate90);
+    $(".rotate-image-button").click(rotate90);
   });
 });
 
 // A list of photo IDs without text, for use as next images to show.
-var noTextIdsDef = $.getJSON('/notext.json');
+var noTextIdsDef = $.getJSON("/notext.json");
 
 function submit(type, feedback_obj) {
   sendFeedback(backId(id), type, feedback_obj)
@@ -47,9 +53,16 @@ function submit(type, feedback_obj) {
       return next_image(id);
     })
     .then(function(next_id) {
-      var url = location.protocol + '//' + location.host + location.pathname +
-                '?thanks&id=' + next_id + '#' + next_id;
-      ga('send', 'event', 'link', 'ocr-success', { 'page': '/#' + id });
+      var url =
+        location.protocol +
+        "//" +
+        location.host +
+        location.pathname +
+        "?thanks&id=" +
+        next_id +
+        "#" +
+        next_id;
+      ga("send", "event", "link", "ocr-success", { page: "/#" + id });
       window.location = url;
     });
 }
@@ -81,7 +94,9 @@ function next_image(id) {
   // user-generated data for).
   noTextIdsDef.done(function(data) {
     var ids = data.photo_ids;
-    console.log('Picking at random from ' + ids.length + ' untranscribed photos.');
+    console.log(
+      "Picking at random from " + ids.length + " untranscribed photos."
+    );
     def.resolve(ids[Math.floor(Math.random() * ids.length)]);
   });
 
@@ -89,11 +104,11 @@ function next_image(id) {
 }
 
 function rotate90() {
-  var $img = $('img.back');
-  var currentRotation = $img.data('rotate') || 0;
+  var $img = $("img.back");
+  var currentRotation = $img.data("rotate") || 0;
   currentRotation += 90;
   $img
-    .css('transform', 'rotate(' + currentRotation + 'deg)')
-    .data('rotate', currentRotation);
-  sendFeedback(backId(id), {'rotate-backing': currentRotation});
+    .css("transform", "rotate(" + currentRotation + "deg)")
+    .data("rotate", currentRotation);
+  sendFeedback(backId(id), { "rotate-backing": currentRotation });
 }

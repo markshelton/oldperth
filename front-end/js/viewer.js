@@ -8,12 +8,7 @@ import {
 } from "./photo-info";
 import { MAP_STYLE, STATIC_MAP_STYLE } from "./map-styles";
 import { getCanonicalUrlForPhoto } from "./social";
-import {
-  getFeedbackText,
-  sendFeedback,
-  deleteCookie,
-  setCookie
-} from "./feedback";
+//import { getFeedbackText, sendFeedback, deleteCookie, setCookie } from "./feedback";
 import { popular_photos } from "./popular-photos";
 import { findLatLonForPhoto } from "./url-state";
 
@@ -319,27 +314,27 @@ function fillPhotoPane(photo_id, $pane) {
   var canonicalUrl = getCanonicalUrlForPhoto(photo_id);
 
   // OCR'd text
-  getFeedbackText(backId(photo_id)).done(function(ocr) {
-    var text = ocr ? ocr.text : info.text;
-    var ocr_url = "/ocr.html#" + photo_id,
-      hasBack = photo_id.match("[0-9]f");
+  // getFeedbackText(backId(photo_id)).done(function(ocr) {
+  //   var text = ocr ? ocr.text : info.text;
+  //   var ocr_url = "/ocr.html#" + photo_id,
+  //     hasBack = photo_id.match("[0-9]f");
 
-    if (text) {
-      var $text = $pane.find(".text");
-      $text.text(text.replace(/\n*$/, ""));
-      $text.append(
-        $(
-          "<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>"
-        )
-      );
-      $text.find("a").attr("href", ocr_url);
-    } else if (hasBack) {
-      var $more = $pane.find(".more-on-back");
-      $more.find("a.ocr-tool").attr("href", ocr_url);
-      $more.find("a.nypl").attr("href", library_url);
-      $more.show();
-    }
-  });
+  //   if (text) {
+  //     var $text = $pane.find(".text");
+  //     $text.text(text.replace(/\n*$/, ""));
+  //     $text.append(
+  //       $(
+  //         "<i>&nbsp; &nbsp; Typos? Help <a target=_blank href>fix them</a>.</i>"
+  //       )
+  //     );
+  //     $text.find("a").attr("href", ocr_url);
+  //   } else if (hasBack) {
+  //     var $more = $pane.find(".more-on-back");
+  //     $more.find("a.ocr-tool").attr("href", ocr_url);
+  //     $more.find("a.nypl").attr("href", library_url);
+  //     $more.show();
+  //   }
+  // });
 
   if (typeof FB != "undefined") {
     var $comments = $pane.find(".comments");

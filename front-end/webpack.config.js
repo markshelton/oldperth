@@ -1,8 +1,8 @@
 /*eslint-env node */
 module.exports = {
   entry: {
-    main: "./js/entry.js",
-    ocr: "./js/ocr-tool.js"
+    main: "./js/entry.js"
+    //,ocr: "./js/ocr-tool.js"
   },
   // devtool: '#cheap-module-source-map',
   output: {
